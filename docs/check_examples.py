@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def blocks(path, language):
-    return re.findall(r"```" + language + r"\n(.*?)```", path.read_text(), re.S)
+    return re.findall(r"```" + language + r"\n(.*?)```", path.read_text(encoding="utf-8"), re.S)
 
 
 def execute(code):
@@ -31,18 +31,18 @@ def execute(code):
 
 def check_descriptions():
     introduction = "\n\n".join(
-        (ROOT / "docs/site/index.md").read_text().split("\n\n", 3)[1:3]
+        (ROOT / "docs/site/index.md").read_text(encoding="utf-8").split("\n\n", 3)[1:3]
     )
     for name in ["README.md", "docs/manual/reference.md"]:
-        assert introduction in (ROOT / name).read_text(), f"Package description differs in {name}"
+        assert introduction in (ROOT / name).read_text(encoding="utf-8"), f"Package description differs in {name}"
     assert quantilemix.__doc__.startswith(introduction), "Installed package description differs"
     summary = introduction.split(". ", 1)[0] + "."
     for name, key in [("pyproject.toml", "description = "), ("mkdocs.yml", "site_description: ")]:
-        lines = [line[len(key):] for line in (ROOT / name).read_text().splitlines() if line.startswith(key)]
+        lines = [line[len(key):] for line in (ROOT / name).read_text(encoding="utf-8").splitlines() if line.startswith(key)]
         assert len(lines) == 1, f"Expected one package description in {name}"
         assert json.loads(lines[0]) == summary, f"Package summary differs in {name}"
     for name in ["README.md", "docs/site/install.md", "docs/manual/reference.md"]:
-        assert "\npip install quantilemix\n" in (ROOT / name).read_text(), f"PyPI install command missing in {name}"
+        assert "\npip install quantilemix\n" in (ROOT / name).read_text(encoding="utf-8"), f"PyPI install command missing in {name}"
 
 
 def main():
@@ -59,7 +59,7 @@ def main():
             for kind, family, expected_ratio in [("binary", "binomial", 9), ("count", "poisson", 6)]:
                 data_path = ROOT / "docs/site/data" / f"{kind}.csv"
                 data = np.genfromtxt(data_path, delimiter=",", names=True)
-                fixture = json.loads((ROOT / f"tests/fixtures/r_{family}_2_19_6.json").read_text())["cases"][0]
+                fixture = json.loads((ROOT / f"tests/fixtures/r_{family}_2_19_6.json").read_text(encoding="utf-8"))["cases"][0]
                 for key in ["y", "x1", "x2"]:
                     assert_allclose(data[key], fixture["inputs"][key], rtol=0, atol=0)
                 Path(f"{kind}.csv").write_bytes(data_path.read_bytes())
@@ -84,7 +84,7 @@ def main():
     assert_allclose(plotted["mean_difference"], plotted["score"] * result.psi)
     assert_allclose(plotted["lower_95"], plotted["score"] * result.ci[0])
     assert_allclose(plotted["upper_95"], plotted["score"] * result.ci[1])
-    references = "\n".join(p.read_text() for p in (ROOT / "docs/site/reference").glob("*.md"))
+    references = "\n".join(p.read_text(encoding="utf-8") for p in (ROOT / "docs/site/reference").glob("*.md"))
     names = re.findall(r"^::: quantilemix\.([A-Za-z0-9_]+)$", references, re.M)
     assert len(names) == len(set(names)), "Duplicate API entry"
     assert set(names) == set(quantilemix.__all__), "Public API entry missing or stale"
