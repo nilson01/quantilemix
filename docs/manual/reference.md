@@ -2,7 +2,7 @@
 
 |          |                                                               |
 |:---------|:--------------------------------------------------------------|
-| Version  | `0.1.0`                                                       |
+| Version  | `0.1.1`                                                       |
 | Author   | Nilson Chapagain                                              |
 | Contact  | [`nchapagain@tamu.edu`](mailto:nchapagain@tamu.edu)           |
 | Import   | `quantilemix`                                                 |
@@ -29,7 +29,13 @@ Copyright in the adapted R documentation belongs to its original contributors, i
 
 ### Install and run a Gaussian fit
 
-Install directly from GitHub with Git and access to the repository:
+Install from PyPI:
+
+``` bash
+pip install quantilemix
+```
+
+Or install the latest source from GitHub with Git installed:
 
 ``` bash
 python -m pip install "git+https://github.com/nilson01/quantilemix.git@main"

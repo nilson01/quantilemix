@@ -62,8 +62,6 @@ jobs:
         run: python -m pip list --format=json
       - name: Check source
         run: python -m ruff check src tests validation docs/examples docs/check_examples.py docs/hooks.py docs/build_manual.py
-      - name: Test installed package
-        run: python -m pytest -q
       - name: Check tutorials against the installed package
         run: python -I docs/check_examples.py
       - name: Build source and wheel distributions

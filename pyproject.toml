@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "quantilemix"
-version = "0.1.0"
-description = "Quantile-based models for joint effects of exposure mixtures"
+version = "0.1.1"
+description = "Quantile g-computation transforms exposures into ordinal quantile scores and estimates the joint effect of increasing all exposures simultaneously by one quantile."
 authors = [{name = "Nilson Chapagain", email = "nchapagain@tamu.edu"}]
 readme = "README.md"
 requires-python = ">=3.10"

@@ -29,7 +29,24 @@ def execute(code):
     return scope, stream.getvalue()
 
 
+def check_descriptions():
+    introduction = "\n\n".join(
+        (ROOT / "docs/site/index.md").read_text().split("\n\n", 3)[1:3]
+    )
+    for name in ["README.md", "docs/manual/reference.md"]:
+        assert introduction in (ROOT / name).read_text(), f"Package description differs in {name}"
+    assert quantilemix.__doc__.startswith(introduction), "Installed package description differs"
+    summary = introduction.split(". ", 1)[0] + "."
+    for name, key in [("pyproject.toml", "description = "), ("mkdocs.yml", "site_description: ")]:
+        lines = [line[len(key):] for line in (ROOT / name).read_text().splitlines() if line.startswith(key)]
+        assert len(lines) == 1, f"Expected one package description in {name}"
+        assert json.loads(lines[0]) == summary, f"Package summary differs in {name}"
+    for name in ["README.md", "docs/site/install.md", "docs/manual/reference.md"]:
+        assert "\npip install quantilemix\n" in (ROOT / name).read_text(), f"PyPI install command missing in {name}"
+
+
 def main():
+    check_descriptions()
     readme = ROOT / "README.md"
     with tempfile.TemporaryDirectory() as temporary:
         previous = Path.cwd()
