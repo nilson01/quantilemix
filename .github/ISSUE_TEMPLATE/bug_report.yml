@@ -1,0 +1,25 @@
+name: Bug report
+description: Report unexpected behavior with a reproducible example.
+body:
+  - type: textarea
+    id: example
+    attributes:
+      label: Reproducible example
+      description: Use a small example with synthetic data. Include imports and the function call.
+      render: python
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual output
+      description: Include the complete error message or incorrect result.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Python, QuantileMix, NumPy and SciPy versions, operating system and installation command.
+    validations:
+      required: true

@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T08:12:07.063771+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "d5c4509305e93f8c8814d385f879bd531242bc84a817d9fa89fbda989b5091e3",
+  "r_exporter_sha256": "080495c71be1638df51f9236a602551ffa542ec87ba16eb5748f85b1df7bd74f",
+  "cases": [
+    {
+      "name": "poisson_ee_quantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 5.382361223382759e-12,
+        "conditional_covariance": 1.950851589646585e-12,
+        "msm_coefficients": 5.339506614632228e-12,
+        "msm_covariance": 2.477986565940782e-12,
+        "full_covariance": 5.520854606810843e-12,
+        "bread": 1.1525332865858218e-06,
+        "meat": 2.8123849915573373e-09,
+        "psi": 6.153827447619165e-13,
+        "variance": 1.4179395504965164e-12,
+        "ci": 1.8412688040925218e-11,
+        "statistic": 8.929266215318421e-10,
+        "p": 3.7990943724253157e-11,
+        "scores": 0.0,
+        "levels": 0.0,
+        "means": 2.142064303711777e-11,
+        "breaks[0]": 1.1102230246251565e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "poisson_ee_prequantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 3.9968028886505635e-15,
+        "conditional_covariance": 1.015949477323197e-12,
+        "msm_coefficients": 3.1086244689504383e-15,
+        "msm_covariance": 2.0958321883535191e-13,
+        "full_covariance": 1.015949477323197e-12,
+        "bread": 9.44473868003115e-08,
+        "meat": 4.547473508864641e-12,
+        "psi": 4.440892098500626e-16,
+        "variance": 2.0456726590456498e-14,
+        "ci": 3.426842143383624e-13,
+        "statistic": 3.8846792449476197e-10,
+        "p": 9.760015061768823e-15,
+        "scores": 0.0,
+        "levels": 0.0,
+        "means": 2.6645352591003757e-15
+      }
+    }
+  ],
+  "derivative_difference": "R saves a Richardson numerical Jacobian; Python uses exact derivatives.",
+  "prequantized_breaks_difference": "R saves synthetic boundaries; Python retains breaks=None."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-23T19:18:31.262951+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "21dd9c430e5e5b086da992263f6d38813ebd711cca4ad260874aa80324cf33e1",
+  "r_exporter_sha256": "57e5109846503a0b212f1f24296805f9aac711be68486b94d1a5c7eb70c9151e",
+  "cases": [
+    {
+      "name": "poisson_bootstrap_two_levels",
+      "max_absolute_differences": {
+        "psi": 4.744871162642994e-12,
+        "se": 2.2703129076758874e-12,
+        "ci": 9.194423000735696e-12,
+        "p": 0.0,
+        "means": 4.529931985075564e-12,
+        "effects": 8.83493278536207e-12,
+        "scores": 0.0
+      }
+    },
+    {
+      "name": "poisson_bootstrap_four_levels_adjusted",
+      "max_absolute_differences": {
+        "psi": 5.204170427930421e-16,
+        "se": 1.3253398378765269e-11,
+        "ci": 2.597663750769641e-11,
+        "p": 6.326550394675223e-11,
+        "means": 4.440892098500626e-15,
+        "effects": 4.985999842166411e-10,
+        "scores": 0.0,
+        "breaks[0]": 0.0,
+        "breaks[1]": 0.0
+      }
+    }
+  ],
+  "scope": "One prequantized and one quantized Poisson case; not interval calibration.",
+  "prequantized_breaks_difference": "R saves synthetic boundaries; Python retains breaks=None."
+}

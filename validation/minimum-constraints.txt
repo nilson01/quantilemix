@@ -1,0 +1,9 @@
+# Lowest available, non-yanked releases satisfying the declared bounds.
+# Run on Python 3.10 in CI; these NumPy/SciPy wheels do not support Python 3.14.
+# build 1.2.0 is yanked; setuptools 77.0.0 was not published.
+numpy==2.0.0
+scipy==1.14.0
+pytest==8.0.0
+build==1.2.1
+ruff==0.14.0
+setuptools==77.0.1

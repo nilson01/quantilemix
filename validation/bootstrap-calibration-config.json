@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "protocol_id": "gaussian-bootstrap-known-scores-v1",
+  "data_protocol_id": "gaussian-known-scores-v1",
+  "data_config_sha256": "25a8f6d98dcfcf6a9eb0afbe8c8eaf6c9d9702b8db420af9a10df28f13841de1",
+  "data_generator_sha256": "c4aa619dba8a6bf7116ef4f119716ff5fb840ea378beca4140fb86e513d3fb0e",
+  "alpha": 0.05,
+  "bootstrap_resamples": 200,
+  "study_replicates_per_cell": 2000,
+  "pilot_replicates": 20,
+  "master_seed": 20261023,
+  "pilot_seed_namespace": 31,
+  "study_seed_namespace": 32,
+  "bootstrap_seed_namespace": 33,
+  "batch_size": 20,
+  "pilot_storage_budget_bytes": 100000000,
+  "study_storage_budget_bytes": 3000000000
+}

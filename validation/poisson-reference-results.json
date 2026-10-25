@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "count_exact_scores",
+      "status": "passed",
+      "max_absolute_difference": {
+        "coefficients": 4.5338100975109e-12,
+        "covariance": 1.2210147518759706e-07,
+        "scores": 0.0,
+        "psi": 4.744871162642994e-12,
+        "variance": 1.3648731733706398e-07,
+        "se": 2.3839806406744657e-07,
+        "ci": 4.672563713725708e-07,
+        "zstat": 5.21269001207969e-06,
+        "p": 1.2948390119784133e-14,
+        "residual_df": 0.0,
+        "fitted": 6.919798067883676e-12,
+        "predictions": 6.919798067883676e-12
+      }
+    },
+    {
+      "name": "count_quantized_adjusted",
+      "status": "passed",
+      "max_absolute_difference": {
+        "coefficients": 8.215650382226158e-15,
+        "covariance": 7.872892372751128e-10,
+        "scores": 0.0,
+        "psi": 1.0894063429134349e-15,
+        "variance": 1.7938020816996025e-10,
+        "se": 1.6152951129444482e-09,
+        "ci": 3.165921524939108e-09,
+        "zstat": 8.07618344422778e-09,
+        "p": 6.2002663003823955e-09,
+        "residual_df": 0.0,
+        "fitted": 2.7977620220553945e-14,
+        "predictions": 1.3322676295501878e-14
+      }
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "7013973f3b87ead7824747def40736abd71bca6a8d95164dfd50af13c41ce946",
+    "exporter_sha256": "63006e845ad9606f57ac74bc3214bc8ef7dbec78e55a6ec61ca04e24b15c132a"
+  },
+  "scope": "fixed additive Poisson-log fits; R default GLM covariance differs by up to about 2e-7",
+  "python_vs_R_tolerance": {
+    "coefficients_and_predictions": {
+      "absolute": 5e-10,
+      "relative": 5e-10
+    },
+    "uncertainty": {
+      "absolute": 2e-06,
+      "relative": 2e-06
+    }
+  },
+  "checked_at_utc": "2026-10-23T14:51:32.553316+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T09:31:11.367174+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "c2cca8cb735dab35b299cbd485f5e88c86d2b3097cd0049331faa9e2ac5fa161",
+  "r_exporter_sha256": "aa6211f6662de76627d8e5c54dbfacf7aacdf095898faa94ccb29288dc07e887",
+  "cases": [
+    {
+      "name": "cox_prequantized_efron_ties",
+      "max_absolute_differences": {
+        "coefficients": 3.452099717193846e-16,
+        "covariance": 3.8163916471489756e-17,
+        "psi": 6.938893903907228e-16,
+        "variance": 1.734723475976807e-17,
+        "ci": 3.3306690738754696e-16,
+        "p": 1.7763568394002505e-15,
+        "scores": 0.0,
+        "events": 0.0,
+        "log_likelihood": 2.8421709430404007e-13,
+        "tied_time_groups": 0.0
+      }
+    },
+    {
+      "name": "cox_quantized_efron_ties",
+      "max_absolute_differences": {
+        "coefficients": 2.983724378680108e-16,
+        "covariance": 6.938893903907228e-18,
+        "psi": 1.249000902703301e-16,
+        "variance": 2.7755575615628914e-17,
+        "ci": 6.661338147750939e-16,
+        "p": 3.885780586188048e-16,
+        "scores": 0.0,
+        "events": 0.0,
+        "log_likelihood": 0.0,
+        "tied_time_groups": 0.0
+      }
+    }
+  ]
+}

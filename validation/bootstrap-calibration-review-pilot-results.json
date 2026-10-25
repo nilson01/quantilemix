@@ -1,0 +1,98 @@
+{
+  "recorded_date": "2026-10-23",
+  "protocol_id": "gaussian-bootstrap-known-scores-v1",
+  "status": "completed_post_review_pilot_not_calibration_study",
+  "supersedes_timing_record_for_current_runner": "bootstrap-calibration-pilot-results.json",
+  "identity_sha256": "93864788e8152fa92fe2986cf9cf194762d1885d2d1122760cf323b75943e32a",
+  "configuration_sha256": "039e88c1b27029997a9778b8bed0387a5f9b7b258e1eaa2ef8ef7d4941dcccda",
+  "sources_sha256": {
+    "bootstrap-calibration-config.json": "e5568634919ca2495e9c627ad2682a8b990f8dc21306bd1ca66269416215fbc9",
+    "bootstrap-reference-results.json": "9db6823252832e7e0f9d6b121a8247a10faf4a8967f62d107f7df47aea4e94c0",
+    "bootstrap_calibration.py": "7348eb92e7a9838e17255a95ce197a1a3bbdb6a7c70f662b1a258a9480fc7b11",
+    "calibration-config.json": "25a8f6d98dcfcf6a9eb0afbe8c8eaf6c9d9702b8db420af9a10df28f13841de1",
+    "calibration.py": "c4aa619dba8a6bf7116ef4f119716ff5fb840ea378beca4140fb86e513d3fb0e",
+    "qgcomp/__init__.py": "2699b49e37d3ebfc7b2772e82c6cf13ea2c789f48233fad99a03db801eee96c7",
+    "qgcomp/_bootstrap.py": "6bf43874de4baac303b1d0d086b219d06c68d825f5988cfa6215fb43d1e35598",
+    "qgcomp/_core.py": "3a854a63842b4ca50320c0c0b18d067d3c562e21408319f24dab2ffbc19e9354",
+    "r_bootstrap_2_19_6.json": "3cb75d425742963c99d41a359cb94c4180df840c9c1887eb27a8cea3126cf062"
+  },
+  "environment": {
+    "numpy": "2.5.4",
+    "platform": "darwin",
+    "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "scipy": "1.18.1",
+    "threads": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "design": {
+    "mode": "pilot",
+    "planned_datasets": 20,
+    "bootstrap_resamples_per_dataset": 200,
+    "expected_bootstrap_fits": 4000,
+    "pilot_seed_namespace": 31,
+    "study_seed_namespace": 32
+  },
+  "execution": {
+    "terminal_datasets": 20,
+    "runner_elapsed_seconds": 1.2844131670426577,
+    "external_elapsed_seconds": 1.944377874955535,
+    "run_bytes": 807404,
+    "sampled_family_peak_rss_bytes": 106840064,
+    "sample_count": 23,
+    "maximum_sample_gap_seconds": 0.09137549996376038,
+    "returncode": 0,
+    "stop_reason": null
+  },
+  "methods": {
+    "bootstrap": {
+      "successful": 20,
+      "failed": 0,
+      "missing": 0,
+      "covered": 20,
+      "rejected": 20,
+      "interval_excludes_zero": 20
+    },
+    "model_based": {
+      "successful": 20,
+      "failed": 0,
+      "missing": 0,
+      "covered": 19,
+      "rejected": 20,
+      "interval_excludes_zero": 20
+    },
+    "qr_t": {
+      "successful": 20,
+      "failed": 0,
+      "missing": 0,
+      "covered": 20,
+      "rejected": 20,
+      "interval_excludes_zero": 20
+    }
+  },
+  "paired": {
+    "bootstrap_only_covered": 1,
+    "coverage_discordance": 1,
+    "mean_coverage_difference": 0.05,
+    "mean_width_difference": -0.0018325211483120872,
+    "model_based_only_covered": 0,
+    "successful": 20
+  },
+  "checks": {
+    "independent_saved_record_check_status": "passed",
+    "independent_execution_complete": true,
+    "independent_terminal_cases": 20,
+    "saved_summary_sha256": "30b7618c56f6038681a0ed5bc9d48263803c38f1947970ea3558fa3f6ce38ce8",
+    "saved_manifest_sha256": "97f9bba59b18b756bca3aa1b5d11fc5e9af8eee3a39d7927bc2295db835b4896",
+    "saved_batch_sha256": {
+      "batch-000000.json": "9f134d0fdf4d598cb2d5418a160abd5e1c293fd2003ea55a3f823b479e62db79"
+    },
+    "independent_checker_sha256": "51f6ebeab458ce446a6e8d7635ed88dac81ff2be431cd123d95727565dbe5e10",
+    "monitor_source_sha256": "be69e7cb72cad8e8f55b84dc2dd1f2584b403b6cd25eff18b51d45a92529175a"
+  },
+  "interpretation": "This recheck confirms current runner and checker integrity and bounded resource use. Twenty pilot cases do not establish interval calibration. The full study remains unadmitted pending review closure and server resource bounds."
+}

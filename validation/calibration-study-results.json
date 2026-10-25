@@ -1,0 +1,3807 @@
+{
+  "additional_descriptive_metrics": [
+    {
+      "cell": "n100-rho0-null",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004942051699446293,
+          "mean_se": 0.2022009321317054,
+          "rejection_mcse": 0.004873397172404482,
+          "rmse": 0.20432514834138912,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004873397172404485,
+          "mean_se": 0.20220093213170537,
+          "rejection_mcse": 0.004873397172404482,
+          "rmse": 0.204325148341389,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004942051699446293,
+          "mean_se": 0.20220093213170548,
+          "rejection_mcse": 0.004873397172404482,
+          "rmse": 0.20432514834138904,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n100-rho0-cancellation",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004987171041783106,
+          "mean_se": 0.2026185085931099,
+          "rejection_mcse": 0.00489641450451246,
+          "rmse": 0.20749227282249172,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.0048964145045124596,
+          "mean_se": 0.20261850859310995,
+          "rejection_mcse": 0.00489641450451246,
+          "rmse": 0.20749227282249164,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004987171041783106,
+          "mean_se": 0.20261850859310984,
+          "rejection_mcse": 0.00489641450451246,
+          "rmse": 0.20749227282249164,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n100-rho0-positive",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004328914413568374,
+          "mean_se": 0.2024592894625863,
+          "rejection_mcse": 0.00905955296910394,
+          "rmse": 0.19245619298437958,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004248161366991606,
+          "mean_se": 0.20245928946258626,
+          "rejection_mcse": 0.00905955296910394,
+          "rmse": 0.19245619298437955,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004328914413568374,
+          "mean_se": 0.20245928946258623,
+          "rejection_mcse": 0.00905955296910394,
+          "rmse": 0.19245619298437958,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n100-rho0p75-null",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.005031786462082825,
+          "mean_se": 0.1161193999032897,
+          "rejection_mcse": 0.0047799581588126895,
+          "rmse": 0.11541178182293177,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004779958158812692,
+          "mean_se": 0.11611939990328969,
+          "rejection_mcse": 0.0047799581588126895,
+          "rmse": 0.11541178182293182,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.005031786462082825,
+          "mean_se": 0.11611939990328968,
+          "rejection_mcse": 0.0047799581588126895,
+          "rmse": 0.11541178182293178,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n100-rho0p75-cancellation",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.005075911248239078,
+          "mean_se": 0.11562155473379146,
+          "rejection_mcse": 0.004964675215963275,
+          "rmse": 0.11602004008612196,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.0049646752159632785,
+          "mean_se": 0.11562155473379145,
+          "rejection_mcse": 0.004964675215963275,
+          "rmse": 0.11602004008612193,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.005075911248239078,
+          "mean_se": 0.11562155473379143,
+          "rejection_mcse": 0.004964675215963275,
+          "rmse": 0.11602004008612202,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n100-rho0p75-positive",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.005075911248239078,
+          "mean_se": 0.11594489219425401,
+          "rejection_mcse": 0.01107492099294618,
+          "rmse": 0.11684667807445387,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004873397172404485,
+          "mean_se": 0.11594489219425401,
+          "rejection_mcse": 0.01107492099294618,
+          "rmse": 0.11684667807445392,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.005075911248239078,
+          "mean_se": 0.11594489219425404,
+          "rejection_mcse": 0.01107492099294618,
+          "rmse": 0.11684667807445394,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n500-rho0-null",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004586065852122058,
+          "mean_se": 0.08834233782231408,
+          "rejection_mcse": 0.0045860658521220555,
+          "rmse": 0.08553452078368017,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004586065852122058,
+          "mean_se": 0.08834233782231407,
+          "rejection_mcse": 0.0045860658521220555,
+          "rmse": 0.08553452078368019,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004586065852122058,
+          "mean_se": 0.08834233782231406,
+          "rejection_mcse": 0.0045860658521220555,
+          "rmse": 0.08553452078368023,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n500-rho0-cancellation",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004659922209651143,
+          "mean_se": 0.08826651984238176,
+          "rejection_mcse": 0.004635461142108733,
+          "rmse": 0.08784649782655603,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004635461142108735,
+          "mean_se": 0.08826651984238175,
+          "rejection_mcse": 0.004635461142108733,
+          "rmse": 0.0878464978265561,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004659922209651143,
+          "mean_se": 0.08826651984238175,
+          "rejection_mcse": 0.004635461142108733,
+          "rmse": 0.08784649782655604,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n500-rho0-positive",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004732388403332932,
+          "mean_se": 0.08844621415679406,
+          "rejection_mcse": 0.008618519304381698,
+          "rmse": 0.08847065191272793,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.0046842288586276416,
+          "mean_se": 0.08844621415679406,
+          "rejection_mcse": 0.008618519304381698,
+          "rmse": 0.08847065191272793,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004732388403332932,
+          "mean_se": 0.08844621415679409,
+          "rejection_mcse": 0.008618519304381698,
+          "rmse": 0.088470651912728,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n500-rho0p75-null",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.005053909377897473,
+          "mean_se": 0.05083017437776774,
+          "rejection_mcse": 0.005053909377897471,
+          "rmse": 0.05206013980799295,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.005031786462082825,
+          "mean_se": 0.05083017437776773,
+          "rejection_mcse": 0.005031786462082826,
+          "rmse": 0.05206013980799294,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.005053909377897473,
+          "mean_se": 0.05083017437776774,
+          "rejection_mcse": 0.005053909377897471,
+          "rmse": 0.052060139807992976,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n500-rho0p75-cancellation",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004381780460041331,
+          "mean_se": 0.05082570690977933,
+          "rejection_mcse": 0.00435544199823623,
+          "rmse": 0.049112631388803,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004355441998236229,
+          "mean_se": 0.05082570690977934,
+          "rejection_mcse": 0.00435544199823623,
+          "rmse": 0.049112631388803035,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004381780460041331,
+          "mean_se": 0.05082570690977931,
+          "rejection_mcse": 0.00435544199823623,
+          "rmse": 0.04911263138880301,
+          "warning_counts": {}
+        }
+      }
+    },
+    {
+      "cell": "n500-rho0p75-positive",
+      "methods": {
+        "python": {
+          "coverage_mcse": 0.004850244839180801,
+          "mean_se": 0.050825731568962015,
+          "rejection_mcse": 0.001116635571706353,
+          "rmse": 0.0508795901219376,
+          "warning_counts": {}
+        },
+        "qr_t": {
+          "coverage_mcse": 0.004803527349771207,
+          "mean_se": 0.05082573156896202,
+          "rejection_mcse": 0.001116635571706353,
+          "rmse": 0.050879590121937546,
+          "warning_counts": {}
+        },
+        "r": {
+          "coverage_mcse": 0.004850244839180801,
+          "mean_se": 0.050825731568962015,
+          "rejection_mcse": 0.001116635571706353,
+          "rmse": 0.05087959012193754,
+          "warning_counts": {}
+        }
+      }
+    }
+  ],
+  "calibration_validated": false,
+  "config": {
+    "alpha": 0.05,
+    "design": {
+      "beta": {
+        "cancellation": [
+          0.25,
+          -0.25,
+          0,
+          0
+        ],
+        "null": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "positive": [
+          0.1,
+          0.1,
+          0.05,
+          0
+        ]
+      },
+      "covariate_coefficients": [
+        0.5,
+        -0.25
+      ],
+      "error_sd": 1,
+      "exposure_z1_loading": 0.5,
+      "intercept": 1,
+      "quartile_variance": 1.25,
+      "rho": [
+        0,
+        0.75
+      ],
+      "sample_sizes": [
+        100,
+        500
+      ]
+    },
+    "execution": {
+      "batch_size": 20,
+      "master_seed": 20261022,
+      "retain_inputs": true,
+      "storage_budget_bytes": 3000000000
+    },
+    "pilot": {
+      "beta_name": "positive",
+      "replicates": 20,
+      "rho": 0.75,
+      "sample_size": 500,
+      "seed_namespace": 1
+    },
+    "protocol_id": "gaussian-known-scores-v1",
+    "reference_version": "2.19.6",
+    "schema_version": 1,
+    "study": {
+      "replicates_per_cell": 2000,
+      "seed_namespace": 2
+    },
+    "target": "known_scores"
+  },
+  "config_sha256_canonical": "7f4edd50e6ba6a84b047e94526ebd5fd8ce65675bec39dcd0a03f66a2e9a7935",
+  "environment": {
+    "machine": "x86_64",
+    "numerical_libraries": {
+      "blas": {
+        "name": "scipy-openblas",
+        "openblas configuration": "OpenBLAS 0.3.27  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Zen MAX_THREADS=64",
+        "version": "0.3.27"
+      },
+      "lapack": {
+        "name": "scipy-openblas",
+        "openblas configuration": "OpenBLAS 0.3.27  USE64BITINT DYNAMIC_ARCH NO_AFFINITY Zen MAX_THREADS=64",
+        "version": "0.3.27"
+      }
+    },
+    "numpy": "2.0.0",
+    "platform": "linux",
+    "python": "3.11.5 (main, Mar 25 2024, 13:13:31) [GCC 13.2.0]",
+    "scipy": "1.14.0",
+    "threads": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "evidence_sha256": {
+    "independent_local_check": "54c238d5a62e3cd200c01ba7d5c6bc0b8ac50f083122e8fe5f4669791483a610",
+    "independent_server_check": "7a194d3b103403ef205cd87cf172198683f99364cd9ae9291c88b631dd524960",
+    "installed_r_fixed_cases": "fc40c0dd808216616d126d881dc8fd78b3c8c69367c6cb14398efb29461a4691",
+    "manifest": "26930752cee89201fe31b85c3c3d0a969a19cb97e92b2e830992bffabb52174c",
+    "monitor_result": "1475885eecd367d8ae0a899db64a6fb6c76743436e9e7d66dd164b1296777b52",
+    "python_installed_file_inventory": "287136f70f9a8a9dbc9fbcd6504aa380d3fbab5e09790b81e73c4ac2c071adb4",
+    "r_installed_file_inventory": "ba513720f614027fbcb7fcfa1bf212f16c8b8cad8ad709f270060ddb67afe74c",
+    "resource_observations": "aa2bcc7ba9b43f686558458d7268d34ae3322ad65487dcf7c17a647e0b425684",
+    "source_file_inventory": "c892d2dd0ad91c017140e8a4562a81614719d2fa4002de118f826c8f38b94597",
+    "summary": "330cff402248bb65039227bc6d437fd2ea3132995980b1621a634eec789b53eb",
+    "timing": "e2a01ea8715b874052135547d5eefa724217cc807147391a45e4306edee86c1e",
+    "transfer_verification": "fdd6a9555a38571954c8c7c16288cf119ffa3246256ed6c96baa0752b08ca597"
+  },
+  "fit_revision": "8cb4619934e1cf02ed8ade3b09f09b25115f9381",
+  "identity_sha256": "954276ca46124e3f1e06bf6288d99e2b2c3f881b9b0657b495df664194378343",
+  "installation": {
+    "attempts": [
+      {
+        "cause": "CRAN package-index retrieval failed; exact transient cause unresolved",
+        "status": "failed_before_study"
+      },
+      {
+        "cause": "Missing CMake prevented nloptr and dependent R packages from installing",
+        "status": "failed_before_study"
+      },
+      {
+        "repair": "Fresh isolated installation with existing matching CMake module, recorded files and dependencies",
+        "status": "passed"
+      }
+    ],
+    "limits": "A newly recorded Linux environment, not exact restoration of the macOS pilot. Initial module-package copies and later source installations are recorded privately. Upstream module build archives are unavailable; dependency versions and installed-file hashes are not a fully locked transitive build.",
+    "native_toolchain": {
+      "CMake": "3.27.6",
+      "GCCcore": "13.2.0",
+      "Python": "3.11.5",
+      "R": "4.5.2"
+    },
+    "pre_study_checks": {
+      "errors": 0,
+      "failures": 0,
+      "installed_R_fixed_cases": 9,
+      "skipped": 0,
+      "tests": 316
+    },
+    "python_packages": [
+      {
+        "name": "pip",
+        "version": "23.2.1"
+      },
+      {
+        "name": "pytest",
+        "version": "8.0.0"
+      },
+      {
+        "name": "setuptools",
+        "version": "77.0.1"
+      },
+      {
+        "name": "ruff",
+        "version": "0.14.0"
+      },
+      {
+        "name": "numpy",
+        "version": "2.0.0"
+      },
+      {
+        "name": "iniconfig",
+        "version": "2.3.1"
+      },
+      {
+        "name": "scipy",
+        "version": "1.14.0"
+      },
+      {
+        "name": "packaging",
+        "version": "26.3"
+      },
+      {
+        "name": "build",
+        "version": "1.2.1"
+      },
+      {
+        "name": "pyproject_hooks",
+        "version": "1.3.3"
+      },
+      {
+        "name": "pluggy",
+        "version": "1.7.0"
+      },
+      {
+        "name": "qgcomp-python",
+        "version": "0.1.0.dev0"
+      }
+    ],
+    "r_downloaded_archives_sha256": {
+      "AER_1.2-17.tar.gz": "2f35e92208d596c487397c87d8011a9ccb4c376f33ce8fc88338d205e0ae7e7e",
+      "Deriv_4.3.6.tar.gz": "8950065ee01803e936e4fa48b525bcff702ecc21f6dd41ab3e98e37fd9efeb9c",
+      "Formula_1.2-6.tar.gz": "7e611ac371c045e100a6205d92fe5104001942673798f970290fea12e33bfd37",
+      "MatrixModels_0.5-4.tar.gz": "f57af9e0a35a3fea77790e46846482c6c7de0d0ea1996a995a5924f2d41cf33c",
+      "RcppEigen_0.3.4.0.2.tar.gz": "ecad7ba2129fd48b7ebb825558d38492ed1f3a8934959e27fcd6688175e542bb",
+      "Rcpp_1.1.2.tar.gz": "2746cf2fb188e5f0a84dbf5c8f68915b54564ed33e5754572f174e7b32e7f4f3",
+      "Rdpack_2.6.6.tar.gz": "b4e19d22bd5a2ec79cdb08ba209e79c66ea16dbc2fd2e7db8bca46412651cbdb",
+      "SparseM_1.84-2.tar.gz": "2580fdbb8679e76c92b9f0c5bd9bb503c4cb6a750ef6ae96595441690ce98665",
+      "abind_1.4-8.tar.gz": "264a051b523ceae1795a0879e7768949ea55c586ac8db0adf1f5ebeddd2623e1",
+      "arm_1.15-3.tar.gz": "94478b0593d751f6c0b2336ed66fee216c7573442a776e5a1eb398a91a50466c",
+      "carData_3.0-6.tar.gz": "b14d5b40b35e5a59c1ec1cdf3cce2cea239b60ff6977a821cca0d6d5b4112551",
+      "car_3.1-5.tar.gz": "27ab23cff7c5c123ffe8a2475b5a3b4d778414a28dde0a59d5cfbbefa08c99fb",
+      "coda_0.19-4.1.tar.gz": "f4b451d86fbb56ff9ade043ddd6b0944368c37d0dad12d02837750ecdc708ad6",
+      "cowplot_1.2.0.tar.gz": "431d582a4fb68f005f45e0d963c19daad826289374b429b05fe168ef6f231aa1",
+      "doBy_4.7.2.tar.gz": "9d4b2c4dca86b9e54f5c3778f6af93485334cd4b4f6105ac69e5d55579af7b7f",
+      "lme4_2.0-6.tar.gz": "3e503bc10626ad62804c80a82237147b1296d93c18d88946554c29075af917f7",
+      "minqa_1.2.8.tar.gz": "5941e4b9b01978fc6d9fe24e6ca60cca66883fe9fa6ff3cbfa32aa1ac9db5467",
+      "nloptr_2.2.1.tar.gz": "76ba40750b475c8b1ad6a86c9e05f0c1746af16d965235ff9293953920aed7f4",
+      "pbkrtest_0.5.5.tar.gz": "d26c8ef0a6fd73bba184bde8e3434439d62539d93aef0a0b5b480a0f309bc51b",
+      "pscl_1.5.9.tar.gz": "8085ffd1987804793ba44637165fba3e6805aa2f6457f0692b6e641658fe6efe",
+      "quantreg_6.1.tar.gz": "f42292c5ab25a15f39295b93391deafef192fe09eefde563399a64eba7e0169a",
+      "rbibutils_2.4.1.tar.gz": "da313d920a0f35ffdf30a54929ba8904b2b5a0d7f11a519db8674148129c8f32",
+      "reformulas_0.4.4.tar.gz": "6a76d85eb4e19325aef87510180175f8cd7b5904a7075c89aff073765529e2f7",
+      "rootSolve_1.8.2.4.tar.gz": "e16a317ea494192e0a5668a18f7eb99675f8edf3b3095861d213bc2590ad385d",
+      "sandwich_3.1-3.tar.gz": "960006cf4fcbada936b43acd04ddd8c0d1255570f41dda046ce778873f546134"
+    },
+    "r_packages": [
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "qgcomp",
+        "Priority": "",
+        "Version": "2.19.6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "jsonlite",
+        "Priority": "",
+        "Version": "2.0.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "AER",
+        "Priority": "",
+        "Version": "1.2-17",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "arm",
+        "Priority": "",
+        "Version": "1.15-3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "LGPL (>= 2.1)",
+        "Package": "future",
+        "Priority": "",
+        "Version": "1.69.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "future.apply",
+        "Priority": "",
+        "Version": "1.20.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "generics",
+        "Priority": "",
+        "Version": "0.1.4",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "ggplot2",
+        "Priority": "",
+        "Version": "4.0.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "grDevices",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "grid",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "gridExtra",
+        "Priority": "",
+        "Version": "2.3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "nnet",
+        "Priority": "recommended",
+        "Version": "7.3-20",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2",
+        "Package": "numDeriv",
+        "Priority": "",
+        "Version": "2016.8-1.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2",
+        "Package": "pscl",
+        "Priority": "",
+        "Version": "1.5.9",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "rootSolve",
+        "Priority": "",
+        "Version": "1.8.2.4",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "stats",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "LGPL (>= 2)",
+        "Package": "survival",
+        "Priority": "recommended",
+        "Version": "3.8-3",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "tibble",
+        "Priority": "",
+        "Version": "3.3.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "car",
+        "Priority": "",
+        "Version": "3.1-5",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "lmtest",
+        "Priority": "",
+        "Version": "0.9-40",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "sandwich",
+        "Priority": "",
+        "Version": "3.1-3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "zoo",
+        "Priority": "",
+        "Version": "1.8-15",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "Formula",
+        "Priority": "",
+        "Version": "1.2-6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "MASS",
+        "Priority": "recommended",
+        "Version": "7.3-65",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2) | file LICENCE",
+        "Package": "Matrix",
+        "Priority": "recommended",
+        "Version": "1.7-4",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "lme4",
+        "Priority": "",
+        "Version": "2.0-6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "abind",
+        "Priority": "",
+        "Version": "1.4-8",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "coda",
+        "Priority": "",
+        "Version": "0.19-4.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "graphics",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "methods",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "nlme",
+        "Priority": "recommended",
+        "Version": "3.1-168",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "utils",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "digest",
+        "Priority": "",
+        "Version": "0.6.39",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "LGPL (>= 2.1)",
+        "Package": "globals",
+        "Priority": "",
+        "Version": "0.19.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "LGPL (>= 2.1)",
+        "Package": "listenv",
+        "Priority": "",
+        "Version": "0.10.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "parallel",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "LGPL (>= 2.1)",
+        "Package": "parallelly",
+        "Priority": "",
+        "Version": "1.46.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "cli",
+        "Priority": "",
+        "Version": "3.6.5",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "gtable",
+        "Priority": "",
+        "Version": "0.3.6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "isoband",
+        "Priority": "",
+        "Version": "0.3.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "lifecycle",
+        "Priority": "",
+        "Version": "1.0.5",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "rlang",
+        "Priority": "",
+        "Version": "1.1.7",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "S7",
+        "Priority": "",
+        "Version": "0.2.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "scales",
+        "Priority": "",
+        "Version": "1.4.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "vctrs",
+        "Priority": "",
+        "Version": "0.7.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "withr",
+        "Priority": "",
+        "Version": "3.0.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "datasets",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "splines",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "magrittr",
+        "Priority": "",
+        "Version": "2.0.4",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "pillar",
+        "Priority": "",
+        "Version": "1.11.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "pkgconfig",
+        "Priority": "",
+        "Version": "2.0.3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "carData",
+        "Priority": "",
+        "Version": "3.0-6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "mgcv",
+        "Priority": "recommended",
+        "Version": "1.9-3",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "pbkrtest",
+        "Priority": "",
+        "Version": "0.5.5",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "quantreg",
+        "Priority": "",
+        "Version": "6.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "lattice",
+        "Priority": "recommended",
+        "Version": "0.22-7",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL",
+        "Package": "codetools",
+        "Priority": "recommended",
+        "Version": "0.2-20",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "glue",
+        "Priority": "",
+        "Version": "1.8.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "cpp11",
+        "Priority": "",
+        "Version": "0.5.3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "Rdpack",
+        "Priority": "",
+        "Version": "2.6.6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Unlimited",
+        "Package": "boot",
+        "Priority": "recommended",
+        "Version": "1.3-32",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2",
+        "Package": "minqa",
+        "Priority": "",
+        "Version": "1.2.8",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "LGPL (>= 3)",
+        "Package": "nloptr",
+        "Priority": "",
+        "Version": "2.2.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-3",
+        "Package": "reformulas",
+        "Priority": "",
+        "Version": "0.4.4",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "Rcpp",
+        "Priority": "",
+        "Version": "1.1.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2) | file LICENSE",
+        "Package": "RcppEigen",
+        "Priority": "",
+        "Version": "0.3.4.0.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "tools",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Part of R 4.5.2",
+        "Package": "compiler",
+        "Priority": "base",
+        "Version": "4.5.2",
+        "origin": "R base/recommended library"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Apache License (== 2.0) | file LICENSE",
+        "Package": "utf8",
+        "Priority": "",
+        "Version": "1.2.6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "farver",
+        "Priority": "",
+        "Version": "2.1.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE | Unlimited",
+        "Package": "labeling",
+        "Priority": "",
+        "Version": "0.4.3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "R6",
+        "Priority": "",
+        "Version": "2.6.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "Apache License 2.0",
+        "Package": "RColorBrewer",
+        "Priority": "",
+        "Version": "1.1-3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "viridisLite",
+        "Priority": "",
+        "Version": "0.4.3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "broom",
+        "Priority": "",
+        "Version": "1.0.12",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "dplyr",
+        "Priority": "",
+        "Version": "1.2.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "doBy",
+        "Priority": "",
+        "Version": "4.7.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "SparseM",
+        "Priority": "",
+        "Version": "1.84-2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "MatrixModels",
+        "Priority": "",
+        "Version": "0.5-4",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2",
+        "Package": "rbibutils",
+        "Priority": "",
+        "Version": "2.4.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2 | GPL-3",
+        "Package": "backports",
+        "Priority": "",
+        "Version": "1.5.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "purrr",
+        "Priority": "",
+        "Version": "1.2.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "stringr",
+        "Priority": "",
+        "Version": "1.6.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "tidyr",
+        "Priority": "",
+        "Version": "1.3.2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-2",
+        "Package": "cowplot",
+        "Priority": "",
+        "Version": "1.2.0",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 3)",
+        "Package": "Deriv",
+        "Priority": "",
+        "Version": "4.3.6",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-3",
+        "Package": "forecast",
+        "Priority": "",
+        "Version": "9.0.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL-3",
+        "Package": "modelr",
+        "Priority": "",
+        "Version": "0.1.11",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "MIT + file LICENSE",
+        "Package": "tidyselect",
+        "Priority": "",
+        "Version": "1.2.1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "BSD_3_clause + file LICENSE",
+        "Package": "colorspace",
+        "Priority": "",
+        "Version": "2.1-2",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "fracdiff",
+        "Priority": "",
+        "Version": "1.5-3",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "timeDate",
+        "Priority": "",
+        "Version": "4052.112",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "urca",
+        "Priority": "",
+        "Version": "1.3-4",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "GPL (>= 2)",
+        "Package": "RcppArmadillo",
+        "Priority": "",
+        "Version": "15.2.3-1",
+        "origin": "isolated"
+      },
+      {
+        "Built": "4.5.2",
+        "License": "file LICENSE",
+        "Package": "stringi",
+        "Priority": "",
+        "Version": "1.8.7",
+        "origin": "isolated"
+      }
+    ]
+  },
+  "interpretation": "This machine-readable record reports observed results and checks; scientific interpretation and limits are in GAUSSIAN_RESULTS.md. No automatic calibration or release certificate is issued.",
+  "maximum_absolute_differences": {
+    "python_vs_qr_t:psi": {
+      "absolute_difference": 1.5265566588595902e-14,
+      "case": "study-n100-rho0p75-positive-r00692",
+      "maximum_tolerance_ratio": 8.452460285182157e-05
+    },
+    "python_vs_qr_t:se": {
+      "absolute_difference": 7.466249840604178e-15,
+      "case": "study-n100-rho0-cancellation-r00175",
+      "maximum_tolerance_ratio": 3.303412374141906e-06
+    },
+    "python_vs_qr_t:variance": {
+      "absolute_difference": 3.406996906818449e-15,
+      "case": "study-n100-rho0-cancellation-r00175",
+      "maximum_tolerance_ratio": 5.533342768334403e-06
+    },
+    "python_vs_r:ci_lower": {
+      "absolute_difference": 2.531308496145357e-14,
+      "case": "study-n100-rho0-cancellation-r00198",
+      "maximum_tolerance_ratio": 9.722087763686865e-05
+    },
+    "python_vs_r:ci_upper": {
+      "absolute_difference": 2.3092638912203256e-14,
+      "case": "study-n100-rho0-null-r00496",
+      "maximum_tolerance_ratio": 8.284380033753601e-05
+    },
+    "python_vs_r:df_pvalue": {
+      "absolute_difference": 0,
+      "case": "study-n100-rho0-null-r00000",
+      "maximum_tolerance_ratio": 0.0
+    },
+    "python_vs_r:df_residual": {
+      "absolute_difference": 0,
+      "case": "study-n100-rho0-null-r00000",
+      "maximum_tolerance_ratio": 0.0
+    },
+    "python_vs_r:p_value": {
+      "absolute_difference": 1.8063328610651297e-13,
+      "case": "study-n500-rho0p75-null-r01970",
+      "maximum_tolerance_ratio": 0.0018063328610651297
+    },
+    "python_vs_r:psi": {
+      "absolute_difference": 1.509903313490213e-14,
+      "case": "study-n100-rho0p75-positive-r00927",
+      "maximum_tolerance_ratio": 8.817130330134891e-05
+    },
+    "python_vs_r:se": {
+      "absolute_difference": 7.854827899222983e-15,
+      "case": "study-n100-rho0-cancellation-r00175",
+      "maximum_tolerance_ratio": 3.363174805252668e-06
+    },
+    "python_vs_r:variance": {
+      "absolute_difference": 3.469446951953614e-15,
+      "case": "study-n100-rho0-cancellation-r00198",
+      "maximum_tolerance_ratio": 5.587195252697751e-06
+    }
+  },
+  "mode": "study",
+  "protocol_id": "gaussian-known-scores-v1",
+  "qgcomp_source_archive_sha256": "4cd9cd8f90aac9220bfae8e8dc4fbebef852515d07902fc28832ffc58026dfd4",
+  "recorded_utc": "2026-10-23T05:05:48.609640+00:00",
+  "reference": {
+    "R_version": "R version 4.5.2 (2025-10-31)",
+    "installed_package_md5": {
+      "DESCRIPTION": "d4258b6b3547c1251896ccf2827967b9",
+      "NAMESPACE": "25ab438846662a681e18069dfd27bb41",
+      "R/qgcomp.rdb": "fff62fb9de47e14827d2fe247c3af643",
+      "R/qgcomp.rdx": "a5792fe1da1c99e6a512e9c04d50556a"
+    },
+    "installed_packages": {
+      "AER": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:20:07 UTC; unix",
+        "version": "1.2-17"
+      },
+      "Deriv": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:16:09 UTC; unix",
+        "version": "4.3.6"
+      },
+      "Formula": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:15:37 UTC; unix",
+        "version": "1.2-6"
+      },
+      "MatrixModels": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:13:17 UTC; unix",
+        "version": "0.5-4"
+      },
+      "R6": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:13 UTC; unix",
+        "version": "2.6.1"
+      },
+      "RColorBrewer": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:14 UTC; unix",
+        "version": "1.1-3"
+      },
+      "Rcpp": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:14:57 UTC; unix",
+        "version": "1.1.2"
+      },
+      "RcppArmadillo": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:05:37 UTC; unix",
+        "version": "15.2.3-1"
+      },
+      "RcppEigen": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:17:05 UTC; unix",
+        "version": "0.3.4.0.2"
+      },
+      "Rdpack": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:16:44 UTC; unix",
+        "version": "2.6.6"
+      },
+      "S7": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:17:38 UTC; unix",
+        "version": "0.2.1"
+      },
+      "SparseM": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:13:07 UTC; unix",
+        "version": "1.84-2"
+      },
+      "abind": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:15:39 UTC; unix",
+        "version": "1.4-8"
+      },
+      "arm": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:19:43 UTC; unix",
+        "version": "1.15-3"
+      },
+      "backports": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:19:34 UTC; unix",
+        "version": "1.5.0"
+      },
+      "broom": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:29:28 UTC; unix",
+        "version": "1.0.12"
+      },
+      "car": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:19:53 UTC; unix",
+        "version": "3.1-5"
+      },
+      "carData": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:13:50 UTC; unix",
+        "version": "3.0-6"
+      },
+      "cli": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:17:17 UTC; unix",
+        "version": "3.6.5"
+      },
+      "coda": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:15:42 UTC; unix",
+        "version": "0.19-4.1"
+      },
+      "colorspace": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:23:44 UTC; unix",
+        "version": "2.1-2"
+      },
+      "cowplot": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:13:00 UTC; unix",
+        "version": "1.2.0"
+      },
+      "cpp11": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:16:50 UTC; unix",
+        "version": "0.5.3"
+      },
+      "digest": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:19:11 UTC; unix",
+        "version": "0.6.39"
+      },
+      "doBy": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:17:58 UTC; unix",
+        "version": "4.7.2"
+      },
+      "dplyr": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:21:02 UTC; unix",
+        "version": "1.2.0"
+      },
+      "farver": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:16:52 UTC; unix",
+        "version": "2.1.2"
+      },
+      "forecast": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:26:05 UTC; unix",
+        "version": "9.0.1"
+      },
+      "fracdiff": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:23:49 UTC; unix",
+        "version": "1.5-3"
+      },
+      "future": {
+        "Built": "R 4.5.2; ; 2026-02-25 20:24:59 UTC; unix",
+        "version": "1.69.0"
+      },
+      "future.apply": {
+        "Built": "R 4.5.2; ; 2026-02-25 20:25:41 UTC; unix",
+        "version": "1.20.2"
+      },
+      "generics": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:19:36 UTC; unix",
+        "version": "0.1.4"
+      },
+      "ggplot2": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:18:27 UTC; unix",
+        "version": "4.0.2"
+      },
+      "globals": {
+        "Built": "R 4.5.2; ; 2026-02-25 20:21:29 UTC; unix",
+        "version": "0.19.0"
+      },
+      "glue": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:16:48 UTC; unix",
+        "version": "1.8.0"
+      },
+      "gridExtra": {
+        "Built": "R 4.5.2; ; 2026-02-25 20:05:31 UTC; unix",
+        "version": "2.3"
+      },
+      "gtable": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:53 UTC; unix",
+        "version": "0.3.6"
+      },
+      "isoband": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:17:42 UTC; unix",
+        "version": "0.3.0"
+      },
+      "jsonlite": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:22:56 UTC; unix",
+        "version": "2.0.0"
+      },
+      "labeling": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:11 UTC; unix",
+        "version": "0.4.3"
+      },
+      "lifecycle": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:51 UTC; unix",
+        "version": "1.0.5"
+      },
+      "listenv": {
+        "Built": "R 4.5.2; ; 2026-02-25 20:21:50 UTC; unix",
+        "version": "0.10.0"
+      },
+      "lme4": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:18:26 UTC; unix",
+        "version": "2.0-6"
+      },
+      "lmtest": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:24:57 UTC; unix",
+        "version": "0.9-40"
+      },
+      "magrittr": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:23:01 UTC; unix",
+        "version": "2.0.4"
+      },
+      "minqa": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:16:49 UTC; unix",
+        "version": "1.2.8"
+      },
+      "modelr": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:30:12 UTC; unix",
+        "version": "0.1.11"
+      },
+      "nloptr": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:14:50 UTC; unix",
+        "version": "2.2.1"
+      },
+      "numDeriv": {
+        "Built": "R 4.5.2; ; 2026-02-25 20:21:23 UTC; unix",
+        "version": "2016.8-1.1"
+      },
+      "parallelly": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:21:52 UTC; unix",
+        "version": "1.46.1"
+      },
+      "pbkrtest": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:19:34 UTC; unix",
+        "version": "0.5.5"
+      },
+      "pillar": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:24:13 UTC; unix",
+        "version": "1.11.1"
+      },
+      "pkgconfig": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:20:25 UTC; unix",
+        "version": "2.0.3"
+      },
+      "pscl": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:15:47 UTC; unix",
+        "version": "1.5.9"
+      },
+      "purrr": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:24:16 UTC; unix",
+        "version": "1.2.1"
+      },
+      "qgcomp": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:20:15 UTC; unix",
+        "version": "2.19.6"
+      },
+      "quantreg": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:16:22 UTC; unix",
+        "version": "6.1"
+      },
+      "rbibutils": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:13:26 UTC; unix",
+        "version": "2.4.1"
+      },
+      "reformulas": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:18:19 UTC; unix",
+        "version": "0.4.4"
+      },
+      "rlang": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:17:28 UTC; unix",
+        "version": "1.1.7"
+      },
+      "rootSolve": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-10-23 03:15:58 UTC; unix",
+        "version": "1.8.2.4"
+      },
+      "sandwich": {
+        "Built": "R 4.5.2; ; 2026-10-23 03:15:32 UTC; unix",
+        "version": "3.1-3"
+      },
+      "scales": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:55 UTC; unix",
+        "version": "1.4.0"
+      },
+      "stringi": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:21:49 UTC; unix",
+        "version": "1.8.7"
+      },
+      "stringr": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:24:20 UTC; unix",
+        "version": "1.6.0"
+      },
+      "tibble": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:26:41 UTC; unix",
+        "version": "3.3.1"
+      },
+      "tidyr": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:19:33 UTC; unix",
+        "version": "1.3.2"
+      },
+      "tidyselect": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:19:42 UTC; unix",
+        "version": "1.2.1"
+      },
+      "timeDate": {
+        "Built": "R 4.5.2; ; 2026-02-25 20:24:27 UTC; unix",
+        "version": "4052.112"
+      },
+      "urca": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:23:52 UTC; unix",
+        "version": "1.3-4"
+      },
+      "utf8": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:20:45 UTC; unix",
+        "version": "1.2.6"
+      },
+      "vctrs": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 19:18:00 UTC; unix",
+        "version": "0.7.1"
+      },
+      "viridisLite": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:16 UTC; unix",
+        "version": "0.4.3"
+      },
+      "withr": {
+        "Built": "R 4.5.2; ; 2026-02-25 19:17:41 UTC; unix",
+        "version": "3.0.2"
+      },
+      "zoo": {
+        "Built": "R 4.5.2; x86_64-pc-linux-gnu; 2026-02-25 20:24:34 UTC; unix",
+        "version": "1.8-15"
+      }
+    },
+    "library_verified": true,
+    "mode": "installed package",
+    "package": "qgcomp",
+    "package_library_origins": {
+      "AER": "isolated",
+      "Formula": "isolated",
+      "MASS": "base-recommended",
+      "Matrix": "base-recommended",
+      "R6": "isolated",
+      "RColorBrewer": "isolated",
+      "Rcpp": "isolated",
+      "Rdpack": "isolated",
+      "S7": "isolated",
+      "abind": "isolated",
+      "arm": "isolated",
+      "base": "base-recommended",
+      "boot": "base-recommended",
+      "car": "isolated",
+      "carData": "isolated",
+      "cli": "isolated",
+      "coda": "isolated",
+      "compiler": "base-recommended",
+      "datasets": "base-recommended",
+      "dplyr": "isolated",
+      "farver": "isolated",
+      "generics": "isolated",
+      "ggplot2": "isolated",
+      "glue": "isolated",
+      "grDevices": "base-recommended",
+      "graphics": "base-recommended",
+      "grid": "base-recommended",
+      "gridExtra": "isolated",
+      "gtable": "isolated",
+      "jsonlite": "isolated",
+      "lattice": "base-recommended",
+      "lifecycle": "isolated",
+      "lme4": "isolated",
+      "lmtest": "isolated",
+      "magrittr": "isolated",
+      "methods": "base-recommended",
+      "minqa": "isolated",
+      "nlme": "base-recommended",
+      "nloptr": "isolated",
+      "nnet": "base-recommended",
+      "numDeriv": "isolated",
+      "pillar": "isolated",
+      "pkgconfig": "isolated",
+      "pscl": "isolated",
+      "qgcomp": "isolated",
+      "rbibutils": "isolated",
+      "reformulas": "isolated",
+      "rlang": "isolated",
+      "rootSolve": "isolated",
+      "sandwich": "isolated",
+      "scales": "isolated",
+      "splines": "base-recommended",
+      "stats": "base-recommended",
+      "survival": "base-recommended",
+      "tibble": "isolated",
+      "tidyselect": "isolated",
+      "tools": "base-recommended",
+      "utils": "base-recommended",
+      "vctrs": "isolated",
+      "zoo": "isolated"
+    },
+    "package_versions": {
+      "AER": "1.2-17",
+      "Formula": "1.2-6",
+      "MASS": "7.3-65",
+      "Matrix": "1.7-4",
+      "R6": "2.6.1",
+      "RColorBrewer": "1.1-3",
+      "Rcpp": "1.1.2",
+      "Rdpack": "2.6.6",
+      "S7": "0.2.1",
+      "abind": "1.4-8",
+      "arm": "1.15-3",
+      "base": "4.5.2",
+      "boot": "1.3-32",
+      "car": "3.1-5",
+      "carData": "3.0-6",
+      "cli": "3.6.5",
+      "coda": "0.19-4.1",
+      "compiler": "4.5.2",
+      "datasets": "4.5.2",
+      "dplyr": "1.2.0",
+      "farver": "2.1.2",
+      "generics": "0.1.4",
+      "ggplot2": "4.0.2",
+      "glue": "1.8.0",
+      "grDevices": "4.5.2",
+      "graphics": "4.5.2",
+      "grid": "4.5.2",
+      "gridExtra": "2.3",
+      "gtable": "0.3.6",
+      "jsonlite": "2.0.0",
+      "lattice": "0.22-7",
+      "lifecycle": "1.0.5",
+      "lme4": "2.0-6",
+      "lmtest": "0.9-40",
+      "magrittr": "2.0.4",
+      "methods": "4.5.2",
+      "minqa": "1.2.8",
+      "nlme": "3.1-168",
+      "nloptr": "2.2.1",
+      "nnet": "7.3-20",
+      "numDeriv": "2016.8-1.1",
+      "pillar": "1.11.1",
+      "pkgconfig": "2.0.3",
+      "pscl": "1.5.9",
+      "qgcomp": "2.19.6",
+      "rbibutils": "2.4.1",
+      "reformulas": "0.4.4",
+      "rlang": "1.1.7",
+      "rootSolve": "1.8.2.4",
+      "sandwich": "3.1-3",
+      "scales": "1.4.0",
+      "splines": "4.5.2",
+      "stats": "4.5.2",
+      "survival": "3.8-3",
+      "tibble": "3.3.1",
+      "tidyselect": "1.2.1",
+      "tools": "4.5.2",
+      "utils": "4.5.2",
+      "vctrs": "0.7.1",
+      "zoo": "1.8-15"
+    },
+    "platform": "x86_64-pc-linux-gnu",
+    "r_runtime_md5": {
+      "bin/exec/R": "902c697dbd0f33a8d83407bfd4c40624"
+    },
+    "unexpected_loaded_namespaces": [],
+    "version": "2.19.6"
+  },
+  "resources": {
+    "child_exit_code": 0,
+    "final_run_bytes": 535384830,
+    "guard_or_monitor_error": null,
+    "kernel_cgroup_peak_bytes": 3031068672,
+    "limits": "Two-second memory samples may miss peaks; kernel peak is separate. Quota is rounded and observed every five minutes, not reserved. Scheduler time includes setup checks; runner timing has a narrower scope.",
+    "maximum_sample_gap_seconds": 2.3499179892241955,
+    "memory_guard_bytes": 15032385536,
+    "memory_limit_bytes": 17179869184,
+    "memory_samples": 2355,
+    "memory_scope": "Batch cgroup, including monitor, descendants and charged page cache; not process RSS",
+    "minimum_rounded_scratch_headroom_bytes": 26843545600.0,
+    "observed_seconds": 4715.811693381518,
+    "owned_process_group_stopped": true,
+    "sampled_cgroup_peak_bytes": 3030126592,
+    "scratch_quota_observations": 16
+  },
+  "schema_version": 1,
+  "source_archive_sha256": "0501fe385268b7be1c914ca45e3cecae270b24d582c79be0036beab7df293618",
+  "source_sha256": {
+    "calibration.py": "c4aa619dba8a6bf7116ef4f119716ff5fb840ea378beca4140fb86e513d3fb0e",
+    "calibration_r.R": "a9d2db991cccf994974e34ce59d1943217a7a9e2155e0c2581ce8dcc6c984dca",
+    "calibration_reference.py": "8a22c59e49b492cbddac32d802f3c7f86fe0b883e8608383c2c93c6f551293d1",
+    "qgcomp/__init__.py": "59f333a2061f7420b09093e4fb8e2de66212823a0b591bf62a75c57cbf8f119a",
+    "qgcomp/_core.py": "efad59c9d420696fa6619795fdf5cd40c9f34829a32625a215ce0b7200f2f447"
+  },
+  "summary": {
+    "attempted": 24000,
+    "calibration_validated": false,
+    "cells": [
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 95,
+          "df_residual": 93,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.947006548552771,
+          "reference_null_rejection": 0.050062279412391344
+        },
+        "cell": "n100-rho0-null",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": 0.004457237221894158,
+            "bias_mcse": 0.004568904363639191,
+            "coverage_all_planned_bounds": [
+              0.9485,
+              0.9485
+            ],
+            "coverage_successful": 0.9485,
+            "coverage_wilson": [
+              0.9379251286390549,
+              0.9573552799496612
+            ],
+            "covered": 1897,
+            "covered_fraction_planned": 0.9485,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.204327614795853,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.7926130892371407,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 100,
+            "rejected_fraction_planned": 0.05,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.05,
+            "rejection_wilson": [
+              0.04128123361873174,
+              0.0604441089343959
+            ],
+            "rms_se": 0.20319897343023763,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": 0.004457237221894403,
+            "bias_mcse": 0.0045689043636391894,
+            "coverage_all_planned_bounds": [
+              0.95,
+              0.95
+            ],
+            "coverage_successful": 0.95,
+            "coverage_wilson": [
+              0.9395558910656041,
+              0.9587187663812682
+            ],
+            "covered": 1900,
+            "covered_fraction_planned": 0.95,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.20432761479585293,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.8030619557791142,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 100,
+            "rejected_fraction_planned": 0.05,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.05,
+            "rejection_wilson": [
+              0.04128123361873174,
+              0.0604441089343959
+            ],
+            "rms_se": 0.2031989734302376,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": 0.0044572372218943885,
+            "bias_mcse": 0.0045689043636391894,
+            "coverage_all_planned_bounds": [
+              0.9485,
+              0.9485
+            ],
+            "coverage_successful": 0.9485,
+            "coverage_wilson": [
+              0.9379251286390549,
+              0.9573552799496612
+            ],
+            "covered": 1897,
+            "covered_fraction_planned": 0.9485,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.20432761479585293,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.7926130892371406,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 100,
+            "rejected_fraction_planned": 0.05,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.05,
+            "rejection_wilson": [
+              0.04128123361873174,
+              0.0604441089343959
+            ],
+            "rms_se": 0.20319897343023763,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 95,
+          "df_residual": 93,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.947006548552771,
+          "reference_null_rejection": 0.050062279412391344
+        },
+        "cell": "n100-rho0-cancellation",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": 0.001722003630998619,
+            "bias_mcse": 0.00464066879832174,
+            "coverage_all_planned_bounds": [
+              0.9475,
+              0.9475
+            ],
+            "coverage_successful": 0.9475,
+            "coverage_wilson": [
+              0.9368392097083899,
+              0.9564450329748887
+            ],
+            "covered": 1895,
+            "covered_fraction_planned": 0.9475,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.20753701788219345,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.7942499588874314,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 101,
+            "rejected_fraction_planned": 0.0505,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.0505,
+            "rejection_wilson": [
+              0.04173547326167801,
+              0.06098795224416838
+            ],
+            "rms_se": 0.20367702422140158,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": 0.0017220036309988258,
+            "bias_mcse": 0.004640668798321738,
+            "coverage_all_planned_bounds": [
+              0.9495,
+              0.9495
+            ],
+            "coverage_successful": 0.9495,
+            "coverage_wilson": [
+              0.9390120477558316,
+              0.958264526738322
+            ],
+            "covered": 1899,
+            "covered_fraction_planned": 0.9495,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.2075370178821934,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.8047204039684859,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 101,
+            "rejected_fraction_planned": 0.0505,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.0505,
+            "rejection_wilson": [
+              0.04173547326167801,
+              0.06098795224416838
+            ],
+            "rms_se": 0.20367702422140152,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": 0.001722003630998843,
+            "bias_mcse": 0.004640668798321738,
+            "coverage_all_planned_bounds": [
+              0.9475,
+              0.9475
+            ],
+            "coverage_successful": 0.9475,
+            "coverage_wilson": [
+              0.9368392097083899,
+              0.9564450329748887
+            ],
+            "covered": 1895,
+            "covered_fraction_planned": 0.9475,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.2075370178821934,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.7942499588874308,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 101,
+            "rejected_fraction_planned": 0.0505,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.0505,
+            "rejection_wilson": [
+              0.04173547326167801,
+              0.06098795224416838
+            ],
+            "rms_se": 0.20367702422140158,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 95,
+          "df_residual": 93,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.947006548552771,
+          "reference_null_rejection": 0.050062279412391344
+        },
+        "cell": "n100-rho0-positive",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": -0.004233613848610155,
+            "bias_mcse": 0.004303485954617676,
+            "coverage_all_planned_bounds": [
+              0.961,
+              0.961
+            ],
+            "coverage_successful": 0.961,
+            "coverage_wilson": [
+              0.9515939149560816,
+              0.968638567450603
+            ],
+            "covered": 1922,
+            "covered_fraction_planned": 0.961,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.19245774269481397,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.7936258313644785,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 414,
+            "rejected_fraction_planned": 0.207,
+            "rejection_kind": "power",
+            "rejection_successful": 0.207,
+            "rejection_wilson": [
+              0.18981343495635533,
+              0.22530995475045879
+            ],
+            "rms_se": 0.20347154521622282,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": -0.004233613848609928,
+            "bias_mcse": 0.004303485954617675,
+            "coverage_all_planned_bounds": [
+              0.9625,
+              0.9625
+            ],
+            "coverage_successful": 0.9625,
+            "coverage_wilson": [
+              0.9532479878280714,
+              0.9699787434367696
+            ],
+            "covered": 1925,
+            "covered_fraction_planned": 0.9625,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.19245774269481394,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.8040880486919417,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 414,
+            "rejected_fraction_planned": 0.207,
+            "rejection_kind": "power",
+            "rejection_successful": 0.207,
+            "rejection_wilson": [
+              0.18981343495635533,
+              0.22530995475045879
+            ],
+            "rms_se": 0.2034715452162228,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": -0.00423361384860992,
+            "bias_mcse": 0.004303485954617675,
+            "coverage_all_planned_bounds": [
+              0.961,
+              0.961
+            ],
+            "coverage_successful": 0.961,
+            "coverage_wilson": [
+              0.9515939149560816,
+              0.968638567450603
+            ],
+            "covered": 1922,
+            "covered_fraction_planned": 0.961,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.19245774269481394,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.7936258313644781,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 414,
+            "rejected_fraction_planned": 0.207,
+            "rejection_kind": "power",
+            "rejection_successful": 0.207,
+            "rejection_wilson": [
+              0.18981343495635533,
+              0.22530995475045879
+            ],
+            "rms_se": 0.20347154521622277,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.25
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 95,
+          "df_residual": 93,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.947006548552771,
+          "reference_null_rejection": 0.050062279412391344
+        },
+        "cell": "n100-rho0p75-null",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": -0.005351505213652478,
+            "bias_mcse": 0.0025785548006928625,
+            "coverage_all_planned_bounds": [
+              0.9465,
+              0.9465
+            ],
+            "coverage_successful": 0.9465,
+            "coverage_wilson": [
+              0.935754264314357,
+              0.955533812463484
+            ],
+            "covered": 1893,
+            "covered_fraction_planned": 0.9465,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11531647636115325,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.455179683433703,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 96,
+            "rejected_fraction_planned": 0.048,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.048,
+            "rejection_wilson": [
+              0.03946691899074102,
+              0.05826609175151162
+            ],
+            "rms_se": 0.11661302948671007,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": -0.0053515052136528605,
+            "bias_mcse": 0.0025785548006928625,
+            "coverage_all_planned_bounds": [
+              0.952,
+              0.952
+            ],
+            "coverage_successful": 0.952,
+            "coverage_wilson": [
+              0.9417339082484883,
+              0.9605330810092589
+            ],
+            "covered": 1904,
+            "covered_fraction_planned": 0.952,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11531647636115325,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.4611802300174008,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 96,
+            "rejected_fraction_planned": 0.048,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.048,
+            "rejection_wilson": [
+              0.03946691899074102,
+              0.05826609175151162
+            ],
+            "rms_se": 0.11661302948671007,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": -0.005351505213652862,
+            "bias_mcse": 0.0025785548006928625,
+            "coverage_all_planned_bounds": [
+              0.9465,
+              0.9465
+            ],
+            "coverage_successful": 0.9465,
+            "coverage_wilson": [
+              0.935754264314357,
+              0.955533812463484
+            ],
+            "covered": 1893,
+            "covered_fraction_planned": 0.9465,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11531647636115325,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.4551796834337028,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 96,
+            "rejected_fraction_planned": 0.048,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.048,
+            "rejection_wilson": [
+              0.03946691899074102,
+              0.05826609175151162
+            ],
+            "rms_se": 0.11661302948671007,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 95,
+          "df_residual": 93,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.947006548552771,
+          "reference_null_rejection": 0.050062279412391344
+        },
+        "cell": "n100-rho0p75-cancellation",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": -0.00037551595049824504,
+            "bias_mcse": 0.0025949221867439046,
+            "coverage_all_planned_bounds": [
+              0.9455,
+              0.9455
+            ],
+            "coverage_successful": 0.9455,
+            "coverage_wilson": [
+              0.9346702670259668,
+              0.9546216438464368
+            ],
+            "covered": 1891,
+            "covered_fraction_planned": 0.9455,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11604844811763548,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.45322816622951567,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 104,
+            "rejected_fraction_planned": 0.052,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.052,
+            "rejection_wilson": [
+              0.043099720209557914,
+              0.06261795415444468
+            ],
+            "rms_se": 0.11611544120024188,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": -0.00037551595049857366,
+            "bias_mcse": 0.002594922186743904,
+            "coverage_all_planned_bounds": [
+              0.948,
+              0.948
+            ],
+            "coverage_successful": 0.948,
+            "coverage_wilson": [
+              0.9373820458455553,
+              0.956900279790442
+            ],
+            "covered": 1896,
+            "covered_fraction_planned": 0.948,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11604844811763547,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.4592029863356963,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 104,
+            "rejected_fraction_planned": 0.052,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.052,
+            "rejection_wilson": [
+              0.043099720209557914,
+              0.06261795415444468
+            ],
+            "rms_se": 0.11611544120024189,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": -0.00037551595049858656,
+            "bias_mcse": 0.0025949221867439037,
+            "coverage_all_planned_bounds": [
+              0.9455,
+              0.9455
+            ],
+            "coverage_successful": 0.9455,
+            "coverage_wilson": [
+              0.9346702670259668,
+              0.9546216438464368
+            ],
+            "covered": 1891,
+            "covered_fraction_planned": 0.9455,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11604844811763546,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.4532281662295156,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 104,
+            "rejected_fraction_planned": 0.052,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.052,
+            "rejection_wilson": [
+              0.043099720209557914,
+              0.06261795415444468
+            ],
+            "rms_se": 0.11611544120024188,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 95,
+          "df_residual": 93,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.947006548552771,
+          "reference_null_rejection": 0.050062279412391344
+        },
+        "cell": "n100-rho0p75-positive",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": -0.00043315010281339363,
+            "bias_mcse": 0.0026134066323717825,
+            "coverage_all_planned_bounds": [
+              0.9455,
+              0.9455
+            ],
+            "coverage_successful": 0.9455,
+            "coverage_wilson": [
+              0.9346702670259668,
+              0.9546216438464368
+            ],
+            "covered": 1891,
+            "covered_fraction_planned": 0.9455,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11687509765664217,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.45449562578423564,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1137,
+            "rejected_fraction_planned": 0.5685,
+            "rejection_kind": "power",
+            "rejection_successful": 0.5685,
+            "rejection_wilson": [
+              0.5466826545116372,
+              0.5900547100108311
+            ],
+            "rms_se": 0.11646440028042765,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": -0.0004331501028138351,
+            "bias_mcse": 0.0026134066323717825,
+            "coverage_all_planned_bounds": [
+              0.95,
+              0.95
+            ],
+            "coverage_successful": 0.95,
+            "coverage_wilson": [
+              0.9395558910656041,
+              0.9587187663812682
+            ],
+            "covered": 1900,
+            "covered_fraction_planned": 0.95,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11687509765664217,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.4604871545669617,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1137,
+            "rejected_fraction_planned": 0.5685,
+            "rejection_kind": "power",
+            "rejection_successful": 0.5685,
+            "rejection_wilson": [
+              0.5466826545116372,
+              0.5900547100108311
+            ],
+            "rms_se": 0.11646440028042761,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": -0.00043315010281383415,
+            "bias_mcse": 0.002613406632371782,
+            "coverage_all_planned_bounds": [
+              0.9455,
+              0.9455
+            ],
+            "coverage_successful": 0.9455,
+            "coverage_wilson": [
+              0.9346702670259668,
+              0.9546216438464368
+            ],
+            "covered": 1891,
+            "covered_fraction_planned": 0.9455,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.11687509765664215,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.45449562578423536,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1137,
+            "rejected_fraction_planned": 0.5685,
+            "rejection_kind": "power",
+            "rejection_successful": 0.5685,
+            "rejection_wilson": [
+              0.5466826545116372,
+              0.5900547100108311
+            ],
+            "rms_se": 0.11646440028042765,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.25
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 495,
+          "df_residual": 493,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.949437101241883,
+          "reference_null_rejection": 0.05000226913972239
+        },
+        "cell": "n500-rho0-null",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": -0.00026702963885043274,
+            "bias_mcse": 0.001913079038130932,
+            "coverage_all_planned_bounds": [
+              0.956,
+              0.956
+            ],
+            "coverage_successful": 0.956,
+            "coverage_wilson": [
+              0.9461034732959137,
+              0.9641481795835833
+            ],
+            "covered": 1912,
+            "covered_fraction_planned": 0.956,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08555549551181353,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.3462956008836126,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 88,
+            "rejected_fraction_planned": 0.044,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.044,
+            "rejection_wilson": [
+              0.03585182041641652,
+              0.05389652670408614
+            ],
+            "rms_se": 0.0884277706787619,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": -0.0002670296388496861,
+            "bias_mcse": 0.0019130790381309333,
+            "coverage_all_planned_bounds": [
+              0.956,
+              0.956
+            ],
+            "coverage_successful": 0.956,
+            "coverage_wilson": [
+              0.9461034732959137,
+              0.9641481795835833
+            ],
+            "covered": 1912,
+            "covered_fraction_planned": 0.956,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08555549551181359,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.34714784708916746,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 88,
+            "rejected_fraction_planned": 0.044,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.044,
+            "rejection_wilson": [
+              0.03585182041641652,
+              0.05389652670408614
+            ],
+            "rms_se": 0.0884277706787619,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": -0.0002670296388496692,
+            "bias_mcse": 0.0019130790381309318,
+            "coverage_all_planned_bounds": [
+              0.956,
+              0.956
+            ],
+            "coverage_successful": 0.956,
+            "coverage_wilson": [
+              0.9461034732959137,
+              0.9641481795835833
+            ],
+            "covered": 1912,
+            "covered_fraction_planned": 0.956,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08555549551181352,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.34629560088361266,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 88,
+            "rejected_fraction_planned": 0.044,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.044,
+            "rejection_wilson": [
+              0.03585182041641652,
+              0.05389652670408614
+            ],
+            "rms_se": 0.0884277706787619,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 495,
+          "df_residual": 493,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.949437101241883,
+          "reference_null_rejection": 0.05000226913972239
+        },
+        "cell": "n500-rho0-cancellation",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": 0.0018810413170462185,
+            "bias_mcse": 0.001964348177859329,
+            "coverage_all_planned_bounds": [
+              0.9545,
+              0.9545
+            ],
+            "coverage_successful": 0.9545,
+            "coverage_wilson": [
+              0.9444626753715425,
+              0.9627947286497985
+            ],
+            "covered": 1909,
+            "covered_fraction_planned": 0.9545,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08784832114342615,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.34599839986351644,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 90,
+            "rejected_fraction_planned": 0.045,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.045,
+            "rejection_wilson": [
+              0.03675381704471326,
+              0.05499069598122689
+            ],
+            "rms_se": 0.08835193075319901,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": 0.0018810413170469835,
+            "bias_mcse": 0.00196434817785933,
+            "coverage_all_planned_bounds": [
+              0.955,
+              0.955
+            ],
+            "coverage_successful": 0.955,
+            "coverage_wilson": [
+              0.9450093040187729,
+              0.9632461829552866
+            ],
+            "covered": 1910,
+            "covered_fraction_planned": 0.955,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08784832114342618,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.3468499146464336,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 90,
+            "rejected_fraction_planned": 0.045,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.045,
+            "rejection_wilson": [
+              0.03675381704471326,
+              0.05499069598122689
+            ],
+            "rms_se": 0.08835193075319904,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": 0.0018810413170470173,
+            "bias_mcse": 0.001964348177859329,
+            "coverage_all_planned_bounds": [
+              0.9545,
+              0.9545
+            ],
+            "coverage_successful": 0.9545,
+            "coverage_wilson": [
+              0.9444626753715425,
+              0.9627947286497985
+            ],
+            "covered": 1909,
+            "covered_fraction_planned": 0.9545,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08784832114342615,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.3459983998635164,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 90,
+            "rejected_fraction_planned": 0.045,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.045,
+            "rejection_wilson": [
+              0.03675381704471326,
+              0.05499069598122689
+            ],
+            "rms_se": 0.08835193075319903,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 495,
+          "df_residual": 493,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.949437101241883,
+          "reference_null_rejection": 0.05000226913972239
+        },
+        "cell": "n500-rho0-positive",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": 0.004183955033358091,
+            "bias_mcse": 0.0019765446489886525,
+            "coverage_all_planned_bounds": [
+              0.953,
+              0.953
+            ],
+            "coverage_successful": 0.953,
+            "coverage_wilson": [
+              0.9428245575283534,
+              0.9614385976348314
+            ],
+            "covered": 1906,
+            "covered_fraction_planned": 0.953,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08839376391404176,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.34670278863246656,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1637,
+            "rejected_fraction_planned": 0.8185,
+            "rejection_kind": "power",
+            "rejection_successful": 0.8185,
+            "rejection_wilson": [
+              0.8010025901242357,
+              0.8347762507576062
+            ],
+            "rms_se": 0.08852693058191817,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": 0.004183955033358963,
+            "bias_mcse": 0.0019765446489886512,
+            "coverage_all_planned_bounds": [
+              0.954,
+              0.954
+            ],
+            "coverage_successful": 0.954,
+            "coverage_wilson": [
+              0.9439163444279334,
+              0.9623429766406889
+            ],
+            "covered": 1908,
+            "covered_fraction_planned": 0.954,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.0883937639140417,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.3475560369420418,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1637,
+            "rejected_fraction_planned": 0.8185,
+            "rejection_kind": "power",
+            "rejection_successful": 0.8185,
+            "rejection_wilson": [
+              0.8010025901242357,
+              0.8347762507576062
+            ],
+            "rms_se": 0.08852693058191816,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": 0.004183955033359029,
+            "bias_mcse": 0.0019765446489886525,
+            "coverage_all_planned_bounds": [
+              0.953,
+              0.953
+            ],
+            "coverage_successful": 0.953,
+            "coverage_wilson": [
+              0.9428245575283534,
+              0.9614385976348314
+            ],
+            "covered": 1906,
+            "covered_fraction_planned": 0.953,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.08839376391404176,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.3467027886324667,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1637,
+            "rejected_fraction_planned": 0.8185,
+            "rejection_kind": "power",
+            "rejection_successful": 0.8185,
+            "rejection_wilson": [
+              0.8010025901242357,
+              0.8347762507576062
+            ],
+            "rms_se": 0.08852693058191817,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.25
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 495,
+          "df_residual": 493,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.949437101241883,
+          "reference_null_rejection": 0.05000226913972239
+        },
+        "cell": "n500-rho0p75-null",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": 6.993771222702949e-06,
+            "bias_mcse": 0.0011643912389897935,
+            "coverage_all_planned_bounds": [
+              0.946,
+              0.946
+            ],
+            "coverage_successful": 0.946,
+            "coverage_wilson": [
+              0.9352121487009426,
+              0.9550778451241797
+            ],
+            "covered": 1892,
+            "covered_fraction_planned": 0.946,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.05207315925572764,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.19925062221663112,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 108,
+            "rejected_fraction_planned": 0.054,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.054,
+            "rejection_wilson": [
+              0.0449221548758202,
+              0.0647878512990574
+            ],
+            "rms_se": 0.050872535258324664,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": 6.993771222505995e-06,
+            "bias_mcse": 0.001164391238989794,
+            "coverage_all_planned_bounds": [
+              0.9465,
+              0.9465
+            ],
+            "coverage_successful": 0.9465,
+            "coverage_wilson": [
+              0.935754264314357,
+              0.955533812463484
+            ],
+            "covered": 1893,
+            "covered_fraction_planned": 0.9465,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.052073159255727655,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.19974098532348264,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 107,
+            "rejected_fraction_planned": 0.0535,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.0535,
+            "rejection_wilson": [
+              0.04446618753651597,
+              0.06424573568564287
+            ],
+            "rms_se": 0.05087253525832465,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": 6.993771222527756e-06,
+            "bias_mcse": 0.001164391238989794,
+            "coverage_all_planned_bounds": [
+              0.946,
+              0.946
+            ],
+            "coverage_successful": 0.946,
+            "coverage_wilson": [
+              0.9352121487009426,
+              0.9550778451241797
+            ],
+            "covered": 1892,
+            "covered_fraction_planned": 0.946,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.05207315925572766,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.1992506222166311,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 108,
+            "rejected_fraction_planned": 0.054,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.054,
+            "rejection_wilson": [
+              0.0449221548758202,
+              0.0647878512990574
+            ],
+            "rms_se": 0.05087253525832465,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 495,
+          "df_residual": 493,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.949437101241883,
+          "reference_null_rejection": 0.05000226913972239
+        },
+        "cell": "n500-rho0p75-cancellation",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": -3.3104190574521516e-05,
+            "bias_mcse": 0.0010984662248089494,
+            "coverage_all_planned_bounds": [
+              0.96,
+              0.96
+            ],
+            "coverage_successful": 0.96,
+            "coverage_wilson": [
+              0.9504930634412283,
+              0.9677432530600187
+            ],
+            "covered": 1920,
+            "covered_fraction_planned": 0.96,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.049124902993207535,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.19923311006391228,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 79,
+            "rejected_fraction_planned": 0.0395,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.0395,
+            "rejection_wilson": [
+              0.03180890787160705,
+              0.0489566926744269
+            ],
+            "rms_se": 0.05086769506416494,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": -3.310419057474112e-05,
+            "bias_mcse": 0.0010984662248089499,
+            "coverage_all_planned_bounds": [
+              0.9605,
+              0.9605
+            ],
+            "coverage_successful": 0.9605,
+            "coverage_wilson": [
+              0.9510433073255731,
+              0.9681910921283929
+            ],
+            "covered": 1921,
+            "covered_fraction_planned": 0.9605,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.04912490299320756,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.19972343007271268,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 79,
+            "rejected_fraction_planned": 0.0395,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.0395,
+            "rejection_wilson": [
+              0.03180890787160705,
+              0.0489566926744269
+            ],
+            "rms_se": 0.05086769506416494,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": -3.310419057471759e-05,
+            "bias_mcse": 0.00109846622480895,
+            "coverage_all_planned_bounds": [
+              0.96,
+              0.96
+            ],
+            "coverage_successful": 0.96,
+            "coverage_wilson": [
+              0.9504930634412283,
+              0.9677432530600187
+            ],
+            "covered": 1920,
+            "covered_fraction_planned": 0.96,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.04912490299320757,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.19923311006391223,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 79,
+            "rejected_fraction_planned": 0.0395,
+            "rejection_kind": "false_positive_rate",
+            "rejection_successful": 0.0395,
+            "rejection_wilson": [
+              0.03180890787160705,
+              0.0489566926744269
+            ],
+            "rms_se": 0.05086769506416494,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.0
+      },
+      {
+        "analytic": {
+          "condition": "correct normal homoscedastic model and full-rank design",
+          "df_reference_pvalue": 495,
+          "df_residual": 493,
+          "qr_t_coverage": 0.95,
+          "qr_t_null_rejection": 0.05,
+          "reference_coverage": 0.949437101241883,
+          "reference_null_rejection": 0.05000226913972239
+        },
+        "cell": "n500-rho0p75-positive",
+        "methods": {
+          "python": {
+            "attempted": 2000,
+            "bias": -0.001406260217799478,
+            "bias_mcse": 0.001137552009305525,
+            "coverage_all_planned_bounds": [
+              0.9505,
+              0.9505
+            ],
+            "coverage_successful": 0.9505,
+            "coverage_wilson": [
+              0.9400999950103993,
+              0.9591727453891917
+            ],
+            "covered": 1901,
+            "covered_fraction_planned": 0.9505,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.050872872414972556,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.1992332067261322,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1995,
+            "rejected_fraction_planned": 0.9975,
+            "rejection_kind": "power",
+            "rejection_successful": 0.9975,
+            "rejection_wilson": [
+              0.9941608466835673,
+              0.9989316912715861
+            ],
+            "rms_se": 0.050866586228947054,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "qr_t": {
+            "attempted": 2000,
+            "bias": -0.0014062602177997055,
+            "bias_mcse": 0.0011375520093055242,
+            "coverage_all_planned_bounds": [
+              0.9515,
+              0.9515
+            ],
+            "coverage_successful": 0.9515,
+            "coverage_wilson": [
+              0.9411889997479057,
+              0.9600799065571228
+            ],
+            "covered": 1903,
+            "covered_fraction_planned": 0.9515,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.050872872414972514,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.19972352697282195,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1995,
+            "rejected_fraction_planned": 0.9975,
+            "rejection_kind": "power",
+            "rejection_successful": 0.9975,
+            "rejection_wilson": [
+              0.9941608466835673,
+              0.9989316912715861
+            ],
+            "rms_se": 0.05086658622894707,
+            "successful": 2000,
+            "unattempted": 0
+          },
+          "r": {
+            "attempted": 2000,
+            "bias": -0.0014062602177997232,
+            "bias_mcse": 0.001137552009305524,
+            "coverage_all_planned_bounds": [
+              0.9505,
+              0.9505
+            ],
+            "coverage_successful": 0.9505,
+            "coverage_wilson": [
+              0.9400999950103993,
+              0.9591727453891917
+            ],
+            "covered": 1901,
+            "covered_fraction_planned": 0.9505,
+            "diagnostics_only": {
+              "bias_exceeds_3_mcse": false,
+              "coverage_wilson_outside_093_097": false
+            },
+            "empirical_sd": 0.0508728724149725,
+            "failed": 0,
+            "failed_fraction_planned": 0.0,
+            "failure_classes": {},
+            "failure_codes": {},
+            "mean_interval_width": 0.1992332067261322,
+            "missing": 0,
+            "missing_fraction_planned": 0.0,
+            "planned": 2000,
+            "rejected": 1995,
+            "rejected_fraction_planned": 0.9975,
+            "rejection_kind": "power",
+            "rejection_successful": 0.9975,
+            "rejection_wilson": [
+              0.9941608466835673,
+              0.9989316912715861
+            ],
+            "rms_se": 0.050866586228947054,
+            "successful": 2000,
+            "unattempted": 0
+          }
+        },
+        "paired": {
+          "python_vs_qr_t": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          },
+          "python_vs_r": {
+            "agree": 2000,
+            "mismatch": 0,
+            "mismatching_cases": [],
+            "missing": 0,
+            "planned": 2000,
+            "unavailable": 0
+          }
+        },
+        "reference_conventions": {
+          "checked": 2000,
+          "mismatch": 0,
+          "mismatching_cases": [],
+          "unavailable": 0
+        },
+        "true_psi": 0.25
+      }
+    ],
+    "completed_batches": 1200,
+    "execution_complete": true,
+    "identity_sha256": "954276ca46124e3f1e06bf6288d99e2b2c3f881b9b0657b495df664194378343",
+    "interpretation": "Diagnostics are descriptive, not a calibration pass/fail or release decision.",
+    "missing": 0,
+    "mode": "study",
+    "output_bytes": 535347132,
+    "peak_memory_bytes": null,
+    "planned": 24000,
+    "schema_version": 1,
+    "status": "complete_numerical_agreement",
+    "terminal": 24000
+  },
+  "timing": {
+    "aggregation_seconds": 93.6505082026124,
+    "batch_seconds_including_generation_and_checkpoints": 4611.926134521142,
+    "peak_memory_bytes": null,
+    "preflight_seconds": 2.9473706670105457,
+    "resumed": false,
+    "scope": "this invocation through summary write, including R preflight; excludes timing record write and lock release",
+    "setup_seconds": 0.09468269720673561,
+    "summary_write_seconds": 0.04177104867994785,
+    "total_invocation_seconds": 4708.660471338779
+  },
+  "verification": {
+    "batch_inventory_sha256": "67e2e94f515032774dfdce1a431eea81e5f911bbac15b900e3ca3654b2ec98f8",
+    "batches_with_infrastructure_errors": [],
+    "cases": 24000,
+    "cross_environment_reconciliation": {
+      "different_floating_fields": 24,
+      "exact_nonfloating_fields": true,
+      "limits": "The observed differences are confined to Wilson interval endpoints under the existing summary reconciliation tolerances; no tolerance or result was changed.",
+      "maximum_absolute_difference": 1.1102230246251565e-16,
+      "status": "passed_with_floating_point_rounding"
+    },
+    "limits": [
+      "No model was refitted and no data were regenerated. Input hashes check retained bytes, not generator correctness or PRNG independence.",
+      "This checks retained Python/R/QR outputs. It does not independently prove R parsed the identical arrays or restore the server environment.",
+      "Analytic targets are checked against protocol values rounded to eight decimal places, not recomputed from a distribution library.",
+      "The saved output_bytes value precedes summary/timing writes. Its range is checked; its historical exact value and external memory/runtime logs are not reconciled.",
+      "Mean SE, RMSE and binomial MCSE are extra descriptive calculations; they are not stored production summary fields or additional release criteria.",
+      "Successful arithmetic and numerical agreement do not establish interval calibration, causal validity, generalizability or release readiness."
+    ],
+    "method_failures": 0,
+    "paired_and_convention_mismatches": 0,
+    "production_reaggregation": "exact except expected directory-size change after summary/timing writes",
+    "public_checker_sha256": "da5be168b812faf47597bc8aed77d1fd3517b0914c56a6fb78a537f34e510a4d",
+    "read_only_check_attempts": [
+      {
+        "cause": "External /usr/bin/time was unavailable; no reaggregation started",
+        "status": "failed_after_independent_check"
+      },
+      {
+        "repair": "Used Bash built-in timing for the unchanged read-only aggregation; no fits or draws repeated",
+        "status": "passed"
+      }
+    ],
+    "retained_input_hashes_checked": 24000,
+    "server_checker_sha256": "b7f0908ffeefb0c71488bbb85139a5712c8b9ee82a1aff5eafcecc30a47c6360",
+    "status": "verified_complete_study_records",
+    "summary_reconciliation": {
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-10,
+      "status": "all stored inferential and count fields agree"
+    },
+    "transfer": {
+      "file_count": 1203,
+      "status": "passed",
+      "total_bytes": 535384830
+    }
+  }
+}

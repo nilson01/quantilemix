@@ -1,0 +1,232 @@
+{
+  "protocol": "binomial-known-scores-v1",
+  "plan": {
+    "protocol": "binomial-known-scores-v1",
+    "mode": "study",
+    "n": 500,
+    "cells": [
+      {
+        "cell": 0,
+        "center_event_probability": 0.1,
+        "truth": 0.0
+      },
+      {
+        "cell": 1,
+        "center_event_probability": 0.1,
+        "truth": 0.4
+      },
+      {
+        "cell": 2,
+        "center_event_probability": 0.5,
+        "truth": 0.0
+      },
+      {
+        "cell": 3,
+        "center_event_probability": 0.5,
+        "truth": 0.4
+      }
+    ],
+    "repetitions_per_cell": 1000,
+    "total_fits": 4000,
+    "seed": 20261023
+  },
+  "source_identity": {
+    "git_commit": "5b43bc32abf0daa9b0192b884c4f2d74b3096088",
+    "git_dirty": false,
+    "runner_sha256": "e383bdfbebfff8bb9d3f340ea7b84e683bd59b60e05d01d4f8ae8d95a64643f5",
+    "implementation_sha256": "434ecfd08123a5e2b574f372c545ffb497af162e20b80074e8d9c8d537c9d25e",
+    "python": "3.11.5",
+    "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "numpy": "2.0.0",
+    "scipy": "1.14.0"
+  },
+  "server": {
+    "job_id": 2905331,
+    "pilot_job_id": 2905330,
+    "elapsed_seconds": 16,
+    "result_sha256": "1a054d5456904d6e885849b9017565f14b0408fd60c94141b67f28ef149b159a",
+    "check_sha256": "b6ad8f290141340db6316b77c8141f413dbc8954c9effb333dfc553817475368",
+    "bundle_sha256": "5be77736f6ca59ecce4948f1ddb3970a2cf1a62c7b68d77ed6243bfbd6578864"
+  },
+  "status": "passed",
+  "total_cases": 4000,
+  "paired": 4000,
+  "fit_failures": 0,
+  "independent_failures": 0,
+  "issues": 0,
+  "maximum_absolute_difference": 2.9568125725631944e-11,
+  "checker_identity": {
+    "checker_sha256": "fce030cacbdb7f35a0a69cb55c098405c3db78c3de75f533514362298e2c0f9f",
+    "checker_python": "3.11.5",
+    "checker_numpy": "2.0.0",
+    "checker_scipy": "1.14.0"
+  },
+  "summaries": {
+    "0": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "event_fraction": 0.100586,
+      "warnings": 0,
+      "covered": 946,
+      "rejected": 54,
+      "coverage_all_planned_bounds": [
+        0.946,
+        0.946
+      ],
+      "bias": -0.013910487249117223,
+      "bias_mcse": 0.008703750020245728,
+      "empirical_sd": 0.2752367424871315,
+      "root_mean_variance": 0.27184506826240595,
+      "coverage": 0.946,
+      "coverage_wilson_95": [
+        0.9302078451539475,
+        0.9583786862769372
+      ],
+      "rejection_rate": 0.054,
+      "rejection_wilson_95": [
+        0.04162131372306273,
+        0.06979215484605245
+      ]
+    },
+    "1": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "event_fraction": 0.101522,
+      "warnings": 0,
+      "covered": 955,
+      "rejected": 318,
+      "coverage_all_planned_bounds": [
+        0.955,
+        0.955
+      ],
+      "bias": 0.0066851723293318115,
+      "bias_mcse": 0.008687489730792228,
+      "empirical_sd": 0.2747225469862647,
+      "root_mean_variance": 0.2740260767923033,
+      "coverage": 0.955,
+      "coverage_wilson_95": [
+        0.9403171620637766,
+        0.9662004877143683
+      ],
+      "rejection_rate": 0.318,
+      "rejection_wilson_95": [
+        0.2898795107350345,
+        0.34751342935370755
+      ]
+    },
+    "2": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "event_fraction": 0.50043,
+      "warnings": 0,
+      "covered": 952,
+      "rejected": 48,
+      "coverage_all_planned_bounds": [
+        0.952,
+        0.952
+      ],
+      "bias": 0.0027736563436998175,
+      "bias_mcse": 0.005105506146891887,
+      "empirical_sd": 0.16145028032168554,
+      "root_mean_variance": 0.16181163027341833,
+      "coverage": 0.952,
+      "coverage_wilson_95": [
+        0.936933911349866,
+        0.963606698979192
+      ],
+      "rejection_rate": 0.048,
+      "rejection_wilson_95": [
+        0.036393301020807914,
+        0.06306608865013393
+      ]
+    },
+    "3": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "event_fraction": 0.499482,
+      "warnings": 0,
+      "covered": 952,
+      "rejected": 697,
+      "coverage_all_planned_bounds": [
+        0.952,
+        0.952
+      ],
+      "bias": 0.007340918464248468,
+      "bias_mcse": 0.005155660752775084,
+      "empirical_sd": 0.16303630821907536,
+      "root_mean_variance": 0.16435829560079068,
+      "coverage": 0.952,
+      "coverage_wilson_95": [
+        0.936933911349866,
+        0.963606698979192
+      ],
+      "rejection_rate": 0.697,
+      "rejection_wilson_95": [
+        0.6678076814786311,
+        0.72468457567806
+      ]
+    }
+  },
+  "independent_per_cell": {
+    "0": {
+      "paired": 1000,
+      "package_failures": 0,
+      "independent_failures": 0,
+      "mismatches": 0,
+      "independent_successful": 1000,
+      "independent_covered": 946,
+      "independent_rejected": 54,
+      "independent_bias": -0.013910487249108195,
+      "independent_coverage": 0.946,
+      "independent_rejection_rate": 0.054
+    },
+    "1": {
+      "paired": 1000,
+      "package_failures": 0,
+      "independent_failures": 0,
+      "mismatches": 0,
+      "independent_successful": 1000,
+      "independent_covered": 955,
+      "independent_rejected": 318,
+      "independent_bias": 0.006685172329329525,
+      "independent_coverage": 0.955,
+      "independent_rejection_rate": 0.318
+    },
+    "2": {
+      "paired": 1000,
+      "package_failures": 0,
+      "independent_failures": 0,
+      "mismatches": 0,
+      "independent_successful": 1000,
+      "independent_covered": 952,
+      "independent_rejected": 48,
+      "independent_bias": 0.0027736563436999255,
+      "independent_coverage": 0.952,
+      "independent_rejection_rate": 0.048
+    },
+    "3": {
+      "paired": 1000,
+      "package_failures": 0,
+      "independent_failures": 0,
+      "mismatches": 0,
+      "independent_successful": 1000,
+      "independent_covered": 952,
+      "independent_rejected": 697,
+      "independent_bias": 0.007340918464247425,
+      "independent_coverage": 0.952,
+      "independent_rejection_rate": 0.697
+    }
+  }
+}

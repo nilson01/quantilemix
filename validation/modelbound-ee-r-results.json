@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T07:52:35.982803+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "7f8141e241ed84a7ac97dd5d0d598cb48d1c67a607688a28d3105897575934fc",
+  "r_exporter_sha256": "9ab5dc29d13dbd790404de3aa350d938dd440715bf4c368951e81e09dbb6bd01",
+  "fit_max_absolute_differences": {
+    "coefficients": 1.3877787807814457e-15,
+    "covariance": 1.1599662202987915e-14,
+    "draws_False": 0.0,
+    "draws_True": 0.0
+  },
+  "cases": [
+    {
+      "pwonly": false,
+      "max_absolute_differences": {
+        "quantile": 0.0,
+        "quantile.midpoint": 0.0,
+        "linpred": 1.1102230246251565e-15,
+        "m": 1.1102230246251565e-15,
+        "se.pw": 6.245004513516506e-17,
+        "ll.pw": 3.1086244689504383e-15,
+        "ul.pw": 4.218847493575595e-15,
+        "ll.simul": 7.993605777301127e-15,
+        "ul.simul": 5.773159728050814e-15
+      }
+    },
+    {
+      "pwonly": true,
+      "max_absolute_differences": {
+        "quantile": 0.0,
+        "quantile.midpoint": 0.0,
+        "linpred": 1.1102230246251565e-15,
+        "m": 1.1102230246251565e-15,
+        "se.pw": 6.245004513516506e-17,
+        "ll.pw": 3.1086244689504383e-15,
+        "ul.pw": 4.218847493575595e-15
+      }
+    }
+  ],
+  "random_stream_difference": "Python and R use different random generators; exact tables agree when supplied the same R coefficient draws.",
+  "prequantized_R_limit": "Installed R modelbound.ee errors for q=NULL at seq_len(x$q); the comparison uses q=4."
+}

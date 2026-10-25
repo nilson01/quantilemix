@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T08:46:07.936112+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "61646422bf2d2a8ef99620135bbfe284dc64d420b1f0363e771289420177b450",
+  "r_exporter_sha256": "3d9299c9b914310a57edb829a09b43deee9adbe680ca73ebd6271d7a30410d03",
+  "cases": [
+    {
+      "name": "weighted_gaussian_ee",
+      "max_absolute_differences": {
+        "conditional_coefficients": 3.3306690738754696e-15,
+        "conditional_covariance": 4.7174503886582286e-14,
+        "msm_coefficients": 6.217248937900877e-15,
+        "msm_covariance": 2.7038484298747e-14,
+        "full_covariance": 4.7174503886582286e-14,
+        "bread": 6.22799234406557e-08,
+        "meat": 1.8189894035458565e-11,
+        "psi": 1.5265566588595902e-15,
+        "variance": 2.7038484298747e-14,
+        "ci": 9.25148846420143e-13,
+        "statistic": 9.582556970144651e-11,
+        "p": 4.112012763185627e-17,
+        "scores": 0.0,
+        "levels": 0.0,
+        "standardized": 1.354472090042691e-14,
+        "df": 0.0,
+        "breaks[0]": 1.1102230246251565e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "weighted_poisson_ee",
+      "max_absolute_differences": {
+        "conditional_coefficients": 3.552713678800501e-15,
+        "conditional_covariance": 1.2731326409776145e-12,
+        "msm_coefficients": 4.6629367034256575e-15,
+        "msm_covariance": 5.071717351645688e-12,
+        "full_covariance": 5.071717351645688e-12,
+        "bread": 5.31361365574412e-07,
+        "meat": 1.4551915228366852e-11,
+        "psi": 8.326672684688674e-17,
+        "variance": 1.888962944396333e-12,
+        "ci": 1.8117618516555467e-11,
+        "statistic": 6.98159752232641e-10,
+        "p": 4.1844971931936925e-11,
+        "scores": 0.0,
+        "levels": 0.0,
+        "standardized": 3.552713678800501e-15,
+        "breaks[0]": 1.1102230246251565e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "weighted_binomial_ee_or",
+      "max_absolute_differences": {
+        "conditional_coefficients": 2.013944566670034e-13,
+        "conditional_covariance": 1.8786638911194586e-11,
+        "msm_coefficients": 3.4861002973229915e-14,
+        "msm_covariance": 2.7534474700274814e-11,
+        "full_covariance": 2.7534474700274814e-11,
+        "bread": 9.636096365284175e-09,
+        "meat": 2.3305801732931286e-11,
+        "psi": 2.0539125955565396e-14,
+        "variance": 5.3297366520155265e-12,
+        "ci": 1.6953771719840915e-11,
+        "statistic": 6.772338245752962e-11,
+        "p": 1.1190368076618995e-11,
+        "scores": 0.0,
+        "levels": 0.0,
+        "standardized": 2.708944180085382e-14,
+        "breaks[0]": 1.1102230246251565e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    },
+    {
+      "name": "weighted_binomial_ee_rr",
+      "max_absolute_differences": {
+        "conditional_coefficients": 1.3322676295501878e-15,
+        "conditional_covariance": 2.560124334749503e-11,
+        "msm_coefficients": 1.5543122344752192e-13,
+        "msm_covariance": 7.688821801465906e-12,
+        "full_covariance": 2.560124334749503e-11,
+        "bread": 1.7232878235518e-08,
+        "meat": 1.8735590856522322e-10,
+        "psi": 9.869882688917642e-14,
+        "variance": 1.9898284409070044e-12,
+        "ci": 1.2305712004945235e-11,
+        "statistic": 9.601786032931159e-11,
+        "p": 1.0714915066323272e-11,
+        "scores": 0.0,
+        "levels": 0.0,
+        "standardized": 3.3306690738754696e-16,
+        "breaks[0]": 1.1102230246251565e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    }
+  ],
+  "derivative_difference": "R saves a Richardson numerical Jacobian; Python uses exact derivatives."
+}

@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "weighted_prequantized",
+      "status": "passed",
+      "max_absolute_difference": {
+        "psi": 1.9984014443252818e-15,
+        "se": 5.48172618408671e-16,
+        "ci": 7.771561172376096e-16,
+        "bootstrap_effects": 7.105427357601002e-15,
+        "intervention_means": 3.9968028886505635e-15,
+        "scores": 0.0
+      }
+    },
+    {
+      "name": "weighted_quantized",
+      "status": "passed",
+      "max_absolute_difference": {
+        "psi": 1.9984014443252818e-15,
+        "se": 1.457167719820518e-16,
+        "ci": 1.1102230246251565e-15,
+        "bootstrap_effects": 5.551115123125783e-15,
+        "intervention_means": 3.9968028886505635e-15,
+        "scores": 0.0
+      }
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "31209cce2c2982966b1a4aa83c079653cd0e498a16ec99f3453ba74b6e845948",
+    "exporter_sha256": "21d317c29473d80374b8b6f24e7f2c066a7299c3ec31838be2caed4fbca335f3"
+  },
+  "scope": "two weighted Gaussian fixed-cut row-bootstrap cases; matched R row schedules",
+  "checked_at_utc": "2026-10-25T00:28:54.396629+00:00"
+}

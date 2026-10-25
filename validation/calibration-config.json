@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "protocol_id": "gaussian-known-scores-v1",
+  "reference_version": "2.19.6",
+  "target": "known_scores",
+  "alpha": 0.05,
+  "design": {
+    "sample_sizes": [100, 500],
+    "rho": [0, 0.75],
+    "beta": {
+      "null": [0, 0, 0, 0],
+      "cancellation": [0.25, -0.25, 0, 0],
+      "positive": [0.1, 0.1, 0.05, 0]
+    },
+    "intercept": 1,
+    "covariate_coefficients": [0.5, -0.25],
+    "exposure_z1_loading": 0.5,
+    "error_sd": 1,
+    "quartile_variance": 1.25
+  },
+  "study": {"replicates_per_cell": 2000, "seed_namespace": 2},
+  "pilot": {
+    "replicates": 20,
+    "sample_size": 500,
+    "rho": 0.75,
+    "beta_name": "positive",
+    "seed_namespace": 1
+  },
+  "execution": {
+    "batch_size": 20,
+    "master_seed": 20261022,
+    "retain_inputs": true,
+    "storage_budget_bytes": 3000000000
+  }
+}

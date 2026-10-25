@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "binary_exact_scores",
+      "status": "passed",
+      "max_absolute_difference": {
+        "coefficients": 2.9700686354772188e-12,
+        "covariance": 2.718754744668317e-07,
+        "scores": 0.0,
+        "psi": 5.929923219127886e-12,
+        "variance": 9.18751461354006e-07,
+        "se": 6.290263964148224e-07,
+        "ci": 1.2328750162993174e-06,
+        "zstat": 2.5914545846994486e-06,
+        "p": 2.237894946048244e-08,
+        "residual_df": 0.0,
+        "fitted": 5.559996907322784e-13,
+        "predictions": 5.559996907322784e-13
+      }
+    },
+    {
+      "name": "binary_quantized_adjusted",
+      "status": "passed",
+      "max_absolute_difference": {
+        "coefficients": 3.8413716652030416e-14,
+        "covariance": 2.2847586461649527e-08,
+        "scores": 0.0,
+        "psi": 2.1649348980190553e-14,
+        "variance": 5.957455521954369e-09,
+        "se": 1.2840787017021071e-08,
+        "ci": 2.516750130521217e-08,
+        "zstat": 1.0433216823813041e-07,
+        "p": 1.4091131955717984e-08,
+        "residual_df": 0.0,
+        "fitted": 8.992806499463768e-15,
+        "predictions": 8.659739592076221e-15
+      }
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "f485fff20c5e9fe6856d9e1ef6f190a87c546bc2cd8a7b35a19b59336aa14960",
+    "exporter_sha256": "186e70991ec08efbf34dea23479538706de8b4d9e923ca594daf46ff033a57d7"
+  },
+  "scope": "fixed additive Bernoulli-logit fits; R default GLM covariance differs by up to about 1e-6",
+  "python_vs_R_tolerance": {
+    "coefficients_and_predictions": {
+      "absolute": 5e-10,
+      "relative": 5e-10
+    },
+    "uncertainty": {
+      "absolute": 2e-06,
+      "relative": 2e-06
+    }
+  },
+  "checked_at_utc": "2026-10-23T14:38:04.921118+00:00"
+}

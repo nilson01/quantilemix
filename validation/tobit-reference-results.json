@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "tobit_left_prequantized",
+      "max_absolute_difference": {
+        "coefficients": 2.6334490144108713e-13,
+        "covariance": 1.1879386363489175e-14,
+        "sigma": 7.505107646466058e-14,
+        "psi": 1.0014211682118912e-13,
+        "variance": 2.256875242245826e-15,
+        "ci": 1.2245759961615477e-13,
+        "p": 5.2310341962428166e-17,
+        "scores": 0.0,
+        "left_count": 0.0,
+        "right_count": 0.0
+      }
+    },
+    {
+      "name": "tobit_two_sided_quantized",
+      "max_absolute_difference": {
+        "coefficients": 4.973799150320701e-13,
+        "covariance": 2.721434189112415e-14,
+        "sigma": 1.5698553568199713e-13,
+        "psi": 1.7408297026122455e-13,
+        "variance": 5.1746801288388156e-15,
+        "ci": 2.233768725545815e-13,
+        "p": 6.19541398113867e-17,
+        "scores": 0.0,
+        "left_count": 0.0,
+        "right_count": 0.0
+      }
+    }
+  ],
+  "maximum_numeric_gap": 4.973799150320701e-13,
+  "R_version": "R version 4.5.1 (2025-06-13)",
+  "qgcomp_version": "2.19.6",
+  "AER_version": "1.2.17",
+  "survival_version": "3.8.3",
+  "fixture_sha256": "3c16007faf1c30fecef9129ee2da15134c53be56eebf402882485d20da41b978",
+  "exporter_sha256": "0504cbf941e7ef36197a471834fc1f6d65338fb29341559d902f8ac0a73e387e"
+}

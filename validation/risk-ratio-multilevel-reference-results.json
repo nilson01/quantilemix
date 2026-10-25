@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T06:03:58.368320+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "053728944a11ca6d91c180ae0f79772b9efa27389a047a5b5e8ee6e06dff99ed",
+  "r_exporter_sha256": "2c25ebf0410f8ff4623a4915419d3dd0cd99db3ee6ef61fc54318cb10b00578a",
+  "cases": [
+    {
+      "name": "four_levels_unadjusted",
+      "max_absolute_differences": {
+        "psi": 3.4356818501279918e-09,
+        "se": 2.6443073564141883e-09,
+        "ci": 8.618428415374524e-09,
+        "p": 6.97738425196881e-10,
+        "risks": 3.6168290584726037e-13,
+        "msm_coefficients": 5.217772880428129e-09,
+        "msm_fitted_risks": 2.8816029562506174e-09,
+        "effects": 4.659821284391796e-08
+      }
+    },
+    {
+      "name": "four_levels_adjusted",
+      "max_absolute_differences": {
+        "psi": 3.439298346119557e-09,
+        "se": 3.0573406029077432e-09,
+        "ci": 9.431576630802851e-09,
+        "p": 9.050583433742321e-10,
+        "risks": 3.628486400231168e-13,
+        "msm_coefficients": 5.223252497188469e-09,
+        "msm_fitted_risks": 2.8846318667063997e-09,
+        "effects": 4.7041717243789805e-08
+      }
+    }
+  ],
+  "scope": "Two fixed four-level cases; shared R bootstrap rows; not interval calibration."
+}

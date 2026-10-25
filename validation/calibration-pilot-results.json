@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-22",
+  "protocol_id": "gaussian-known-scores-v1",
+  "mode": "pilot",
+  "fit_revision": "4c4450e7b6102719dbf3bbfd2e9cbb73f43f7484",
+  "status": "complete_numerical_agreement",
+  "planned": 20,
+  "attempted": 20,
+  "terminal": 20,
+  "missing": 0,
+  "method_successes": {
+    "python": 20,
+    "r": 20,
+    "qr_t": 20
+  },
+  "method_failures": {
+    "python": 0,
+    "r": 0,
+    "qr_t": 0
+  },
+  "method_warning_counts": {
+    "python": 0,
+    "r": 0,
+    "qr_t": 0
+  },
+  "paired_comparisons": {
+    "python_vs_qr_t": {
+      "agree": 20,
+      "mismatch": 0,
+      "mismatching_cases": [],
+      "missing": 0,
+      "planned": 20,
+      "unavailable": 0
+    },
+    "python_vs_r": {
+      "agree": 20,
+      "mismatch": 0,
+      "mismatching_cases": [],
+      "missing": 0,
+      "planned": 20,
+      "unavailable": 0
+    }
+  },
+  "reference_conventions": {
+    "checked": 20,
+    "mismatch": 0,
+    "mismatching_cases": [],
+    "unavailable": 0
+  },
+  "maximum_absolute_numeric_differences": {
+    "r": {
+      "psi": 5.218048215738236e-15,
+      "variance": 9.974659986866641e-18,
+      "se": 1.1102230246251565e-16,
+      "ci_lower": 4.440892098500626e-15,
+      "ci_upper": 4.9404924595819466e-15,
+      "p_value": 1.6371452804531117e-16
+    },
+    "qr_t": {
+      "psi": 5.134781488891349e-15,
+      "variance": 3.469446951953614e-18,
+      "se": 3.469446951953614e-17
+    }
+  },
+  "timing": {
+    "aggregation_seconds": 0.04606508300639689,
+    "batch_seconds_including_generation_and_checkpoints": 1.4071737499907613,
+    "peak_memory_bytes": null,
+    "preflight_seconds": 1.0751533329021186,
+    "resumed": false,
+    "scope": "this invocation through summary write, including R preflight; excludes timing record write and lock release",
+    "setup_seconds": 0.0040694172494113445,
+    "summary_write_seconds": 0.0004323332104831934,
+    "total_invocation_seconds": 2.5328948341775686
+  },
+  "external_elapsed_seconds": 3.2486957078799605,
+  "memory": {
+    "python_os_peak_rss_bytes": 106168320,
+    "sampled_family_peak_rss_bytes": 489177088,
+    "sample_count": 39,
+    "maximum_sample_gap_seconds": 0.09803508408367634,
+    "python_process_swaps": 0,
+    "terminated_children_swaps": 0,
+    "limits": "RSS samples may miss peaks; summed RSS may double-count shared pages. macOS ru_maxrss is in bytes. Child accounting covers the terminated R-launched process tree, including a briefly observed shell, not a separate peak for each R call or simultaneous family usage.",
+    "terminated_children_os_max_rss_bytes": 396984320
+  },
+  "final_run_bytes": 742679,
+  "environment": {
+    "machine": "arm64",
+    "numerical_libraries": {
+      "blas": {
+        "name": "accelerate",
+        "openblas configuration": "unknown",
+        "version": "unknown"
+      },
+      "lapack": {
+        "name": "accelerate",
+        "openblas configuration": "unknown",
+        "version": "unknown"
+      }
+    },
+    "numpy": "2.5.4",
+    "platform": "darwin",
+    "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "scipy": "1.18.1",
+    "threads": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    }
+  },
+  "reference": {
+    "R_version": "R version 4.5.1 (2025-06-13)",
+    "installed_package_md5": {
+      "DESCRIPTION": "28727f414aa5e6b5a259d2cf3a1ee921",
+      "NAMESPACE": "25ab438846662a681e18069dfd27bb41",
+      "R/qgcomp.rdb": "51349ced2cdfd79211618cca10e6cf91",
+      "R/qgcomp.rdx": "8ac0a8939e6afc077aebf798b570325e"
+    },
+    "installed_packages": {
+      "AER": {
+        "Built": "R 4.5.2; ; 2026-07-11 20:35:26 UTC; unix",
+        "version": "1.2-17"
+      },
+      "Deriv": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-10-21 23:49:45 UTC; unix",
+        "version": "4.3.6"
+      },
+      "Formula": {
+        "Built": "R 4.5.2; ; 2026-08-03 08:58:49 UTC; unix",
+        "version": "1.2-6"
+      },
+      "MatrixModels": {
+        "Built": "R 4.5.0; ; 2025-04-01 11:50:57 UTC; unix",
+        "version": "0.5-4"
+      },
+      "R6": {
+        "Built": "R 4.5.0; ; 2025-02-15 01:07:20 UTC; unix",
+        "version": "2.6.1"
+      },
+      "RColorBrewer": {
+        "Built": "R 4.5.0; ; 2025-03-31 21:42:41 UTC; unix",
+        "version": "1.1-3"
+      },
+      "Rcpp": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-07-05 10:20:17 UTC; unix",
+        "version": "1.1.2"
+      },
+      "RcppArmadillo": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-10-17 07:58:25 UTC; unix",
+        "version": "15.6.2-1"
+      },
+      "RcppEigen": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:46:11 UTC; unix",
+        "version": "0.3.4.0.2"
+      },
+      "Rdpack": {
+        "Built": "R 4.5.2; ; 2026-02-08 09:50:24 UTC; unix",
+        "version": "2.6.6"
+      },
+      "S7": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-22 14:36:04 UTC; unix",
+        "version": "0.2.2"
+      },
+      "SparseM": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:44:27 UTC; unix",
+        "version": "1.84-2"
+      },
+      "abind": {
+        "Built": "R 4.5.0; ; 2025-03-31 21:45:01 UTC; unix",
+        "version": "1.4-8"
+      },
+      "arm": {
+        "Built": "R 4.5.2; ; 2026-04-20 23:30:23 UTC; unix",
+        "version": "1.15-3"
+      },
+      "backports": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-03 06:27:07 UTC; unix",
+        "version": "1.5.1"
+      },
+      "broom": {
+        "Built": "R 4.5.2; ; 2026-05-14 09:48:38 UTC; unix",
+        "version": "1.0.13"
+      },
+      "car": {
+        "Built": "R 4.5.2; ; 2026-02-03 12:38:39 UTC; unix",
+        "version": "3.1-5"
+      },
+      "carData": {
+        "Built": "R 4.5.2; ; 2026-01-30 18:13:51 UTC; unix",
+        "version": "3.0-6"
+      },
+      "cli": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-15 04:52:40 UTC; unix",
+        "version": "3.6.6"
+      },
+      "coda": {
+        "Built": "R 4.5.0; ; 2025-03-31 21:53:04 UTC; unix",
+        "version": "0.19-4.1"
+      },
+      "colorspace": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-10-08 09:54:48 UTC; unix",
+        "version": "2.1-4"
+      },
+      "cowplot": {
+        "Built": "R 4.5.0; ; 2025-07-07 20:27:25 UTC; unix",
+        "version": "1.2.0"
+      },
+      "cpp11": {
+        "Built": "R 4.5.2; ; 2026-05-06 16:24:00 UTC; unix",
+        "version": "0.5.5"
+      },
+      "digest": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-22 19:17:48 UTC; unix",
+        "version": "0.6.39"
+      },
+      "doBy": {
+        "Built": "R 4.5.2; ; 2026-07-01 12:18:23 UTC; unix",
+        "version": "4.7.2"
+      },
+      "dplyr": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-03 11:02:49 UTC; unix",
+        "version": "1.2.1"
+      },
+      "farver": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:42:31 UTC; unix",
+        "version": "2.1.2"
+      },
+      "forecast": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-03-22 21:06:40 UTC; unix",
+        "version": "9.0.2"
+      },
+      "fracdiff": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-28 06:25:49 UTC; unix",
+        "version": "1.5-4"
+      },
+      "future": {
+        "Built": "R 4.5.2; ; 2026-10-16 06:31:20 UTC; unix",
+        "version": "1.80.0"
+      },
+      "future.apply": {
+        "Built": "R 4.5.2; ; 2026-10-16 19:38:47 UTC; unix",
+        "version": "1.21.0"
+      },
+      "generics": {
+        "Built": "R 4.5.0; ; 2025-05-10 00:42:34 UTC; unix",
+        "version": "0.1.4"
+      },
+      "ggplot2": {
+        "Built": "R 4.5.2; ; 2026-04-22 09:41:08 UTC; unix",
+        "version": "4.0.3"
+      },
+      "globals": {
+        "Built": "R 4.5.2; ; 2026-10-11 21:35:54 UTC; unix",
+        "version": "0.20.0"
+      },
+      "glue": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-20 23:19:49 UTC; unix",
+        "version": "1.8.1"
+      },
+      "gridExtra": {
+        "Built": "R 4.5.2; ; 2026-06-25 13:39:47 UTC; unix",
+        "version": "2.3.1"
+      },
+      "gtable": {
+        "Built": "R 4.5.0; ; 2025-04-01 11:49:51 UTC; unix",
+        "version": "0.3.6"
+      },
+      "isoband": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-07 07:05:55 UTC; unix",
+        "version": "0.3.0"
+      },
+      "jsonlite": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-27 07:33:55 UTC; unix",
+        "version": "2.0.0"
+      },
+      "labeling": {
+        "Built": "R 4.5.0; ; 2025-03-31 21:42:34 UTC; unix",
+        "version": "0.4.3"
+      },
+      "lifecycle": {
+        "Built": "R 4.5.2; ; 2026-01-08 12:03:10 UTC; unix",
+        "version": "1.0.5"
+      },
+      "listenv": {
+        "Built": "R 4.5.2; ; 2026-10-05 03:20:33 UTC; unix",
+        "version": "1.1.0"
+      },
+      "lme4": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-07-16 13:07:46 UTC; unix",
+        "version": "2.0-6"
+      },
+      "lmtest": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 22:03:15 UTC; unix",
+        "version": "0.9-40"
+      },
+      "magrittr": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-04 10:13:02 UTC; unix",
+        "version": "2.0.5"
+      },
+      "minqa": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:52:42 UTC; unix",
+        "version": "1.2.8"
+      },
+      "modelr": {
+        "Built": "R 4.5.0; ; 2025-04-02 08:27:13 UTC; unix",
+        "version": "0.1.11"
+      },
+      "nloptr": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:53:16 UTC; unix",
+        "version": "2.2.1"
+      },
+      "numDeriv": {
+        "Built": "R 4.5.0; ; 2025-03-31 21:55:04 UTC; unix",
+        "version": "2016.8-1.1"
+      },
+      "parallelly": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-06-29 16:50:08 UTC; unix",
+        "version": "1.48.0"
+      },
+      "pbkrtest": {
+        "Built": "R 4.5.0; ; 2025-07-18 23:28:24 UTC; unix",
+        "version": "0.5.5"
+      },
+      "pillar": {
+        "Built": "R 4.5.0; ; 2025-09-17 13:45:18 UTC; unix",
+        "version": "1.11.1"
+      },
+      "pkgconfig": {
+        "Built": "R 4.5.0; ; 2025-03-31 21:41:54 UTC; unix",
+        "version": "2.0.3"
+      },
+      "pscl": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:57:25 UTC; unix",
+        "version": "1.5.9"
+      },
+      "purrr": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-15 05:01:28 UTC; unix",
+        "version": "1.2.2"
+      },
+      "qgcomp": {
+        "Built": "R 4.5.1; ; 2026-10-22 23:22:43 UTC; unix",
+        "version": "2.19.6"
+      },
+      "quantreg": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 15:55:49 UTC; unix",
+        "version": "6.1"
+      },
+      "rbibutils": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-21 08:54:26 UTC; unix",
+        "version": "2.4.1"
+      },
+      "reformulas": {
+        "Built": "R 4.5.2; ; 2026-02-02 07:47:21 UTC; unix",
+        "version": "0.4.4"
+      },
+      "rlang": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-07-05 10:20:23 UTC; unix",
+        "version": "1.3.0"
+      },
+      "rootSolve": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 22:10:26 UTC; unix",
+        "version": "1.8.2.4"
+      },
+      "sandwich": {
+        "Built": "R 4.5.2; ; 2026-08-03 13:35:08 UTC; unix",
+        "version": "3.1-3"
+      },
+      "scales": {
+        "Built": "R 4.5.0; ; 2025-04-24 11:54:38 UTC; unix",
+        "version": "1.4.0"
+      },
+      "stringi": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-08-04 17:41:58 UTC; unix",
+        "version": "1.8.9"
+      },
+      "stringr": {
+        "Built": "R 4.5.0; ; 2025-11-04 17:37:12 UTC; unix",
+        "version": "1.6.0"
+      },
+      "tibble": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-11 11:35:41 UTC; unix",
+        "version": "3.3.1"
+      },
+      "tidyr": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-21 22:56:43 UTC; unix",
+        "version": "1.3.2"
+      },
+      "tidyselect": {
+        "Built": "R 4.5.0; ; 2025-04-01 15:54:40 UTC; unix",
+        "version": "1.2.1"
+      },
+      "timeDate": {
+        "Built": "R 4.5.2; ; 2026-01-28 17:53:35 UTC; unix",
+        "version": "4052.112"
+      },
+      "urca": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 06:40:36 UTC; unix",
+        "version": "1.3-4"
+      },
+      "utf8": {
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-06-08 20:24:56 UTC; unix",
+        "version": "1.2.6"
+      },
+      "vctrs": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-15 04:58:47 UTC; unix",
+        "version": "0.7.3"
+      },
+      "viridisLite": {
+        "Built": "R 4.5.2; ; 2026-02-07 09:05:34 UTC; unix",
+        "version": "0.4.3"
+      },
+      "withr": {
+        "Built": "R 4.5.2; ; 2026-06-19 05:48:48 UTC; unix",
+        "version": "3.0.3"
+      },
+      "zoo": {
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-09-25 14:12:41 UTC; unix",
+        "version": "1.9-1"
+      }
+    },
+    "library_verified": true,
+    "mode": "installed package",
+    "package": "qgcomp",
+    "package_library_origins": {
+      "AER": "isolated",
+      "Formula": "isolated",
+      "MASS": "base-recommended",
+      "Matrix": "base-recommended",
+      "R6": "isolated",
+      "RColorBrewer": "isolated",
+      "Rcpp": "isolated",
+      "Rdpack": "isolated",
+      "S7": "isolated",
+      "abind": "isolated",
+      "arm": "isolated",
+      "base": "base-recommended",
+      "boot": "base-recommended",
+      "car": "isolated",
+      "carData": "isolated",
+      "cli": "isolated",
+      "coda": "isolated",
+      "compiler": "base-recommended",
+      "datasets": "base-recommended",
+      "dplyr": "isolated",
+      "farver": "isolated",
+      "generics": "isolated",
+      "ggplot2": "isolated",
+      "glue": "isolated",
+      "grDevices": "base-recommended",
+      "graphics": "base-recommended",
+      "grid": "base-recommended",
+      "gridExtra": "isolated",
+      "gtable": "isolated",
+      "jsonlite": "isolated",
+      "lattice": "base-recommended",
+      "lifecycle": "isolated",
+      "lme4": "isolated",
+      "lmtest": "isolated",
+      "magrittr": "isolated",
+      "methods": "base-recommended",
+      "minqa": "isolated",
+      "nlme": "base-recommended",
+      "nloptr": "isolated",
+      "nnet": "base-recommended",
+      "numDeriv": "isolated",
+      "pillar": "isolated",
+      "pkgconfig": "isolated",
+      "pscl": "isolated",
+      "qgcomp": "isolated",
+      "rbibutils": "isolated",
+      "reformulas": "isolated",
+      "rlang": "isolated",
+      "rootSolve": "isolated",
+      "sandwich": "isolated",
+      "scales": "isolated",
+      "splines": "base-recommended",
+      "stats": "base-recommended",
+      "survival": "base-recommended",
+      "tibble": "isolated",
+      "tidyselect": "isolated",
+      "tools": "base-recommended",
+      "utils": "base-recommended",
+      "vctrs": "isolated",
+      "zoo": "isolated"
+    },
+    "package_versions": {
+      "AER": "1.2-17",
+      "Formula": "1.2-6",
+      "MASS": "7.3-65",
+      "Matrix": "1.7-3",
+      "R6": "2.6.1",
+      "RColorBrewer": "1.1-3",
+      "Rcpp": "1.1.2",
+      "Rdpack": "2.6.6",
+      "S7": "0.2.2",
+      "abind": "1.4-8",
+      "arm": "1.15-3",
+      "base": "4.5.1",
+      "boot": "1.3-31",
+      "car": "3.1-5",
+      "carData": "3.0-6",
+      "cli": "3.6.6",
+      "coda": "0.19-4.1",
+      "compiler": "4.5.1",
+      "datasets": "4.5.1",
+      "dplyr": "1.2.1",
+      "farver": "2.1.2",
+      "generics": "0.1.4",
+      "ggplot2": "4.0.3",
+      "glue": "1.8.1",
+      "grDevices": "4.5.1",
+      "graphics": "4.5.1",
+      "grid": "4.5.1",
+      "gridExtra": "2.3.1",
+      "gtable": "0.3.6",
+      "jsonlite": "2.0.0",
+      "lattice": "0.22-7",
+      "lifecycle": "1.0.5",
+      "lme4": "2.0-6",
+      "lmtest": "0.9-40",
+      "magrittr": "2.0.5",
+      "methods": "4.5.1",
+      "minqa": "1.2.8",
+      "nlme": "3.1-168",
+      "nloptr": "2.2.1",
+      "nnet": "7.3-20",
+      "numDeriv": "2016.8-1.1",
+      "pillar": "1.11.1",
+      "pkgconfig": "2.0.3",
+      "pscl": "1.5.9",
+      "qgcomp": "2.19.6",
+      "rbibutils": "2.4.1",
+      "reformulas": "0.4.4",
+      "rlang": "1.3.0",
+      "rootSolve": "1.8.2.4",
+      "sandwich": "3.1-3",
+      "scales": "1.4.0",
+      "splines": "4.5.1",
+      "stats": "4.5.1",
+      "survival": "3.8-3",
+      "tibble": "3.3.1",
+      "tidyselect": "1.2.1",
+      "tools": "4.5.1",
+      "utils": "4.5.1",
+      "vctrs": "0.7.3",
+      "zoo": "1.9-1"
+    },
+    "platform": "aarch64-apple-darwin20",
+    "r_runtime_md5": {
+      "bin/exec/R": "96ff716695613894f9297d1ba16547c5"
+    },
+    "unexpected_loaded_namespaces": [],
+    "version": "2.19.6"
+  },
+  "source_sha256": {
+    "calibration.py": "a38464db2456d5aa05022840f66d9c329ef9195209084021926562ef5f43e877",
+    "calibration_r.R": "a9d2db991cccf994974e34ce59d1943217a7a9e2155e0c2581ce8dcc6c984dca",
+    "calibration_reference.py": "8a22c59e49b492cbddac32d802f3c7f86fe0b883e8608383c2c93c6f551293d1",
+    "qgcomp/_core.py": "efad59c9d420696fa6619795fdf5cd40c9f34829a32625a215ce0b7200f2f447"
+  },
+  "config_sha256": "7f4edd50e6ba6a84b047e94526ebd5fd8ce65675bec39dcd0a03f66a2e9a7935",
+  "identity_sha256": "7fdf1559b32a9420446d90dd369126cfc7da80da43b6da6c01b45a5c4962e00b",
+  "local_evidence_sha256": {
+    "run/manifest.json": "9a42a2613903bbf9a909feb5fa81a12309a0362b0da0c74a77324dcaefe42b02",
+    "run/batches/batch-000000.json": "5c8d216d87ca899a951d3e2be4ec309595869b29790790a33a3d7845d2db88ee",
+    "run/summary.json": "ceff44244d71b37c4763946291a03407d7ec6f4dd7e3a833d5306293c7e63ef2",
+    "run/timing.json": "e544449526f466bead2e1ad6334f7b924a38abf598a521837bec58907b501521",
+    "measurement/monitor.json": "fdcfb47c94596f1e5871ba557540901afc731cc4c2b3878ccad3c60bb926be75",
+    "measurement/os-usage.json": "bb04fa08779b59ece2c9927f11d660ce6a623cf23608519976d0ea83c66b8e05",
+    "measurement/rss.jsonl": "81e0362aa59eceafb6c0347b151380be16aa8664d6278ff19d4372e65b7a48a2",
+    "profile_run.py": "be69e7cb72cad8e8f55b84dc2dd1f2584b403b6cd25eff18b51d45a92529175a",
+    "scaling.json": "7f3cea06324727c9b6cca51e863ef201bd9c674dc5b617032ec051c589229680",
+    "check_pilot.py": "5e9792b947bf8ad275e4171b967a69ebacc88204ec71e3abb01ca5be6d00b471",
+    "independent-check.json": "4403f3a7dd28a8130354f772a8143fb87c94608708365c3a0c0af33f6d39c72b"
+  },
+  "study_executed": false,
+  "calibration_validated": false,
+  "interpretation": "This single-cell timing pilot checks execution and numerical agreement; it is excluded from study aggregates and cannot establish interval coverage."
+}

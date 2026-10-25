@@ -1,0 +1,1093 @@
+{
+  "status": "passed",
+  "case_count": 9,
+  "comparisons": [
+    {
+      "case": "adjusted_cancellation",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_cancellation",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_cancellation",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_cancellation",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.41869329670041,
+            0.116854129646835,
+            1.18966341114784,
+            1.64772318225298,
+            0
+          ],
+          [
+            -0.122746671680595,
+            0.0628185923593495,
+            -0.245868850264423,
+            0.000375506903233139,
+            0.0553688039354765
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "adjusted_mixed",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_mixed",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_mixed",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_mixed",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.41869329670041,
+            0.116854129646835,
+            1.22648535772656,
+            1.61090123567427,
+            0
+          ],
+          [
+            0.177253328319405,
+            0.0628185923593494,
+            0.0739259388371429,
+            0.280580717801667,
+            0.00646931303193865
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "adjusted_positive",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_positive",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_positive",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "adjusted_positive",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.41869329670041,
+            0.116854129646835,
+            1.18966341114784,
+            1.64772318225298,
+            0
+          ],
+          [
+            0.777253328319404,
+            0.0628185923593494,
+            0.654131149735576,
+            0.900375506903232,
+            0
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "explicit_breaks",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "explicit_breaks",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "explicit_breaks",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "explicit_breaks",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.42684149701204,
+            0.0868617263019234,
+            1.2565956418253,
+            1.59708735219879,
+            0
+          ],
+          [
+            0.641405950754241,
+            0.0691661841915843,
+            0.505842720790672,
+            0.77696918071781,
+            2.94431146130592e-13
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "prediction_boundaries",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "prediction_boundaries",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "prediction_boundaries",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "prediction_boundaries",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.32606559135034,
+            0.251084811982794,
+            0.833948402799059,
+            1.81818277990163,
+            0.00186281736954896
+          ],
+          [
+            0.276125418470015,
+            0.134210477351738,
+            0.01307771651268,
+            0.53917312042735,
+            0.0853624083299316
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "prequantized",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "prequantized",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "prequantized",
+      "comparison": "registered_prediction",
+      "status": "known_reference_limitation",
+      "errors": []
+    },
+    {
+      "case": "prequantized",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.19917983681206,
+            0.209886020393459,
+            0.787810795982445,
+            1.61054887764168,
+            7.13065940909363e-05
+          ],
+          [
+            0.0565487095205071,
+            0.123784021665513,
+            -0.186063514805424,
+            0.299160933846438,
+            0.655330364883806
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "quantile_rounding_boundaries",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "quantile_rounding_boundaries",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "quantile_rounding_boundaries",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "quantile_rounding_boundaries",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.25990376818426,
+            0.0985593839277687,
+            1.06673092534738,
+            1.45307661102115,
+            0
+          ],
+          [
+            0.29991325535667,
+            0.00353652652022726,
+            0.292981790746654,
+            0.306844719966687,
+            0
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "single_exposure",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "single_exposure",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "single_exposure",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "single_exposure",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.26270880665312,
+            0.125934674191062,
+            1.01588138083385,
+            1.50953623247239,
+            1.14997211753121e-09
+          ],
+          [
+            0.304006081476497,
+            0.0673149148482795,
+            0.172071272751488,
+            0.435940890201505,
+            0.00017098210205746
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "case": "tied_endpoints",
+      "comparison": "stored_fixture",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "tied_endpoints",
+      "comparison": "native_python",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "tied_endpoints",
+      "comparison": "registered_prediction",
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "case": "tied_endpoints",
+      "comparison": "registered_summary",
+      "status": "known_reference_limitation",
+      "errors": [],
+      "observed": {
+        "status": "ok",
+        "row_names": [
+          "(Intercept)",
+          "psi1"
+        ],
+        "column_names": [
+          "Estimate",
+          "Std. Error",
+          "Lower CI",
+          "Upper CI",
+          "Pr(>|t|)"
+        ],
+        "values": [
+          [
+            1.19204040742047,
+            0.11576998024476,
+            0.965135415649827,
+            1.41894539919111,
+            3.3862468384882e-11
+          ],
+          [
+            0.192518888249539,
+            0.161972372610088,
+            -0.124941128556736,
+            0.509978905055814,
+            0.244243238362603
+          ]
+        ],
+        "output": [
+          "Mixture slope parameters (delta method CI):",
+          ""
+        ],
+        "warnings": []
+      }
+    }
+  ],
+  "errors": [],
+  "known_limitations": [
+    {
+      "case": "adjusted_cancellation",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "adjusted_mixed",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "adjusted_positive",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "explicit_breaks",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "prediction_boundaries",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "prequantized",
+      "method": "predict.qgcompfit",
+      "error": "'by' must be of length 1",
+      "error_class": "simpleError",
+      "meaning": "Known no-break wrapper limitation; GLM prediction is compared separately."
+    },
+    {
+      "case": "prequantized",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "quantile_rounding_boundaries",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "single_exposure",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    },
+    {
+      "case": "tied_endpoints",
+      "method": "summary.qgcompfit",
+      "missing_columns": [
+        "t value"
+      ],
+      "meaning": "Registered Gaussian summary omits the t statistic; common returned values are compared."
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "mode": "installed package",
+    "R_version": "R version 4.5.1 (2025-06-13)",
+    "platform": "aarch64-apple-darwin20",
+    "library_verified": true,
+    "installed_packages": {
+      "AER": {
+        "version": "1.2-17",
+        "Built": "R 4.5.2; ; 2026-07-11 20:35:26 UTC; unix"
+      },
+      "Deriv": {
+        "version": "4.3.6",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-10-21 23:49:45 UTC; unix"
+      },
+      "Formula": {
+        "version": "1.2-6",
+        "Built": "R 4.5.2; ; 2026-08-03 08:58:49 UTC; unix"
+      },
+      "MatrixModels": {
+        "version": "0.5-4",
+        "Built": "R 4.5.0; ; 2025-04-01 11:50:57 UTC; unix"
+      },
+      "R6": {
+        "version": "2.6.1",
+        "Built": "R 4.5.0; ; 2025-02-15 01:07:20 UTC; unix"
+      },
+      "RColorBrewer": {
+        "version": "1.1-3",
+        "Built": "R 4.5.0; ; 2025-03-31 21:42:41 UTC; unix"
+      },
+      "Rcpp": {
+        "version": "1.1.2",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-07-05 10:20:17 UTC; unix"
+      },
+      "RcppArmadillo": {
+        "version": "15.6.2-1",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-10-17 07:58:25 UTC; unix"
+      },
+      "RcppEigen": {
+        "version": "0.3.4.0.2",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:46:11 UTC; unix"
+      },
+      "Rdpack": {
+        "version": "2.6.6",
+        "Built": "R 4.5.2; ; 2026-02-08 09:50:24 UTC; unix"
+      },
+      "S7": {
+        "version": "0.2.2",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-22 14:36:04 UTC; unix"
+      },
+      "SparseM": {
+        "version": "1.84-2",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:44:27 UTC; unix"
+      },
+      "abind": {
+        "version": "1.4-8",
+        "Built": "R 4.5.0; ; 2025-03-31 21:45:01 UTC; unix"
+      },
+      "arm": {
+        "version": "1.15-3",
+        "Built": "R 4.5.2; ; 2026-04-20 23:30:23 UTC; unix"
+      },
+      "backports": {
+        "version": "1.5.1",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-03 06:27:07 UTC; unix"
+      },
+      "broom": {
+        "version": "1.0.13",
+        "Built": "R 4.5.2; ; 2026-05-14 09:48:38 UTC; unix"
+      },
+      "car": {
+        "version": "3.1-5",
+        "Built": "R 4.5.2; ; 2026-02-03 12:38:39 UTC; unix"
+      },
+      "carData": {
+        "version": "3.0-6",
+        "Built": "R 4.5.2; ; 2026-01-30 18:13:51 UTC; unix"
+      },
+      "cli": {
+        "version": "3.6.6",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-15 04:52:40 UTC; unix"
+      },
+      "coda": {
+        "version": "0.19-4.1",
+        "Built": "R 4.5.0; ; 2025-03-31 21:53:04 UTC; unix"
+      },
+      "colorspace": {
+        "version": "2.1-4",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-10-08 09:54:48 UTC; unix"
+      },
+      "cowplot": {
+        "version": "1.2.0",
+        "Built": "R 4.5.0; ; 2025-07-07 20:27:25 UTC; unix"
+      },
+      "cpp11": {
+        "version": "0.5.5",
+        "Built": "R 4.5.2; ; 2026-05-06 16:24:00 UTC; unix"
+      },
+      "digest": {
+        "version": "0.6.39",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2025-11-22 19:17:48 UTC; unix"
+      },
+      "doBy": {
+        "version": "4.7.2",
+        "Built": "R 4.5.2; ; 2026-07-01 12:18:23 UTC; unix"
+      },
+      "dplyr": {
+        "version": "1.2.1",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-03 11:02:49 UTC; unix"
+      },
+      "farver": {
+        "version": "2.1.2",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:42:31 UTC; unix"
+      },
+      "forecast": {
+        "version": "9.0.2",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-03-22 21:06:40 UTC; unix"
+      },
+      "fracdiff": {
+        "version": "1.5-4",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-28 06:25:49 UTC; unix"
+      },
+      "future": {
+        "version": "1.80.0",
+        "Built": "R 4.5.2; ; 2026-10-16 06:31:20 UTC; unix"
+      },
+      "future.apply": {
+        "version": "1.21.0",
+        "Built": "R 4.5.2; ; 2026-10-16 19:38:47 UTC; unix"
+      },
+      "generics": {
+        "version": "0.1.4",
+        "Built": "R 4.5.0; ; 2025-05-10 00:42:34 UTC; unix"
+      },
+      "ggplot2": {
+        "version": "4.0.3",
+        "Built": "R 4.5.2; ; 2026-04-22 09:41:08 UTC; unix"
+      },
+      "globals": {
+        "version": "0.20.0",
+        "Built": "R 4.5.2; ; 2026-10-11 21:35:54 UTC; unix"
+      },
+      "glue": {
+        "version": "1.8.1",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-20 23:19:49 UTC; unix"
+      },
+      "gridExtra": {
+        "version": "2.3.1",
+        "Built": "R 4.5.2; ; 2026-06-25 13:39:47 UTC; unix"
+      },
+      "gtable": {
+        "version": "0.3.6",
+        "Built": "R 4.5.0; ; 2025-04-01 11:49:51 UTC; unix"
+      },
+      "isoband": {
+        "version": "0.3.0",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-07 07:05:55 UTC; unix"
+      },
+      "jsonlite": {
+        "version": "2.0.0",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-27 07:33:55 UTC; unix"
+      },
+      "labeling": {
+        "version": "0.4.3",
+        "Built": "R 4.5.0; ; 2025-03-31 21:42:34 UTC; unix"
+      },
+      "lifecycle": {
+        "version": "1.0.5",
+        "Built": "R 4.5.2; ; 2026-01-08 12:03:10 UTC; unix"
+      },
+      "listenv": {
+        "version": "1.1.0",
+        "Built": "R 4.5.2; ; 2026-10-05 03:20:33 UTC; unix"
+      },
+      "lme4": {
+        "version": "2.0-6",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-07-16 13:07:46 UTC; unix"
+      },
+      "lmtest": {
+        "version": "0.9-40",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 22:03:15 UTC; unix"
+      },
+      "magrittr": {
+        "version": "2.0.5",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-04 10:13:02 UTC; unix"
+      },
+      "minqa": {
+        "version": "1.2.8",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:52:42 UTC; unix"
+      },
+      "modelr": {
+        "version": "0.1.11",
+        "Built": "R 4.5.0; ; 2025-04-02 08:27:13 UTC; unix"
+      },
+      "nloptr": {
+        "version": "2.2.1",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:53:16 UTC; unix"
+      },
+      "numDeriv": {
+        "version": "2016.8-1.1",
+        "Built": "R 4.5.0; ; 2025-03-31 21:55:04 UTC; unix"
+      },
+      "parallelly": {
+        "version": "1.48.0",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-06-29 16:50:08 UTC; unix"
+      },
+      "pbkrtest": {
+        "version": "0.5.5",
+        "Built": "R 4.5.0; ; 2025-07-18 23:28:24 UTC; unix"
+      },
+      "pillar": {
+        "version": "1.11.1",
+        "Built": "R 4.5.0; ; 2025-09-17 13:45:18 UTC; unix"
+      },
+      "pkgconfig": {
+        "version": "2.0.3",
+        "Built": "R 4.5.0; ; 2025-03-31 21:41:54 UTC; unix"
+      },
+      "pscl": {
+        "version": "1.5.9",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:57:25 UTC; unix"
+      },
+      "purrr": {
+        "version": "1.2.2",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-15 05:01:28 UTC; unix"
+      },
+      "qgcomp": {
+        "version": "2.19.6",
+        "Built": "R 4.5.1; ; 2026-10-22 23:22:43 UTC; unix"
+      },
+      "quantreg": {
+        "version": "6.1",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 15:55:49 UTC; unix"
+      },
+      "rbibutils": {
+        "version": "2.4.1",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-21 08:54:26 UTC; unix"
+      },
+      "reformulas": {
+        "version": "0.4.4",
+        "Built": "R 4.5.2; ; 2026-02-02 07:47:21 UTC; unix"
+      },
+      "rlang": {
+        "version": "1.3.0",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-07-05 10:20:23 UTC; unix"
+      },
+      "rootSolve": {
+        "version": "1.8.2.4",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 22:10:26 UTC; unix"
+      },
+      "sandwich": {
+        "version": "3.1-3",
+        "Built": "R 4.5.2; ; 2026-08-03 13:35:08 UTC; unix"
+      },
+      "scales": {
+        "version": "1.4.0",
+        "Built": "R 4.5.0; ; 2025-04-24 11:54:38 UTC; unix"
+      },
+      "stringi": {
+        "version": "1.8.9",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-08-04 17:41:58 UTC; unix"
+      },
+      "stringr": {
+        "version": "1.6.0",
+        "Built": "R 4.5.0; ; 2025-11-04 17:37:12 UTC; unix"
+      },
+      "tibble": {
+        "version": "3.3.1",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-01-11 11:35:41 UTC; unix"
+      },
+      "tidyr": {
+        "version": "1.3.2",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2025-12-21 22:56:43 UTC; unix"
+      },
+      "tidyselect": {
+        "version": "1.2.1",
+        "Built": "R 4.5.0; ; 2025-04-01 15:54:40 UTC; unix"
+      },
+      "timeDate": {
+        "version": "4052.112",
+        "Built": "R 4.5.2; ; 2026-01-28 17:53:35 UTC; unix"
+      },
+      "urca": {
+        "version": "1.3-4",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-04-01 06:40:36 UTC; unix"
+      },
+      "utf8": {
+        "version": "1.2.6",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-06-08 20:24:56 UTC; unix"
+      },
+      "vctrs": {
+        "version": "0.7.3",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-04-15 04:58:47 UTC; unix"
+      },
+      "viridisLite": {
+        "version": "0.4.3",
+        "Built": "R 4.5.2; ; 2026-02-07 09:05:34 UTC; unix"
+      },
+      "withr": {
+        "version": "3.0.3",
+        "Built": "R 4.5.2; ; 2026-06-19 05:48:48 UTC; unix"
+      },
+      "zoo": {
+        "version": "1.9-1",
+        "Built": "R 4.5.2; aarch64-apple-darwin20; 2026-09-25 14:12:41 UTC; unix"
+      }
+    },
+    "installed_package_md5": {
+      "DESCRIPTION": "28727f414aa5e6b5a259d2cf3a1ee921",
+      "NAMESPACE": "25ab438846662a681e18069dfd27bb41",
+      "R/qgcomp.rdb": "51349ced2cdfd79211618cca10e6cf91",
+      "R/qgcomp.rdx": "8ac0a8939e6afc077aebf798b570325e"
+    },
+    "r_runtime_md5": {
+      "bin/exec/R": "96ff716695613894f9297d1ba16547c5"
+    },
+    "package_versions": {
+      "AER": "1.2-17",
+      "Formula": "1.2-6",
+      "MASS": "7.3-65",
+      "Matrix": "1.7-3",
+      "R6": "2.6.1",
+      "RColorBrewer": "1.1-3",
+      "Rcpp": "1.1.2",
+      "Rdpack": "2.6.6",
+      "S7": "0.2.2",
+      "abind": "1.4-8",
+      "arm": "1.15-3",
+      "base": "4.5.1",
+      "boot": "1.3-31",
+      "car": "3.1-5",
+      "carData": "3.0-6",
+      "cli": "3.6.6",
+      "coda": "0.19-4.1",
+      "compiler": "4.5.1",
+      "datasets": "4.5.1",
+      "dplyr": "1.2.1",
+      "farver": "2.1.2",
+      "generics": "0.1.4",
+      "ggplot2": "4.0.3",
+      "glue": "1.8.1",
+      "grDevices": "4.5.1",
+      "graphics": "4.5.1",
+      "grid": "4.5.1",
+      "gridExtra": "2.3.1",
+      "gtable": "0.3.6",
+      "jsonlite": "2.0.0",
+      "lattice": "0.22-7",
+      "lifecycle": "1.0.5",
+      "lme4": "2.0-6",
+      "lmtest": "0.9-40",
+      "magrittr": "2.0.5",
+      "methods": "4.5.1",
+      "minqa": "1.2.8",
+      "nlme": "3.1-168",
+      "nloptr": "2.2.1",
+      "nnet": "7.3-20",
+      "numDeriv": "2016.8-1.1",
+      "pillar": "1.11.1",
+      "pkgconfig": "2.0.3",
+      "pscl": "1.5.9",
+      "qgcomp": "2.19.6",
+      "rbibutils": "2.4.1",
+      "reformulas": "0.4.4",
+      "rlang": "1.3.0",
+      "rootSolve": "1.8.2.4",
+      "sandwich": "3.1-3",
+      "scales": "1.4.0",
+      "splines": "4.5.1",
+      "stats": "4.5.1",
+      "survival": "3.8-3",
+      "tibble": "3.3.1",
+      "tidyselect": "1.2.1",
+      "tools": "4.5.1",
+      "utils": "4.5.1",
+      "vctrs": "0.7.3",
+      "zoo": "1.9-1"
+    },
+    "package_library_origins": {
+      "AER": "isolated",
+      "Formula": "isolated",
+      "MASS": "base-recommended",
+      "Matrix": "base-recommended",
+      "R6": "isolated",
+      "RColorBrewer": "isolated",
+      "Rcpp": "isolated",
+      "Rdpack": "isolated",
+      "S7": "isolated",
+      "abind": "isolated",
+      "arm": "isolated",
+      "base": "base-recommended",
+      "boot": "base-recommended",
+      "car": "isolated",
+      "carData": "isolated",
+      "cli": "isolated",
+      "coda": "isolated",
+      "compiler": "base-recommended",
+      "datasets": "base-recommended",
+      "dplyr": "isolated",
+      "farver": "isolated",
+      "generics": "isolated",
+      "ggplot2": "isolated",
+      "glue": "isolated",
+      "grDevices": "base-recommended",
+      "graphics": "base-recommended",
+      "grid": "base-recommended",
+      "gridExtra": "isolated",
+      "gtable": "isolated",
+      "jsonlite": "isolated",
+      "lattice": "base-recommended",
+      "lifecycle": "isolated",
+      "lme4": "isolated",
+      "lmtest": "isolated",
+      "magrittr": "isolated",
+      "methods": "base-recommended",
+      "minqa": "isolated",
+      "nlme": "base-recommended",
+      "nloptr": "isolated",
+      "nnet": "base-recommended",
+      "numDeriv": "isolated",
+      "pillar": "isolated",
+      "pkgconfig": "isolated",
+      "pscl": "isolated",
+      "qgcomp": "isolated",
+      "rbibutils": "isolated",
+      "reformulas": "isolated",
+      "rlang": "isolated",
+      "rootSolve": "isolated",
+      "sandwich": "isolated",
+      "scales": "isolated",
+      "splines": "base-recommended",
+      "stats": "base-recommended",
+      "survival": "base-recommended",
+      "tibble": "isolated",
+      "tidyselect": "isolated",
+      "tools": "base-recommended",
+      "utils": "base-recommended",
+      "vctrs": "isolated",
+      "zoo": "isolated"
+    },
+    "unexpected_loaded_namespaces": []
+  },
+  "tolerances": {
+    "numerical": {
+      "atol": 1e-10,
+      "rtol": 1e-08
+    },
+    "breaks": {
+      "atol": 1e-12,
+      "rtol": 1e-12
+    },
+    "exact": [
+      "df_pvalue",
+      "df_residual",
+      "scores"
+    ]
+  },
+  "identities": {
+    "fixtures_sha256": "ff1c111c1eea044959e698e89344acaeba1eea4eb7e3e91e506a93f66ccf577e",
+    "r_driver_sha256": "71a7957d363ee658bb86010fa517ff5919bfe311ed4e70971dc77d8e26eab720",
+    "checker_sha256": "881dfc3bf63afe0079b43d60e7baf6711bbffab0ed8fa371b94d95afc43e27e9",
+    "python_core_sha256": "25d213d5f084038801030a17d7a4c1a32339ffa6a00b75a9e182f991e3c82eb8"
+  },
+  "python_environment": {
+    "python": "3.14.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "platform": "darwin",
+    "machine": "arm64"
+  },
+  "checked_at_utc": "2026-10-23T06:24:41.939531+00:00",
+  "scope": "Nine fixed additive Gaussian cases; not full R feature coverage or statistical calibration."
+}

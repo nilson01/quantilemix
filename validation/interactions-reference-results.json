@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-23T18:30:31.059743+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "6fdebd26f8cf5a0b1f9aad1b410f17984e8626e57d5f46e99c196dd310cf051c",
+  "r_exporter_sha256": "4b763977cf1a404c0fb2a2826bf0790aaede5dd1f239d04824e5c92307a38684",
+  "cases": [
+    {
+      "name": "interaction_prequantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 2.886579864025407e-15,
+        "conditional_covariance": 7.37257477290143e-18,
+        "fitted": 5.773159728050814e-15,
+        "msm_coefficients": 3.4139358007223564e-15,
+        "psi": 3.4139358007223564e-15,
+        "covariance": 3.7296554733501353e-16,
+        "variance": 3.712308238590367e-16,
+        "se": 1.3183898417423734e-15,
+        "ci": 6.314393452555578e-15,
+        "statistic": 4.107825191113079e-14,
+        "p": 1.2878587085651816e-14,
+        "df": 0.0,
+        "bootstrap_coefficients": 1.074140776324839e-14,
+        "levels": 0.0,
+        "means": 3.3306690738754696e-15,
+        "scores": 0.0
+      }
+    },
+    {
+      "name": "interaction_quantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 1.1102230246251565e-15,
+        "conditional_covariance": 1.214306433183765e-17,
+        "fitted": 7.105427357601002e-15,
+        "msm_coefficients": 2.886579864025407e-15,
+        "psi": 1.4710455076283324e-15,
+        "covariance": 2.1510571102112408e-16,
+        "variance": 2.1597307275911248e-16,
+        "se": 1.582067810090848e-15,
+        "ci": 4.385380947269368e-15,
+        "statistic": 3.943512183468556e-13,
+        "p": 1.9212062496443139e-16,
+        "df": 0.0,
+        "bootstrap_coefficients": 1.3850032232198828e-14,
+        "levels": 0.0,
+        "means": 2.886579864025407e-15,
+        "scores": 0.0,
+        "breaks[0]": 4.440892098500626e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    }
+  ],
+  "prequantized_breaks_difference": "R saves synthetic boundaries; Python retains breaks=None."
+}

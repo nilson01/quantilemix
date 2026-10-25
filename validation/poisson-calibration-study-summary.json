@@ -1,0 +1,226 @@
+{
+  "protocol": "poisson-known-scores-v1",
+  "source_commit": "63d969cf46c4dbc82887b79599a494fc15575d9e",
+  "study_job_id": 2905432,
+  "pilot_job_id": 2905431,
+  "result_sha256": "d70626c0f91141e16f516e88f053e8415863896f69d7e45f157a28588d0c68a5",
+  "server_check_sha256": "33a021fc6391b33c50b94f5064d6231ee3b19aca0e303f5b05e2139a2de825b0",
+  "environment": {
+    "python": "3.11.5",
+    "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "numpy": "2.0.0",
+    "scipy": "1.14.0"
+  },
+  "plan": {
+    "protocol": "poisson-known-scores-v1",
+    "mode": "study",
+    "n": 500,
+    "cells": [
+      {
+        "cell": 0,
+        "center_mean": 0.2,
+        "truth": 0.0
+      },
+      {
+        "cell": 1,
+        "center_mean": 0.2,
+        "truth": 0.4
+      },
+      {
+        "cell": 2,
+        "center_mean": 2.0,
+        "truth": 0.0
+      },
+      {
+        "cell": 3,
+        "center_mean": 2.0,
+        "truth": 0.4
+      }
+    ],
+    "repetitions_per_cell": 1000,
+    "total_fits": 4000,
+    "seed": 20261023
+  },
+  "cells": {
+    "0": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "observed_mean": 0.199168,
+      "zero_fraction": 0.819086,
+      "warnings": 0,
+      "covered": 934,
+      "rejected": 66,
+      "coverage_all_planned_bounds": [
+        0.934,
+        0.934
+      ],
+      "bias": -0.0034018334714080913,
+      "bias_mcse": 0.005974511926102361,
+      "empirical_sd": 0.1889306559432305,
+      "root_mean_variance": 0.18188849343134386,
+      "coverage": 0.934,
+      "coverage_wilson_95": [
+        0.9168907240940241,
+        0.9477876495405142
+      ],
+      "rejection_rate": 0.066,
+      "rejection_wilson_95": [
+        0.05221235045948584,
+        0.08310927590597601
+      ]
+    },
+    "1": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "observed_mean": 0.20458,
+      "zero_fraction": 0.81583,
+      "warnings": 0,
+      "covered": 949,
+      "rejected": 599,
+      "coverage_all_planned_bounds": [
+        0.949,
+        0.949
+      ],
+      "bias": -0.005958597201517234,
+      "bias_mcse": 0.005682448046323831,
+      "empirical_sd": 0.17969478511957301,
+      "root_mean_variance": 0.17964026351574944,
+      "coverage": 0.949,
+      "coverage_wilson_95": [
+        0.9335645136552383,
+        0.9609990572247332
+      ],
+      "rejection_rate": 0.599,
+      "rejection_wilson_95": [
+        0.568300743786923,
+        0.6289415580329372
+      ]
+    },
+    "2": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "observed_mean": 2.002366,
+      "zero_fraction": 0.134294,
+      "warnings": 0,
+      "covered": 945,
+      "rejected": 55,
+      "coverage_all_planned_bounds": [
+        0.945,
+        0.945
+      ],
+      "bias": 0.0015323642793274846,
+      "bias_mcse": 0.0018243547879785674,
+      "empirical_sd": 0.05769116390245844,
+      "root_mean_variance": 0.05682153876119066,
+      "coverage": 0.945,
+      "coverage_wilson_95": [
+        0.9290916123226243,
+        0.9575025726252315
+      ],
+      "rejection_rate": 0.055,
+      "rejection_wilson_95": [
+        0.04249742737476844,
+        0.07090838767737563
+      ]
+    },
+    "3": {
+      "planned": 1000,
+      "attempted": 1000,
+      "successful": 1000,
+      "failed": 0,
+      "missing": 0,
+      "observed_mean": 2.051592,
+      "zero_fraction": 0.141362,
+      "warnings": 0,
+      "covered": 955,
+      "rejected": 1000,
+      "coverage_all_planned_bounds": [
+        0.955,
+        0.955
+      ],
+      "bias": -0.00018003337024114836,
+      "bias_mcse": 0.0017356653290543146,
+      "empirical_sd": 0.05488655695597258,
+      "root_mean_variance": 0.05642968317011632,
+      "coverage": 0.955,
+      "coverage_wilson_95": [
+        0.9403171620637766,
+        0.9662004877143683
+      ],
+      "rejection_rate": 1.0,
+      "rejection_wilson_95": [
+        0.996173241514445,
+        1.0
+      ]
+    }
+  },
+  "independent_check": {
+    "status": "passed",
+    "cases": 4000,
+    "paired": 4000,
+    "fit_failures": 0,
+    "independent_failures": 0,
+    "per_cell": {
+      "0": {
+        "paired": 1000,
+        "package_failures": 0,
+        "independent_failures": 0,
+        "mismatches": 0,
+        "independent_successful": 1000,
+        "independent_covered": 934,
+        "independent_rejected": 66,
+        "independent_bias": -0.0034018334714198176,
+        "independent_coverage": 0.934,
+        "independent_rejection_rate": 0.066
+      },
+      "1": {
+        "paired": 1000,
+        "package_failures": 0,
+        "independent_failures": 0,
+        "mismatches": 0,
+        "independent_successful": 1000,
+        "independent_covered": 949,
+        "independent_rejected": 599,
+        "independent_bias": -0.005958597201550013,
+        "independent_coverage": 0.949,
+        "independent_rejection_rate": 0.599
+      },
+      "2": {
+        "paired": 1000,
+        "package_failures": 0,
+        "independent_failures": 0,
+        "mismatches": 0,
+        "independent_successful": 1000,
+        "independent_covered": 945,
+        "independent_rejected": 55,
+        "independent_bias": 0.001532364279332169,
+        "independent_coverage": 0.945,
+        "independent_rejection_rate": 0.055
+      },
+      "3": {
+        "paired": 1000,
+        "package_failures": 0,
+        "independent_failures": 0,
+        "mismatches": 0,
+        "independent_successful": 1000,
+        "independent_covered": 955,
+        "independent_rejected": 1000,
+        "independent_bias": -0.00018003337024183845,
+        "independent_coverage": 0.955,
+        "independent_rejection_rate": 1.0
+      }
+    },
+    "maximum_absolute_difference": 2.5372925982480865e-11,
+    "checker_sha256": "9673073a49da2d477850b3984d2b62fe80040cc37bcab20fa819e36982b0f730"
+  },
+  "scope": "known independent uniform scores, correctly specified additive conditional Poisson-log model, equal observation periods"
+}

@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T15:59:49.721988+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "d79c0b4f27b4a6d1f30b3ed4443ee441d307cfd59e73a5a4a4843cb6282f2b78",
+  "r_exporter_sha256": "1675494a5e6b462b459eb612374c60e3412e1c132c26a4bcbea56295a752df03",
+  "cases": [
+    {
+      "name": "offset_untied",
+      "max_absolute_differences": {
+        "coefficients": 4.787836793695988e-16,
+        "covariance": 1.734723475976807e-17,
+        "psi": 9.141992718397773e-16,
+        "variance": 5.204170427930421e-17,
+        "ci": 1.3877787807814457e-15,
+        "p": 5.218048215738236e-15,
+        "baseline_time": 0.0,
+        "prediction_time": 0.0,
+        "prediction_survival": 8.881784197001252e-16,
+        "events": 0.0,
+        "R_centered_baseline": 6.439293542825908e-15
+      },
+      "R_baseline_offset_factor": 1.0353362445407224
+    },
+    {
+      "name": "offset_tied",
+      "max_absolute_differences": {
+        "coefficients": 2.740863092043355e-16,
+        "covariance": 4.85722573273506e-17,
+        "psi": 1.942890293094024e-16,
+        "variance": 2.7755575615628914e-17,
+        "ci": 1.3877787807814457e-16,
+        "p": 6.661338147750939e-16,
+        "baseline_time": 0.0,
+        "prediction_time": 0.0,
+        "prediction_survival": 6.661338147750939e-16,
+        "events": 0.0,
+        "R_centered_baseline": 5.773159728050814e-15
+      },
+      "R_baseline_offset_factor": 1.0353362445407224
+    },
+    {
+      "name": "offset_weighted_tied",
+      "max_absolute_differences": {
+        "coefficients": 3.452099717193846e-16,
+        "covariance": 2.7755575615628914e-17,
+        "psi": 7.632783294297951e-17,
+        "variance": 6.938893903907228e-18,
+        "ci": 5.551115123125783e-16,
+        "p": 4.440892098500626e-16,
+        "baseline_time": 0.0,
+        "prediction_time": 0.0,
+        "prediction_survival": 6.661338147750939e-16,
+        "events": 0.0,
+        "R_centered_baseline": 3.552713678800501e-15
+      },
+      "R_baseline_offset_factor": 1.0366539393173009
+    }
+  ]
+}

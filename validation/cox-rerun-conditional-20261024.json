@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "name": "cox_prequantized_untied",
+      "max_absolute_difference": {
+        "coefficients": 3.608224830031759e-16,
+        "covariance": 3.8163916471489756e-17,
+        "psi": 1.8561541192951836e-16,
+        "variance": 2.42861286636753e-17,
+        "ci": 2.7755575615628914e-16,
+        "p": 8.881784197001252e-16,
+        "scores": 0.0,
+        "events": 0.0
+      }
+    },
+    {
+      "name": "cox_quantized_untied",
+      "max_absolute_difference": {
+        "coefficients": 9.992007221626409e-16,
+        "covariance": 2.0816681711721685e-17,
+        "psi": 6.245004513516506e-16,
+        "variance": 3.469446951953614e-17,
+        "ci": 1.27675647831893e-15,
+        "p": 3.0531133177191805e-15,
+        "scores": 0.0,
+        "events": 0.0
+      }
+    }
+  ],
+  "maximum_numeric_gap": 3.0531133177191805e-15,
+  "R_version": "R version 4.5.1 (2025-06-13)",
+  "qgcomp_version": "2.19.6",
+  "survival_version": "3.8.3",
+  "fixture_sha256": "72d1a7c5dc170a35469ec53f3d32474f228e5ac0b4631fefccb972aac50932d1",
+  "exporter_sha256": "3baa639f8c79fd1298ec51d735ce8a2cf0f286000b59f5518d0d883e6c507ee9"
+}

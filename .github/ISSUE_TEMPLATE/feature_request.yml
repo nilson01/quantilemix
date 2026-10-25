@@ -1,0 +1,15 @@
+name: Feature request
+description: Describe an analysis the current API cannot support.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Analysis and current limitation
+      description: Describe the data, statistical target and current function, if any.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and references
+      description: Include a small example and relevant method references when available.

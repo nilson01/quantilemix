@@ -1,0 +1,52 @@
+{
+  "design": {
+    "protocol": "cox-bootstrap-calibration-preflight-v1",
+    "purpose": "bounded software and timing preflight",
+    "n": 300,
+    "B": 2,
+    "MCsize": 300,
+    "degree": 1,
+    "q": null,
+    "master_seed": 20261024,
+    "true_log_hazard_ratio": 0.4,
+    "baseline_event_rate": 0.08,
+    "independent_censor_rate": 0.1,
+    "administrative_end": 12.0,
+    "coverage_result": false,
+    "full_study_authorized_by_this_file": false
+  },
+  "source_identity": {
+    "git_commit": "15d02bf6301a2a598ac52264359392ffe4fc636a",
+    "git_dirty": true,
+    "source_sha256": {
+      "preflight": "25ea041a417b85c314aad1783ae2831983d76966c9c6528386cdd051c7c9df24",
+      "cox": "958abed999751c1d9f1d9f326627afb6a4691c2a91cbbe6aeeb7a4200435d238",
+      "cox_bootstrap": "e0c8c99e1d484676520d0ba8426d39a9377f525180b3f4529d3fd5f04ce7d25f"
+    },
+    "python": "3.14.3",
+    "platform": "macOS-14.6-arm64-arm-64bit-Mach-O",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "input_sha256": "389d118f4276ca2c91f8f90b20216e10f046df25807ffa1c56c787f35416d80a",
+  "fit_seed": 17546893199881567694,
+  "observed_events": 111,
+  "administratively_censored": 37,
+  "status": "passed",
+  "point_estimate": 0.3058121141975955,
+  "bootstrap_se": 0.041133672481841584,
+  "bootstrap_effects": [
+    0.26728660709607804,
+    0.3254584045901114
+  ],
+  "intervention_levels": [
+    0.0,
+    1.0,
+    2.0
+  ],
+  "simulated_events": 504,
+  "error_class": null,
+  "error_message": null,
+  "warnings": [],
+  "elapsed_seconds": 0.16738612507469952
+}

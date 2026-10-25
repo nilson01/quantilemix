@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T15:14:54.378223+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "ad93e525ab8cabcaa7548cda7f354843d94469f1c49aab50848969067529dc26",
+  "r_exporter_sha256": "465b25a6e3a0b456c832618ef5890591df3eeb3766383d7c9c2ba5ce4c7bb155",
+  "R_supplied_offset_psi": 1.79175946922805,
+  "Python_unequal_time_psi": 0.5890944859809044,
+  "absolute_effect_difference": 1.2026649832471457,
+  "interpretation": "Installed R ignores this offset; Python fits a time-adjusted rate model."
+}

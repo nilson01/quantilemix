@@ -1,0 +1,110 @@
+{
+  "recorded_date": "2026-10-22",
+  "scope": "Prospective known-score Gaussian protocol and tested development runner; no timing pilot or calibration study",
+  "status": "preparation_checks_passed",
+  "baseline_revision": "1a7310ed280be1e916d4dcafc76329bf30a70967",
+  "source_sha256": {
+    "src/qgcomp/_core.py": "efad59c9d420696fa6619795fdf5cd40c9f34829a32625a215ce0b7200f2f447",
+    "tests/fixtures/r_gaussian_2_19_6.json": "ff1c111c1eea044959e698e89344acaeba1eea4eb7e3e91e506a93f66ccf577e",
+    "validation/GAUSSIAN_PROTOCOL.md": "57519aa990142b02a1c7546ee1ce633de72c70e7ed7a418e829bef9237c71ec8",
+    "validation/calibration-config.json": "25a8f6d98dcfcf6a9eb0afbe8c8eaf6c9d9702b8db420af9a10df28f13841de1",
+    "validation/calibration.py": "a38464db2456d5aa05022840f66d9c329ef9195209084021926562ef5f43e877",
+    "validation/calibration_reference.py": "8a22c59e49b492cbddac32d802f3c7f86fe0b883e8608383c2c93c6f551293d1",
+    "validation/calibration_r.R": "a9d2db991cccf994974e34ce59d1943217a7a9e2155e0c2581ce8dcc6c984dca",
+    "tests/test_calibration.py": "abf514b69a3c5ea714c51cb8ef4f32139639059453d6fbedc75d987bec4b3a33",
+    "tests/test_calibration_reference.py": "9d70c613bc0ed10b6e59dff6385fc34d97d9d931941d0bab0ea06fe47c030ac0",
+    "tests/test_calibration_execution.py": "6952b6e12556cdd70415d0422e56d4a3ed7065dd2c9071f2b24d503c94f20d0d",
+    "tests/test_calibration_generator.py": "463d968b2ec0b862f1ac657fbefd9294c7ded6397e5066370637fcbd74481ad2"
+  },
+  "tests": {
+    "current_python": "3.14.3",
+    "minimum_python": "3.11.15",
+    "passed_each": 315,
+    "skipped_each": 0,
+    "expected_warnings_each": 3,
+    "ruff": "passed"
+  },
+  "fresh_wheel_checks": [
+    {
+      "status": "passed",
+      "wheel": "qgcomp_python-0.1.0.dev0-py3-none-any.whl",
+      "returncode": 0,
+      "elapsed_seconds": 20.85048941685818,
+      "clean_environment": true,
+      "test_copy_outside_source_tree": true,
+      "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "source_import_path_excluded": true,
+      "platform": "darwin",
+      "dependency_profile": "latest",
+      "installed_versions": {
+        "qgcomp-python": "0.1.0.dev0",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "pytest": "9.1.1"
+      },
+      "test_counts": {
+        "tests": 315,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "056a1279758b4334a05c9ed5ee9c6aeee9eb9e98c220220ef71e913ba9b11ede",
+      "constraints_sha256": null
+    },
+    {
+      "status": "passed",
+      "wheel": "qgcomp_python-0.1.0.dev0-py3-none-any.whl",
+      "returncode": 0,
+      "elapsed_seconds": 20.527436000062153,
+      "clean_environment": true,
+      "test_copy_outside_source_tree": true,
+      "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 16.0.0 (clang-1600.0.26.6)]",
+      "source_import_path_excluded": true,
+      "platform": "darwin",
+      "dependency_profile": "minimum",
+      "installed_versions": {
+        "qgcomp-python": "0.1.0.dev0",
+        "numpy": "2.0.0",
+        "scipy": "1.14.0",
+        "pytest": "8.0.0"
+      },
+      "test_counts": {
+        "tests": 315,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "056a1279758b4334a05c9ed5ee9c6aeee9eb9e98c220220ef71e913ba9b11ede",
+      "constraints_sha256": "857c8ef48dc6e83c7a1130227511a06cb4fe53256756476ee3f8aae6353f9fe5"
+    }
+  ],
+  "installed_r_adapter": {
+    "status": "passed",
+    "cases_checked": 9,
+    "numeric_fields_checked_per_case": 7,
+    "reference_stable": true,
+    "R_version": "R version 4.5.1 (2025-06-13)",
+    "platform": "aarch64-apple-darwin20",
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "fixture_sha256": "ff1c111c1eea044959e698e89344acaeba1eea4eb7e3e91e506a93f66ccf577e",
+    "adapter_sha256": {
+      "calibration_reference.py": "8a22c59e49b492cbddac32d802f3c7f86fe0b883e8608383c2c93c6f551293d1",
+      "calibration_r.R": "a9d2db991cccf994974e34ce59d1943217a7a9e2155e0c2581ce8dcc6c984dca"
+    },
+    "loaded_namespaces": 60,
+    "unexpected_loaded_namespaces": []
+  },
+  "review": {
+    "kind": "three independent agent first passes plus targeted repair rechecks",
+    "human_peer_review": false,
+    "preparation_findings": "closed",
+    "configuration_changed": false,
+    "core_changed": false,
+    "fixtures_changed": false
+  },
+  "pilot_executed": false,
+  "study_executed": false,
+  "calibration_validated": false,
+  "hosted_checks_url": "https://github.com/nilson01/qgcomp-python/pull/1"
+}

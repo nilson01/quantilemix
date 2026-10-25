@@ -1,0 +1,62 @@
+{
+  "design": {
+    "protocol": "cox-bootstrap-timing-v1",
+    "profile": "default_mc",
+    "n": 300,
+    "degree": 1,
+    "q": null,
+    "B": 20,
+    "MCsize": 10000,
+    "true_log_hazard_ratio": 0.4,
+    "coverage_result": false,
+    "full_study_authorized_by_this_file": false
+  },
+  "source_identity": {
+    "git_commit": "15d02bf6301a2a598ac52264359392ffe4fc636a",
+    "git_dirty": true,
+    "source_sha256": {
+      "preflight": "25ea041a417b85c314aad1783ae2831983d76966c9c6528386cdd051c7c9df24",
+      "cox": "3e5945b75cf81ac71dd54f21f1217c34adbc01c63d674990ff5b77f6219c00ac",
+      "cox_bootstrap": "e0c8c99e1d484676520d0ba8426d39a9377f525180b3f4529d3fd5f04ce7d25f",
+      "timing": "0c892a41734d09fa3892905a9a4c8d9dc1226eb52ca7c2e386f99a62b9f3e3f2"
+    },
+    "python": "3.14.3",
+    "platform": "macOS-14.6-arm64-arm-64bit-Mach-O",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "input_sha256": "389d118f4276ca2c91f8f90b20216e10f046df25807ffa1c56c787f35416d80a",
+  "fit_seed": 18075443353356612032,
+  "observed_events": 111,
+  "status": "passed",
+  "point_estimate": 0.2051661895699832,
+  "bootstrap_se": 0.2095032362307699,
+  "bootstrap_effects": [
+    -0.28003030051400807,
+    0.36587625227862197,
+    0.25262109195607996,
+    0.4705800179725193,
+    0.16870382432476505,
+    0.28397987359275667,
+    0.164752906687906,
+    0.0293565929479631,
+    0.2648158576854631,
+    0.0737361694683077,
+    0.1761703786287038,
+    0.28852556175197,
+    0.0419770686696741,
+    0.19868004273557746,
+    0.42244425232680805,
+    0.25228741522189463,
+    0.21631819518206463,
+    0.11938504851770852,
+    0.3186286678824284,
+    -0.39239100903882596
+  ],
+  "simulated_events": 16337,
+  "error_class": null,
+  "error_message": null,
+  "warnings": [],
+  "elapsed_seconds": 17.10787787497975,
+  "peak_process_rss_bytes": 121307136
+}

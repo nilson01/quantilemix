@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "missing_category_and_weight",
+      "status": "passed"
+    },
+    {
+      "name": "missing_outcome_covariate_exposure",
+      "status": "passed"
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "f9f9796ae594dc1800b6ce7200af95704527b681d74b8929994163b4e28f54bb",
+    "exporter_sha256": "01bf914f1c426496b43e8bcba712db1a22353662eea027b621eec317c4ecaf12"
+  },
+  "scope": "fixed additive Gaussian complete-case formula fits; no imputation",
+  "checked_at_utc": "2026-10-23T14:19:47.653713+00:00"
+}

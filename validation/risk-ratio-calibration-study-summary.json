@@ -1,0 +1,216 @@
+{
+  "status": "completed_with_one_matching_separation_failure",
+  "study": "binary-risk-ratio-known-scores-v1",
+  "job_id": "2907923",
+  "source_commit": "aecaf5446c3a44cbf6d38bb3e8f0bdc739961129",
+  "source_identity": {
+    "git_commit": "aecaf5446c3a44cbf6d38bb3e8f0bdc739961129",
+    "git_dirty": false,
+    "source_sha256": {
+      "runner": "bb3d7af067c6fae9e8a5223d968da520a097a5e96b8a61bb41d0ebc3327d79c1",
+      "checker": "77619cbd2f46082ad91c3346699abc2551099e368d3bb028c420ff41cdb01bdd",
+      "binomial_estimator": "434ecfd08123a5e2b574f372c545ffb497af162e20b80074e8d9c8d537c9d25e",
+      "risk_ratio_estimator": "4bdfa0ce5fdffd77df39bb4e929e28290807c89b1b80b1af7cf4fe332c342091"
+    },
+    "python": "3.11.5",
+    "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "numpy": "2.0.0",
+    "scipy": "1.14.0"
+  },
+  "plan": {
+    "protocol": "binary-risk-ratio-known-scores-v1",
+    "mode": "study",
+    "n": 500,
+    "B": 200,
+    "cells": [
+      {
+        "cell": 0,
+        "baseline_risk": 0.1,
+        "joint_log_odds": 0.0,
+        "true_log_risk_ratio": 0.0
+      },
+      {
+        "cell": 1,
+        "baseline_risk": 0.1,
+        "joint_log_odds": 0.8,
+        "true_log_risk_ratio": 0.6796020529010421
+      },
+      {
+        "cell": 2,
+        "baseline_risk": 0.4,
+        "joint_log_odds": 0.0,
+        "true_log_risk_ratio": 0.0
+      },
+      {
+        "cell": 3,
+        "baseline_risk": 0.4,
+        "joint_log_odds": 0.8,
+        "true_log_risk_ratio": 0.39614538931984333
+      }
+    ],
+    "repetitions_per_cell": 1000,
+    "total_datasets": 4000,
+    "total_bootstrap_fits": 800000,
+    "master_seed": 20261023
+  },
+  "summaries": {
+    "0": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 999,
+      "failed": 1,
+      "warnings": 0,
+      "observed_event_rate": 0.09959,
+      "covered": 966,
+      "rejected": 33,
+      "coverage_all_planned_bounds": [
+        0.966,
+        0.967
+      ],
+      "bias": 0.012932911427081036,
+      "bias_mcse": 0.01700719100377436,
+      "empirical_sd": 0.537545627173196,
+      "root_mean_variance": 0.5762092170800405,
+      "coverage": 0.9669669669669669,
+      "coverage_wilson_95": [
+        0.9539730703509403,
+        0.9763833601631858
+      ],
+      "rejection_rate": 0.03303303303303303,
+      "rejection_wilson_95": [
+        0.023616639836814127,
+        0.04602692964905973
+      ]
+    },
+    "1": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 1000,
+      "failed": 0,
+      "warnings": 0,
+      "observed_event_rate": 0.143806,
+      "covered": 962,
+      "rejected": 311,
+      "coverage_all_planned_bounds": [
+        0.962,
+        0.962
+      ],
+      "bias": 0.024457720706470152,
+      "bias_mcse": 0.014055808575375603,
+      "empirical_sd": 0.44448369453513403,
+      "root_mean_variance": 0.46283559566867993,
+      "coverage": 0.962,
+      "coverage_wilson_95": [
+        0.9482730796686497,
+        0.9721909954906974
+      ],
+      "rejection_rate": 0.311,
+      "rejection_wilson_95": [
+        0.2830785879940784,
+        0.34036792671346144
+      ]
+    },
+    "2": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 1000,
+      "failed": 0,
+      "warnings": 0,
+      "observed_event_rate": 0.398942,
+      "covered": 961,
+      "rejected": 39,
+      "coverage_all_planned_bounds": [
+        0.961,
+        0.961
+      ],
+      "bias": -0.0010607072357151344,
+      "bias_mcse": 0.00688398436238401,
+      "empirical_sd": 0.2176906996211542,
+      "root_mean_variance": 0.2242997048217482,
+      "coverage": 0.961,
+      "coverage_wilson_95": [
+        0.9471306895804986,
+        0.9713410390958196
+      ],
+      "rejection_rate": 0.039,
+      "rejection_wilson_95": [
+        0.028658960904180485,
+        0.052869310419501346
+      ]
+    },
+    "3": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 1000,
+      "failed": 0,
+      "warnings": 0,
+      "observed_event_rate": 0.497744,
+      "covered": 949,
+      "rejected": 591,
+      "coverage_all_planned_bounds": [
+        0.949,
+        0.949
+      ],
+      "bias": 0.014204667332742104,
+      "bias_mcse": 0.006039264672905166,
+      "empirical_sd": 0.19097831758972103,
+      "root_mean_variance": 0.18641828776576155,
+      "coverage": 0.949,
+      "coverage_wilson_95": [
+        0.9335645136552383,
+        0.9609990572247332
+      ],
+      "rejection_rate": 0.591,
+      "rejection_wilson_95": [
+        0.560235954911328,
+        0.6210675750443009
+      ]
+    }
+  },
+  "audit": {
+    "status": "passed",
+    "datasets": 4000,
+    "paired": 3999,
+    "package_failures": 1,
+    "independent_failures": 1,
+    "matching_failures": 1,
+    "issue_count": 0,
+    "maximum_absolute_difference": 1.7785328765285158e-10,
+    "elapsed_seconds": 321.04235371015966
+  },
+  "runner_elapsed_seconds": 924.0913891457021,
+  "slurm_elapsed_seconds": 1251,
+  "output_kib": 26967,
+  "exact_rerun_comparison": {
+    "plan_exact_match": true,
+    "records_exact_match": true,
+    "summaries_exact_match": true,
+    "record_count": 4000,
+    "failed_case": {
+      "cell": 0,
+      "repetition": 190,
+      "draw": 83
+    }
+  },
+  "sha256": {
+    "result": "455d1d725ef609092962e05f137b642442b45cad4612f1beafeec16b1398d85c",
+    "journal": "51e62c31a82cfd568e839334b05302d871c928f7b71b517935e7f2c2d6dbab71",
+    "receipt": "6100c43ac0a9cf7b346d48970d80bd492f4f60eded9a994a5bc81f098d788218",
+    "audit": "fc75c3f0b24f376dc847567d5c5b97e91592ae2e4ed7353f41aa9c696f7351ee",
+    "direct_aggregate": "a22cd17a8fbdac77e48e588d04cd094fb175d962e6595b9120f0cff7fd7c5d4e",
+    "exact_rerun_comparison": "2882fbc410320dc41c7972e6e450c69eaf6d4818b52119148c1a3aa68f980c7c",
+    "source_bundle": "408a36055ff5e613492d1c7b55060829d9523a735a6997a29631305ee2a46782"
+  },
+  "first_run": {
+    "job_id": "2906946",
+    "source_commit": "fed55f08262bcd695f2d22e7b3aceff646aeba4e",
+    "raw_sha256": "ba78271e1b06e9d7837c49a89eb43400941b799bbb38bcbbca4dbfde03f4e8fd",
+    "audit_sha256": "d09ced94605085a9be570b2899b9c77e20a3867a8f53b689d6749ae72a8af819",
+    "audit_status": "failed_due_to_independent_boundary_root"
+  },
+  "scope": "One correctly specified known-score binary design; not broad calibration, causal evidence or full R qgcomp coverage."
+}

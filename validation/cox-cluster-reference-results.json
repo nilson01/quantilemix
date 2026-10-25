@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T16:21:10.338488+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "db4fb5bf2376219e4e47ed761a3656c2f749a322e0ed5fb46a59f1a10e33380d",
+  "r_exporter_sha256": "cfc27e145ae8afa563ba0f638653f4f858f3492610920759f408142338ab69a5",
+  "cases": [
+    {
+      "name": "cluster_untied",
+      "cluster_count": 16,
+      "max_absolute_differences": {
+        "coefficients": 3.608224830031759e-16,
+        "covariance": 1.3877787807814457e-17,
+        "psi": 1.8561541192951836e-16,
+        "variance": 1.734723475976807e-18,
+        "ci": 3.885780586188048e-16,
+        "p": 1.2212453270876722e-15,
+        "events": 0.0,
+        "naive_covariance": 3.8163916471489756e-17,
+        "score_residuals": 7.549516567451064e-15,
+        "R_score_cluster_sandwich": 1.6479873021779667e-17
+      }
+    },
+    {
+      "name": "cluster_tied",
+      "cluster_count": 16,
+      "max_absolute_differences": {
+        "coefficients": 8.673617379884035e-17,
+        "covariance": 1.1492543028346347e-17,
+        "psi": 6.245004513516506e-17,
+        "variance": 2.2551405187698492e-17,
+        "ci": 5.551115123125783e-16,
+        "p": 6.661338147750939e-16,
+        "events": 0.0,
+        "naive_covariance": 5.204170427930421e-17,
+        "score_residuals": 7.549516567451064e-15,
+        "R_score_cluster_sandwich": 2.3418766925686896e-17
+      }
+    },
+    {
+      "name": "cluster_weighted_offset_tied",
+      "cluster_count": 16,
+      "max_absolute_differences": {
+        "coefficients": 8.049116928532385e-16,
+        "covariance": 2.42861286636753e-17,
+        "psi": 1.5265566588595902e-16,
+        "variance": 4.336808689942018e-17,
+        "ci": 8.881784197001252e-16,
+        "p": 1.5543122344752192e-15,
+        "events": 0.0,
+        "naive_covariance": 5.204170427930421e-17,
+        "score_residuals": 8.881784197001252e-15,
+        "R_score_cluster_sandwich": 3.469446951953614e-17
+      }
+    }
+  ]
+}

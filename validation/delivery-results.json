@@ -1,0 +1,187 @@
+{
+  "source_revision": "d665041ea5714f35bfcc53c1eb4ba3a5924719e2",
+  "workflow_run": "https://github.com/nilson01/qgcomp-python/actions/runs/39874367556",
+  "scope": "Four Python delivery lanes; fixed Gaussian tests only. No live R on Windows or repeated-sample calibration.",
+  "identities": {
+    "src/qgcomp/_core.py": "efad59c9d420696fa6619795fdf5cd40c9f34829a32625a215ce0b7200f2f447",
+    "tests/fixtures/r_gaussian_2_19_6.json": "ff1c111c1eea044959e698e89344acaeba1eea4eb7e3e91e506a93f66ccf577e",
+    "validation/check_wheel_install.py": "de44e0c1005f11f635440aba7ae88c5e1b6b2cc95763abf54c2a8bed7a5b05d4",
+    "validation/minimum-constraints.txt": "857c8ef48dc6e83c7a1130227511a06cb4fe53256756476ee3f8aae6353f9fe5"
+  },
+  "wheel_reports": [
+    {
+      "artifact_name": "wheel-ubuntu-latest-py3.10-latest",
+      "status": "passed",
+      "wheel": "qgcomp_python-0.1.0.dev0-py3-none-any.whl",
+      "returncode": 0,
+      "elapsed_seconds": 16.557239591999974,
+      "clean_environment": true,
+      "test_copy_outside_source_tree": true,
+      "python": "3.10.22 (main, Oct  1 2026, 14:30:20) [GCC 13.3.0]",
+      "source_import_path_excluded": true,
+      "platform": "linux",
+      "dependency_profile": "latest",
+      "installed_versions": {
+        "qgcomp-python": "0.1.0.dev0",
+        "numpy": "2.2.6",
+        "scipy": "1.15.3",
+        "pytest": "9.1.1"
+      },
+      "test_counts": {
+        "tests": 179,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "71426fb2203d0364f20fba4325deeda47495d543fe9dea00e68986ddb783fff7",
+      "constraints_sha256": null
+    },
+    {
+      "artifact_name": "wheel-ubuntu-latest-py3.10-minimum",
+      "status": "passed",
+      "wheel": "qgcomp_python-0.1.0.dev0-py3-none-any.whl",
+      "returncode": 0,
+      "elapsed_seconds": 14.358361198000004,
+      "clean_environment": true,
+      "test_copy_outside_source_tree": true,
+      "python": "3.10.22 (main, Oct  1 2026, 14:30:20) [GCC 13.3.0]",
+      "source_import_path_excluded": true,
+      "platform": "linux",
+      "dependency_profile": "minimum",
+      "installed_versions": {
+        "qgcomp-python": "0.1.0.dev0",
+        "numpy": "2.0.0",
+        "scipy": "1.14.0",
+        "pytest": "8.0.0"
+      },
+      "test_counts": {
+        "tests": 179,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "30aca1582a73e40a1e98a430a302ddab8b4f41591087f862698ba7eb97f40c51",
+      "constraints_sha256": "857c8ef48dc6e83c7a1130227511a06cb4fe53256756476ee3f8aae6353f9fe5"
+    },
+    {
+      "artifact_name": "wheel-ubuntu-latest-py3.14-latest",
+      "status": "passed",
+      "wheel": "qgcomp_python-0.1.0.dev0-py3-none-any.whl",
+      "returncode": 0,
+      "elapsed_seconds": 16.952165587000003,
+      "clean_environment": true,
+      "test_copy_outside_source_tree": true,
+      "python": "3.14.8 (main, Oct  1 2026, 02:38:33) [GCC 13.3.0]",
+      "source_import_path_excluded": true,
+      "platform": "linux",
+      "dependency_profile": "latest",
+      "installed_versions": {
+        "qgcomp-python": "0.1.0.dev0",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "pytest": "9.1.1"
+      },
+      "test_counts": {
+        "tests": 179,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "b3fec7d5298cc7e0b9306753d6e814a846d8defb41243919b2ea83c380b43727",
+      "constraints_sha256": null
+    },
+    {
+      "artifact_name": "wheel-windows-latest-py3.14-latest",
+      "status": "passed",
+      "wheel": "qgcomp_python-0.1.0.dev0-py3-none-any.whl",
+      "returncode": 0,
+      "elapsed_seconds": 22.50076870000001,
+      "clean_environment": true,
+      "test_copy_outside_source_tree": true,
+      "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+      "source_import_path_excluded": true,
+      "platform": "win32",
+      "dependency_profile": "latest",
+      "installed_versions": {
+        "qgcomp-python": "0.1.0.dev0",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "pytest": "9.1.1"
+      },
+      "test_counts": {
+        "tests": 179,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "3542ed6fb669cd497fe3eaeabff33984b4a9713af99e0d48af96c93a27cfafd0",
+      "constraints_sha256": null
+    }
+  ],
+  "development_dependencies": {
+    "Python 3.10": {
+      "build": "1.6.1",
+      "exceptiongroup": "1.3.1",
+      "iniconfig": "2.3.1",
+      "numpy": "2.2.6",
+      "packaging": "26.3",
+      "pip": "26.2.1",
+      "pluggy": "1.7.0",
+      "Pygments": "2.21.0",
+      "pyproject_hooks": "1.3.3",
+      "pytest": "9.1.1",
+      "qgcomp-python": "0.1.0.dev0",
+      "ruff": "0.17.2",
+      "scipy": "1.15.3",
+      "setuptools": "79.0.1",
+      "tomli": "2.5.0",
+      "typing_extensions": "4.16.0"
+    },
+    "Python 3.14": {
+      "build": "1.6.1",
+      "iniconfig": "2.3.1",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pip": "26.2.1",
+      "pluggy": "1.7.0",
+      "Pygments": "2.21.0",
+      "pyproject_hooks": "1.3.3",
+      "pytest": "9.1.1",
+      "qgcomp-python": "0.1.0.dev0",
+      "ruff": "0.17.2",
+      "scipy": "1.18.1"
+    },
+    "Windows (Python 3.14)": {
+      "build": "1.6.1",
+      "colorama": "0.4.6",
+      "iniconfig": "2.3.1",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pip": "26.2.1",
+      "pluggy": "1.7.0",
+      "Pygments": "2.21.0",
+      "pyproject_hooks": "1.3.3",
+      "pytest": "9.1.1",
+      "qgcomp-python": "0.1.0.dev0",
+      "ruff": "0.17.2",
+      "scipy": "1.18.1"
+    },
+    "Minimum dependencies (Python 3.10)": {
+      "build": "1.2.1",
+      "exceptiongroup": "1.3.1",
+      "iniconfig": "2.3.1",
+      "numpy": "2.0.0",
+      "packaging": "26.3",
+      "pip": "26.2.1",
+      "pluggy": "1.7.0",
+      "pyproject_hooks": "1.3.3",
+      "pytest": "8.0.0",
+      "qgcomp-python": "0.1.0.dev0",
+      "ruff": "0.14.0",
+      "scipy": "1.14.0",
+      "setuptools": "77.0.1",
+      "tomli": "2.5.0",
+      "typing_extensions": "4.16.0"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-23T18:47:15.187813+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "a574c5c7544a8e56e494ef2908a69537463c5120301d9d37c646ad8c7a2fd0d0",
+  "r_exporter_sha256": "f1cca7f18ff426c14dcb75259016c6d4232caa9ae0bad2a8a1be1d3a78ffa203",
+  "cases": [
+    {
+      "name": "gaussian_ee_prequantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 7.216449660063518e-16,
+        "conditional_covariance": 1.3090494400264108e-14,
+        "msm_coefficients": 4.440892098500626e-16,
+        "msm_covariance": 2.0630632618923173e-14,
+        "full_covariance": 2.0630632618923173e-14,
+        "bread": 1.4460056263487786e-08,
+        "meat": 4.263256414560601e-13,
+        "psi": 4.440892098500626e-16,
+        "variance": 2.0630632618923173e-14,
+        "ci": 7.279177260954839e-13,
+        "statistic": 7.976730387326825e-11,
+        "p": 1.6591623799046601e-16,
+        "df": 0.0,
+        "scores": 0.0,
+        "levels": 0.0,
+        "means": 1.3322676295501878e-15
+      }
+    },
+    {
+      "name": "gaussian_ee_quantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 7.771561172376096e-16,
+        "conditional_covariance": 1.2223891603796444e-14,
+        "msm_coefficients": 1.3877787807814457e-15,
+        "msm_covariance": 1.1599662202987915e-14,
+        "full_covariance": 1.2223891603796444e-14,
+        "bread": 9.069935913430527e-09,
+        "meat": 4.831690603168681e-13,
+        "psi": 1.3877787807814457e-15,
+        "variance": 1.60136660876109e-16,
+        "ci": 6.022959908591474e-15,
+        "statistic": 5.056577379036753e-11,
+        "p": 6.979138556813648e-17,
+        "df": 0.0,
+        "scores": 0.0,
+        "levels": 0.0,
+        "means": 8.881784197001252e-16,
+        "breaks[0]": 1.1102230246251565e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    }
+  ],
+  "derivative_difference": "R saves a Richardson numerical Jacobian; Python uses exact derivatives.",
+  "prequantized_breaks_difference": "R saves synthetic boundaries; Python retains breaks=None."
+}

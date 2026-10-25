@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-23T19:28:04.741348+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "8bd0bb56f47391113c7fcf8e2901bb2de12775827de7f4032493d23354b8a6de",
+  "r_exporter_sha256": "617acdf55a31d56a4e11d281efce938418db94cd1937c8621b11a52e68a4e84d",
+  "cases": [
+    {
+      "name": "covariate_interactions_prequantized",
+      "max_absolute_differences": {
+        "msm_coefficients": 1.5543122344752192e-15,
+        "psi": 1.27675647831893e-15,
+        "covariance": 4.336808689942018e-17,
+        "se": 3.677613769070831e-16,
+        "ci": 1.9984014443252818e-15,
+        "p": 6.531722084591187e-17,
+        "df": 0.0,
+        "bootstrap_coefficients": 1.2601031329495527e-14,
+        "levels": 0.0,
+        "means": 1.7763568394002505e-15,
+        "scores": 0.0
+      }
+    },
+    {
+      "name": "covariate_interactions_pairwise_quantized",
+      "max_absolute_differences": {
+        "msm_coefficients": 1.021405182655144e-14,
+        "psi": 9.43689570931383e-16,
+        "covariance": 4.978656376053436e-16,
+        "se": 3.6914915568786455e-15,
+        "ci": 7.93809462606987e-15,
+        "p": 2.6639186191147746e-17,
+        "df": 0.0,
+        "bootstrap_coefficients": 1.4988010832439613e-14,
+        "levels": 0.0,
+        "means": 4.440892098500626e-15,
+        "scores": 0.0,
+        "breaks[0]": 4.440892098500626e-16,
+        "breaks[1]": 0.0
+      }
+    }
+  ],
+  "prequantized_breaks_difference": "R saves synthetic boundaries; Python retains breaks=None."
+}

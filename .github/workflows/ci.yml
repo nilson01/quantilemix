@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        include:
+          - name: Python 3.10
+            python: "3.10"
+            os: ubuntu-latest
+            profile: latest
+          - name: Python 3.14
+            python: "3.14"
+            os: ubuntu-latest
+            profile: latest
+          - name: Minimum dependencies (Python 3.10)
+            python: "3.10"
+            os: ubuntu-latest
+            profile: minimum
+          - name: Windows (Python 3.14)
+            python: "3.14"
+            os: windows-latest
+            profile: latest
+    env:
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+      PYTHONUTF8: "1"
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install development dependencies
+        if: matrix.profile == 'latest'
+        run: python -m pip install '.[dev]'
+      - name: Install minimum dependencies
+        if: matrix.profile == 'minimum'
+        run: |
+          python -m pip install --only-binary=:all: -r validation/minimum-constraints.txt
+          python -m pip install --no-build-isolation -c validation/minimum-constraints.txt '.[dev]'
+      - name: Record installed dependency versions
+        run: python -m pip list --format=json
+      - name: Check source
+        run: python -m ruff check src tests validation docs/examples docs/check_examples.py docs/hooks.py docs/build_manual.py
+      - name: Test installed package
+        run: python -m pytest -q
+      - name: Check tutorials against the installed package
+        run: python -I docs/check_examples.py
+      - name: Build source and wheel distributions
+        if: matrix.profile == 'latest'
+        run: python -m build
+      - name: Build with minimum backend
+        if: matrix.profile == 'minimum'
+        run: python -m build --no-isolation
+      - name: Verify a fresh wheel installation
+        if: matrix.profile == 'latest'
+        run: python validation/check_wheel_install.py
+      - name: Verify a fresh wheel with minimum dependencies
+        if: matrix.profile == 'minimum'
+        run: python validation/check_wheel_install.py --minimum
+      - name: Save wheel verification metadata
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: wheel-${{ matrix.os }}-py${{ matrix.python }}-${{ matrix.profile }}
+          path: validation/wheel-check.json
+          if-no-files-found: ignore
+          retention-days: 7

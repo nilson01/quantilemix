@@ -1,0 +1,22 @@
+{
+  "R_version": "R version 4.5.1 (2025-06-13)",
+  "qgcomp_version": "2.19.6",
+  "survival_version": "3.8.3",
+  "setup": {
+    "initial_seed": 42,
+    "bootstrap_seed": 314159,
+    "rows": 128,
+    "B": 2,
+    "MCsize": 128,
+    "degree": 1,
+    "q": 4
+  },
+  "simulated_outcomes": 512,
+  "missing_time_count": 47,
+  "missing_by_level": [9, 8, 13, 17],
+  "marginal_psi": -0.126699846414207,
+  "bootstrap_effects": [
+    [-0.128019702931765, 0.00543406794470884]
+  ],
+  "bootstrap_variance": 0.00890495448057517
+}

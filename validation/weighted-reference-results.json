@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "weighted_prequantized_correlated",
+      "status": "passed",
+      "numeric_fields": 16
+    },
+    {
+      "name": "weighted_raw_adjusted",
+      "status": "passed",
+      "numeric_fields": 16
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "9594e90d09ace4d5c7705498ffb1e6cfb503ad9e59b121ed0bd517aee7e013f2",
+    "exporter_sha256": "a563110a5995d1c8641582773db58f52e381e95b7eb70562145fefe125c2ab0c"
+  },
+  "scope": "two fixed positive-weight Gaussian cases; no simulations or R runtime dependency",
+  "checked_at_utc": "2026-10-23T07:39:00.048467+00:00"
+}

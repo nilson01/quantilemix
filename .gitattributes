@@ -1,0 +1,4 @@
+# Preserve canonical source and fixture bytes on every checkout platform.
+* text=auto eol=lf
+# Preserve generated CSV bytes so provenance hashes remain portable.
+validation/figures/**/coverage.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

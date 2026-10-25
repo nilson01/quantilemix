@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T00:50:15.189510+00:00",
+  "input_sha256": "c214ef57d695c54e68fb1b7d9f6791d5acff1eda71ad846404873b333aa32f44",
+  "bootstrap_seed": 7377651011041772520,
+  "draw_csv_sha256": "a9f4a079d92a7ed65153ffdd8806161ab0758db680fe1a22a25a5ccb8fe70512",
+  "r_driver_sha256": "097353a0be8451d51f54d07ab7fa772792df61b1a885a738046c9457577652b6",
+  "R": {
+    "R_version": "R version 4.5.1 (2025-06-13)",
+    "qgcomp_version": "2.19.6",
+    "jsonlite_version": "2.0.0",
+    "draw": {
+      "rows": 500,
+      "unique_original_ids": 313,
+      "events": 32,
+      "z0_rows": 255,
+      "z0_events": 0,
+      "z1_events": 32
+    },
+    "internal": {
+      "conditional_converged": true,
+      "conditional_iterations": 19,
+      "conditional_coefficients": [
+        -20.7916960183983,
+        0.574916959911889,
+        0.50958497880454,
+        0.341690716741688,
+        -1.52517022321115,
+        18.6739582533805
+      ],
+      "msm_converged": true,
+      "msm_coefficients": [
+        -2.94468725280842,
+        -0.0888064052897549
+      ],
+      "warnings": []
+    },
+    "public": {
+      "B": 4,
+      "psi": -0.0888064052897549,
+      "se": 1.08343091570975,
+      "ci": [
+        -2.21229197981812,
+        2.03467916923861
+      ],
+      "conditional_converged": true,
+      "conditional_iterations": 19,
+      "conditional_coefficients": [
+        -20.7916960183983,
+        0.574916959911889,
+        0.50958497880454,
+        0.341690716741688,
+        -1.52517022321115,
+        18.6739582533805
+      ],
+      "warnings": []
+    }
+  },
+  "python_failure": "binomial coefficients diverged; check separation",
+  "python_public_failure": "bootstrap replicate 83 failed: binomial coefficients diverged; check separation",
+  "R_stdout": "Exact separated draw checked in installed R qgcomp 2.19.6",
+  "scope": "One retained separated draw; the public R call uses four new resamples, not the original 200-draw Python schedule. This is a failure-policy comparison, not interval calibration."
+}

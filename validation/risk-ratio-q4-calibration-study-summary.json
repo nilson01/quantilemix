@@ -1,0 +1,200 @@
+{
+  "protocol": "binary-risk-ratio-four-level-known-scores-v1",
+  "date_utc": "2026-10-24",
+  "source_commit": "2c080ac3b6e83fabf0a42462c3bc9bc45ccfc8eb",
+  "run_id": "b90fee17b8227128e2019e172f5ad126dc8d69bb117b2d4f10efcedd716a58a6",
+  "server_job_id": "2917185",
+  "plan": {
+    "protocol": "binary-risk-ratio-four-level-known-scores-v1",
+    "mode": "study",
+    "n": 500,
+    "B": 200,
+    "cells": [
+      {
+        "cell": 0,
+        "baseline_risk": 0.1,
+        "joint_log_odds": 0.0,
+        "true_log_risk_ratio": 0.0
+      },
+      {
+        "cell": 1,
+        "baseline_risk": 0.1,
+        "joint_log_odds": 0.8,
+        "true_log_risk_ratio": 0.2256456566528969
+      },
+      {
+        "cell": 2,
+        "baseline_risk": 0.4,
+        "joint_log_odds": 0.0,
+        "true_log_risk_ratio": 0.0
+      },
+      {
+        "cell": 3,
+        "baseline_risk": 0.4,
+        "joint_log_odds": 0.8,
+        "true_log_risk_ratio": 0.130264663196287
+      }
+    ],
+    "repetitions_per_cell": 1000,
+    "total_datasets": 4000,
+    "total_bootstrap_fits": 800000,
+    "master_seed": 20261024
+  },
+  "environment": {
+    "python": "3.11.5",
+    "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "numpy": "2.0.0",
+    "scipy": "1.14.0"
+  },
+  "summaries": {
+    "0": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 999,
+      "failed": 1,
+      "warnings": 0,
+      "observed_event_rate": 0.100312,
+      "covered": 937,
+      "rejected": 62,
+      "coverage_all_planned_bounds": [
+        0.937,
+        0.938
+      ],
+      "bias": 0.0006629520934600947,
+      "bias_mcse": 0.007774854548732576,
+      "empirical_sd": 0.24573952651271566,
+      "root_mean_variance": 0.25096736070344433,
+      "coverage": 0.9379379379379379,
+      "coverage_wilson_95": [
+        0.9212339636357959,
+        0.9512868045312569
+      ],
+      "rejection_rate": 0.062062062062062065,
+      "rejection_wilson_95": [
+        0.04871319546874307,
+        0.07876603636420403
+      ]
+    },
+    "1": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 1000,
+      "failed": 0,
+      "warnings": 0,
+      "observed_event_rate": 0.142476,
+      "covered": 942,
+      "rejected": 213,
+      "coverage_all_planned_bounds": [
+        0.942,
+        0.942
+      ],
+      "bias": 0.0015192676535078756,
+      "bias_mcse": 0.0063001281731779515,
+      "empirical_sd": 0.19922754578238058,
+      "root_mean_variance": 0.1988116034248954,
+      "coverage": 0.942,
+      "coverage_wilson_95": [
+        0.9257504237337675,
+        0.9548667217650018
+      ],
+      "rejection_rate": 0.213,
+      "rejection_wilson_95": [
+        0.18874695684098677,
+        0.2394496025297219
+      ]
+    },
+    "2": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 1000,
+      "failed": 0,
+      "warnings": 0,
+      "observed_event_rate": 0.399494,
+      "covered": 937,
+      "rejected": 63,
+      "coverage_all_planned_bounds": [
+        0.937,
+        0.937
+      ],
+      "bias": 0.002214534572594216,
+      "bias_mcse": 0.0031096067480142022,
+      "empirical_sd": 0.09833439951154155,
+      "root_mean_variance": 0.09777311119597284,
+      "coverage": 0.937,
+      "coverage_wilson_95": [
+        0.920205076295354,
+        0.9504503367882711
+      ],
+      "rejection_rate": 0.063,
+      "rejection_wilson_95": [
+        0.049549663211729086,
+        0.0797949237046461
+      ]
+    },
+    "3": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "successful": 1000,
+      "failed": 0,
+      "warnings": 0,
+      "observed_event_rate": 0.497658,
+      "covered": 937,
+      "rejected": 419,
+      "coverage_all_planned_bounds": [
+        0.937,
+        0.937
+      ],
+      "bias": 0.00151156514137813,
+      "bias_mcse": 0.0025038683142597573,
+      "empirical_sd": 0.07917926834187089,
+      "root_mean_variance": 0.07742009541988662,
+      "coverage": 0.937,
+      "coverage_wilson_95": [
+        0.920205076295354,
+        0.9504503367882711
+      ],
+      "rejection_rate": 0.419,
+      "rejection_wilson_95": [
+        0.3887865610288496,
+        0.4498333738458103
+      ]
+    }
+  },
+  "audit": {
+    "status": "passed",
+    "datasets": 4000,
+    "paired": 3999,
+    "independent_failures": 1,
+    "package_failures": 1,
+    "matching_failures": 1,
+    "maximum_absolute_difference": 6.624722992398802e-11,
+    "issue_count": 0,
+    "elapsed_seconds": 446.2426118813455
+  },
+  "aggregation": {
+    "status": "passed",
+    "difference_count": 0
+  },
+  "fit_failure": {
+    "cell": 0,
+    "repetition": 718,
+    "bootstrap_draw": 49,
+    "class": "ValueError",
+    "matching_independent_separation": true
+  },
+  "runner_elapsed_seconds": 1217.975716592744,
+  "server_elapsed": "00:27:52",
+  "server_output_kib": 27359,
+  "sha256": {
+    "result.json": "a76119d3539dbafe7747186b9fa4a244ac745dff191c7f24ed658d10be9305bd",
+    "result.json.journal.jsonl": "1bce09843e3d2e6eb74db822de071131f21149c14d830b795a42f0e4195f200d",
+    "result.json.complete.json": "5b1929e3a82e5b52090580baa7be151fa57ee6202a9214f2361fc80745b9740c",
+    "check.json": "1d16142a19011d950c243c5ea9127911138f6900f0b11ce43d388cfa9ceeb68d",
+    "aggregate.json": "693219a2c3d18f50d028e98289f1476224a3ff2d19f48d9f1052508550e552d1"
+  },
+  "scope": "Known scores 0-3, independent rows, one binary adjustment covariate, four correctly specified logistic cells, B=200 normal intervals; fixed-R agreement is separate."
+}

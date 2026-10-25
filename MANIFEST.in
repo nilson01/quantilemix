@@ -1,0 +1,78 @@
+include NOTICE.md
+recursive-include tests *.py *.json
+recursive-include validation *.R *.md *.py *.sbatch
+include validation/installed-r-results.json
+include validation/summary-reference-results.json
+include validation/weighted-reference-results.json
+include validation/formula-reference-results.json
+include validation/missing-reference-results.json
+include validation/glm-missing-reference-results.json
+include validation/binomial-reference-results.json
+include validation/binomial-calibration-study-summary.json
+include validation/risk-ratio-calibration-study-summary.json
+include validation/risk-ratio-q4-calibration-study-summary.json
+include validation/risk-ratio-multilevel-reference-results.json
+include validation/poisson-calibration-study-summary.json
+include validation/poisson-offset-calibration-study-summary.json
+include validation/poisson-bootstrap-calibration-study-summary.json
+include validation/poisson-bootstrap-offset-calibration-study-summary.json
+include validation/poisson-reference-results.json
+include validation/poisson-offset-reference-results.json
+include validation/bootstrap-reference-results.json
+include validation/quadratic-reference-results.json
+include validation/interactions-reference-results.json
+include validation/gaussian-ee-reference-results.json
+include validation/poisson-ee-reference-results.json
+include validation/poisson-ee-offset-r-check.json
+include validation/binomial-ee-reference-results.json
+include validation/weighted-ee-reference-results.json
+include validation/quadratic-gaussian-ee-reference-results.json
+include validation/risk-ratio-reference-results.json
+include validation/risk-ratio-separation-r-results.json
+include validation/poisson-bootstrap-reference-results.json
+include validation/poisson-bootstrap-offset-reference-results.json
+include validation/covariate-interactions-reference-results.json
+include validation/cox-reference-results.json
+include validation/cox-weights-reference-results.json
+include validation/cox-offset-reference-results.json
+include validation/cox-cluster-reference-results.json
+include validation/cox-ties-reference-results.json
+include validation/cox-curves-reference-results.json
+include validation/cox-bootstrap-reference-results.json
+include validation/cox-bootstrap-r-behavior.json
+include validation/cox-survcurve-reference-results.json
+include validation/cox-bootstrap-preflight-results.json
+include validation/cox-bootstrap-timing-medium.json
+include validation/cox-bootstrap-timing-default-mc.json
+include validation/cox-bootstrap-timing-default-mc-repaired.json
+include validation/cox-rerun-conditional-20261024.json
+include validation/cox-rerun-ties-20261024.json
+include validation/cox-rerun-curves-20261024.json
+include validation/cox-rerun-bootstrap-20261024.json
+include validation/cox-rerun-survcurve-20261024.json
+include validation/tobit-reference-results.json
+include validation/multinomial-reference-results.json
+include validation/modelbound-ee-r-results.json
+include validation/bootstrap-calibration-config.json
+include validation/bootstrap-calibration-pilot-results.json
+include validation/bootstrap-calibration-review-pilot-results.json
+include validation/bootstrap-calibration-study-results.json
+include validation/delivery-results.json
+include validation/minimum-constraints.txt
+include validation/calibration-config.json
+include validation/calibration-preparation-results.json
+include validation/calibration-pilot-results.json
+include validation/calibration-study-results.json
+recursive-include validation/figures *.png *.pdf *.csv *.json
+exclude validation/wheel-check.json
+recursive-include docs *.md
+include CONTRIBUTING.md CHANGELOG.md
+exclude AGENTS.md
+include docs/manual/quantilemix-manual.pdf
+recursive-include docs/manual/images *.png
+
+include CITATION.cff mkdocs.yml docs/check_examples.py docs/hooks.py docs/build_manual.py
+recursive-include docs/examples *.py
+recursive-include docs/site *.csv *.svg *.png *.css
+
+prune tex

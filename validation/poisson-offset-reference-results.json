@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "offset_exact_scores",
+      "status": "passed",
+      "max_absolute_difference": {
+        "coefficients": 3.436346125381537e-15,
+        "covariance": 2.1067817976283543e-09,
+        "scores": 0.0,
+        "psi": 5.10702591327572e-15,
+        "variance": 2.354906082635555e-09,
+        "se": 5.037667338836371e-09,
+        "ci": 9.87365034177401e-09,
+        "zstat": 1.6522694501475144e-07,
+        "p": 1.1352867851028463e-17,
+        "residual_df": 0.0,
+        "fitted": 2.1316282072803006e-14,
+        "predictions": 1.2434497875801753e-14
+      }
+    },
+    {
+      "name": "offset_quantized_adjusted",
+      "status": "passed",
+      "max_absolute_difference": {
+        "coefficients": 1.6928125567972074e-13,
+        "covariance": 6.005927030011682e-09,
+        "scores": 0.0,
+        "psi": 2.8161500909007486e-14,
+        "variance": 1.7241635506468067e-09,
+        "se": 1.552586754993701e-08,
+        "ci": 3.04301693704323e-08,
+        "zstat": 7.762725323656738e-08,
+        "p": 5.959616633521847e-08,
+        "residual_df": 0.0,
+        "fitted": 2.297717571764224e-12,
+        "predictions": 2.078337502098293e-12
+      }
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "fbeb2ba9e7b52c6b8e83f182972d2d479e0a34f4bf483a29894118c56c4c1739",
+    "exporter_sha256": "168a2cf92ef1374a336e0015cf13eb7568b29bdbd254ab2f8f690e17547c036a"
+  },
+  "scope": "two fixed additive Poisson-log exposure-time offset fits; not calibration",
+  "python_vs_R_tolerance": {
+    "coefficients_and_predictions": {
+      "absolute": 5e-10,
+      "relative": 5e-10
+    },
+    "uncertainty": {
+      "absolute": 2e-06,
+      "relative": 2e-06
+    }
+  },
+  "checked_at_utc": "2026-10-24T01:06:25.959596+00:00"
+}

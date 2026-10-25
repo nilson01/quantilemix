@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "bootstrap_prequantized",
+      "status": "passed",
+      "max_absolute_difference": {
+        "psi": 2.6645352591003757e-15,
+        "variance": 2.211772431870429e-17,
+        "se": 1.8735013540549517e-16,
+        "ci": 2.4424906541753444e-15,
+        "statistic": 2.842170943040401e-14,
+        "p": 6.689695771446753e-25,
+        "bootstrap_effects": 7.771561172376096e-15,
+        "intervention_levels": 0.0,
+        "intervention_means": 6.217248937900877e-15,
+        "scores": 0.0
+      }
+    },
+    {
+      "name": "bootstrap_quantized_adjusted",
+      "status": "passed",
+      "max_absolute_difference": {
+        "psi": 5.551115123125783e-16,
+        "variance": 4.683753385137379e-17,
+        "se": 2.983724378680108e-16,
+        "ci": 1.9984014443252818e-15,
+        "statistic": 5.861977570020827e-14,
+        "p": 2.476242811026063e-18,
+        "bootstrap_effects": 3.4416913763379853e-15,
+        "intervention_levels": 0.0,
+        "intervention_means": 3.1086244689504383e-15,
+        "scores": 0.0
+      }
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "3cb75d425742963c99d41a359cb94c4180df840c9c1887eb27a8cea3126cf062",
+    "exporter_sha256": "53cd00e257da4fc4545f32893aa33c2da4cda3f7b741dec382120380440c3e34"
+  },
+  "scope": "fixed additive Gaussian row bootstrap with shared R resample schedules",
+  "python_vs_R_tolerance": {
+    "absolute": 5e-10,
+    "relative": 5e-10
+  },
+  "checked_at_utc": "2026-10-23T15:09:55.546749+00:00"
+}

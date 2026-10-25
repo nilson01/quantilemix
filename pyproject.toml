@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantilemix"
+version = "0.1.0.dev0"
+description = "Quantile-based models for joint effects of exposure mixtures"
+authors = [{name = "Nilson Chapagain", email = "nchapagain@tamu.edu"}]
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-2.0-or-later"
+license-files = ["LICENSE", "NOTICE.md"]
+dependencies = ["numpy>=2.0", "scipy>=1.14"]
+
+[project.urls]
+Homepage = "https://github.com/nilson01/quantilemix"
+Documentation = "https://nilson01.github.io/quantilemix/"
+Issues = "https://github.com/nilson01/quantilemix/issues"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+dev = ["pytest>=8", "build>=1.2", "ruff>=0.14"]
+plot = ["matplotlib>=3.9"]
+docs = ["mkdocs>=1.6,<2", "mkdocstrings[python]>=0.30,<2", "cffconvert>=2.0", "pymdown-extensions>=10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

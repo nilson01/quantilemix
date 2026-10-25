@@ -1,0 +1,79 @@
+{
+  "calibration_validated": false,
+  "denominators": {
+    "all_counts_and_planned_bounds": "coverage.csv",
+    "coverage": "successful fits only",
+    "method_fit_failures": 0,
+    "missing_method_results": 0,
+    "per_condition": 2000,
+    "planned_datasets": 24000
+  },
+  "derivation": {
+    "bars": "100 * saved coverage_wilson; 95% Wilson interval checked against covered/successful counts",
+    "coverage_axis_percent": [
+      92.5,
+      97.5
+    ],
+    "new_model_fits": 0,
+    "new_random_draws": 0,
+    "ordering": "n=100,500; rho=0,0.75; beta=null,cancellation,positive; method=python,r,qr_t",
+    "points": "100 * summary.cells[].methods[].coverage_successful",
+    "scale": "shared linear axis; all intervals and targets included",
+    "targets": "100 * saved analytic.reference_coverage and analytic.qr_t_coverage"
+  },
+  "dimensions": {
+    "inches": [
+      12.0,
+      7.5
+    ],
+    "pdf_points": [
+      864.0,
+      540.0
+    ],
+    "png_dpi_metadata": [
+      299.9994,
+      299.9994
+    ],
+    "png_pixels": [
+      3600,
+      2250
+    ]
+  },
+  "limits": [
+    "Input checks cover plot fields, not independent verification of original case records.",
+    "Analytic targets assume a correct normal, constant-variance model and full-rank design; failure selection may change coverage.",
+    "Wilson intervals are marginal per-method intervals, not simultaneous intervals or paired tests of method differences.",
+    "PNG dimensions, opacity and PDF page size checked; visual review and publisher requirements remain pending.",
+    "CSV blanks mean undefined coverage because no fits succeeded; they do not mean zero coverage."
+  ],
+  "outputs": {
+    "coverage.csv": {
+      "bytes": 5563,
+      "sha256": "2dc862258b3d2e1721fb8d03706b433f46216942563da7c5b23cc3195378be72"
+    },
+    "coverage.pdf": {
+      "bytes": 28439,
+      "sha256": "6b634a782aad663427cd52464a074d2ba41d8c1abab55ee6d3bbdbe3719e1640"
+    },
+    "coverage.png": {
+      "bytes": 384435,
+      "sha256": "00351e097ad6545914bd43187c158fe46eabf23271c1dca45b6fa68baa223e68"
+    }
+  },
+  "schema_version": 1,
+  "script_sha256": "276afaa930cef3201a7af582bfcd8d3439eb859ef5215a94d56c88c39c030dbf",
+  "source": {
+    "bytes": 119782,
+    "sha256": "503c4a11b076f20d5dbefa5d5b5fccb975f55920b3e4e5bcf07503837e1354ec",
+    "study_identity_sha256": "954276ca46124e3f1e06bf6288d99e2b2c3f881b9b0657b495df664194378343",
+    "summary_sha256_canonical": "ef9fd49c32f87cf89f14b7252665afb538fa8854c6d1311abd68adb298b184a6"
+  },
+  "study_status": "complete_numerical_agreement",
+  "versions": {
+    "Pillow": "12.3.0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "pypdf": "6.19.0",
+    "python": "3.12.14"
+  }
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use QuantileMix, cite this software and the statistical method used."
+type: software
+title: "QuantileMix: quantile g-computation in Python"
+authors:
+  - family-names: Chapagain
+    given-names: Nilson
+    affiliation: Texas A&M University
+    email: nchapagain@tamu.edu
+repository-code: https://github.com/nilson01/quantilemix
+url: https://github.com/nilson01/quantilemix
+license: GPL-2.0-or-later

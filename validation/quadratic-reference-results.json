@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-23T18:14:13.400285+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "4a22a63abcc07d05223818b6b9614be09bbfffd34a05c1c71550cc0bced647ea",
+  "r_exporter_sha256": "a41b95caf702cc263c4dcf01ec6a697eacae832d2c67173052aae264790c8934",
+  "cases": [
+    {
+      "name": "quadratic_prequantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 4.218847493575595e-15,
+        "conditional_covariance": 1.0760706561918632e-17,
+        "fitted": 4.440892098500626e-14,
+        "msm_coefficients": 1.1546319456101628e-14,
+        "psi": 4.246603069191224e-15,
+        "covariance": 7.546047120499111e-17,
+        "variance": 7.546047120499111e-17,
+        "se": 3.885780586188048e-16,
+        "ci": 5.100087019371813e-15,
+        "statistic": 1.1723955140041653e-13,
+        "p": 3.930883396563445e-15,
+        "df": 0.0,
+        "bootstrap_coefficients": 5.218048215738236e-15,
+        "levels": 0.0,
+        "means": 1.5543122344752192e-15,
+        "scores": 0.0
+      }
+    },
+    {
+      "name": "quadratic_quantized",
+      "max_absolute_differences": {
+        "conditional_coefficients": 3.649858193455202e-15,
+        "conditional_covariance": 1.3877787807814457e-17,
+        "fitted": 4.707345624410664e-14,
+        "msm_coefficients": 8.659739592076221e-15,
+        "psi": 1.1102230246251565e-15,
+        "covariance": 1.5178830414797062e-16,
+        "variance": 1.5178830414797062e-16,
+        "se": 1.0408340855860843e-15,
+        "ci": 3.774758283725532e-15,
+        "statistic": 2.7711166694643907e-13,
+        "p": 3.491130995403324e-17,
+        "df": 0.0,
+        "bootstrap_coefficients": 7.327471962526033e-15,
+        "levels": 0.0,
+        "means": 1.3322676295501878e-15,
+        "scores": 0.0,
+        "breaks[0]": 4.440892098500626e-16,
+        "breaks[1]": 1.1102230246251565e-16
+      }
+    }
+  ],
+  "prequantized_breaks_difference": "R saves synthetic boundaries; Python retains breaks=None."
+}

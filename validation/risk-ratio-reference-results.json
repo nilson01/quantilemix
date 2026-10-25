@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-23T19:05:47.259703+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "e9e4dba9c9372480d9d700c0f7a1595e41c703a303d358a9ebf5ba59f2530e82",
+  "r_exporter_sha256": "ef3d0ffa258840e42a747ab43ad3584b40085525e96fb233ab07699e840f1332",
+  "cases": [
+    {
+      "name": "binary_rr_two_exposures",
+      "max_absolute_differences": {
+        "psi": 6.614708780716683e-13,
+        "se": 4.863439095892375e-10,
+        "ci": 9.538803080744174e-10,
+        "p": 1.7726898768333221e-10,
+        "risks": 1.8451906669270102e-13,
+        "effects": 1.0937675654076884e-08
+      }
+    },
+    {
+      "name": "binary_rr_adjusted",
+      "max_absolute_differences": {
+        "psi": 1.3308520951937908e-10,
+        "se": 2.635114348947809e-13,
+        "ci": 1.3360124118122485e-10,
+        "p": 1.0869341537933508e-10,
+        "risks": 1.4299672557172016e-13,
+        "effects": 4.068090309061745e-11
+      }
+    }
+  ],
+  "scope": "Two fixed prequantized two-level cases; not interval calibration."
+}

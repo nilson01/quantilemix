@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "case_count": 4,
+  "scope": "fixed binomial/Poisson complete-case formulas; no imputation or repeated-data calibration",
+  "installed_r_version": "R version 4.5.1 (2025-06-13)",
+  "installed_qgcomp_version": "2.19.6",
+  "installed_origin": "isolated R library supplied to optional checker",
+  "fixture_sha256": "b2ffc8da33baaa7cb86837859f26da251adfcf190fea7f8b1a3311ad0f5de9d7",
+  "exporter_sha256": "63196960f8d97f5e93d3359fcc5f72dc67c8c19cbf88294f84d6739f10123797",
+  "checked_at_utc": "2026-10-23T17:33:55.254860+00:00",
+  "comparisons": [
+    {
+      "name": "binomial_quantized",
+      "retained_rows": 105,
+      "maximum_absolute_difference": {
+        "coefficients": 4.6629367034256575e-15,
+        "covariance": 1.2246654301772963e-08,
+        "psi": 1.7208456881689926e-15,
+        "variance": 2.1929582594282238e-09,
+        "ci": 7.402928381416984e-09,
+        "p": 6.204681712862481e-09,
+        "predictions": 9.992007221626409e-16
+      }
+    },
+    {
+      "name": "binomial_prequantized",
+      "retained_rows": 124,
+      "maximum_absolute_difference": {
+        "coefficients": 1.6486811915683575e-13,
+        "covariance": 6.155399989715704e-08,
+        "psi": 5.756506382681437e-14,
+        "variance": 8.813013277486625e-09,
+        "ci": 3.651727087383705e-08,
+        "p": 2.897223516651337e-08,
+        "predictions": 3.3584246494910985e-14
+      }
+    },
+    {
+      "name": "poisson_quantized",
+      "retained_rows": 105,
+      "maximum_absolute_difference": {
+        "coefficients": 5.773159728050814e-15,
+        "covariance": 1.6662529099542578e-09,
+        "psi": 1.5785983631388945e-15,
+        "variance": 3.284030391376147e-10,
+        "ci": 4.5186167862976134e-09,
+        "p": 8.242551641224338e-09,
+        "predictions": 1.9095836023552692e-14
+      }
+    },
+    {
+      "name": "poisson_prequantized",
+      "retained_rows": 124,
+      "maximum_absolute_difference": {
+        "coefficients": 1.5543122344752192e-15,
+        "covariance": 9.41062994891384e-10,
+        "psi": 1.0044048925905713e-15,
+        "variance": 1.569190749561855e-10,
+        "ci": 2.7126676876987332e-09,
+        "p": 3.1721122395467205e-09,
+        "predictions": 6.661338147750939e-15
+      }
+    }
+  ]
+}

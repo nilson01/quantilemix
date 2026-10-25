@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T15:42:35.560884+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "c03a071387d60759fa4d691e7162741a636051e12bde1a4b910a5823e87f3c51",
+  "r_exporter_sha256": "0ba7537f382564a1d3925756280a9667b349231f4c91479119fc6537403abc8e",
+  "cases": [
+    {
+      "name": "fractional_untied",
+      "max_absolute_differences": {
+        "coefficients": 8.049116928532385e-16,
+        "covariance": 4.85722573273506e-17,
+        "psi": 4.163336342344337e-17,
+        "variance": 1.3877787807814457e-17,
+        "ci": 3.608224830031759e-16,
+        "p": 0.0,
+        "baseline_time": 0.0,
+        "baseline_cumulative_hazard": 5.329070518200751e-15,
+        "events": 0.0,
+        "naive_covariance": 1.4094628242311558e-17,
+        "weighted_score_residuals": 1.2434497875801753e-14
+      }
+    },
+    {
+      "name": "fractional_tied",
+      "max_absolute_differences": {
+        "coefficients": 2.7201644756114085e-10,
+        "covariance": 1.6275834846535275e-12,
+        "psi": 3.666690215342605e-12,
+        "variance": 2.056209369438733e-12,
+        "ci": 1.639210989168305e-11,
+        "p": 1.9695134412245352e-11,
+        "baseline_time": 0.0,
+        "baseline_cumulative_hazard": 8.970304499200665e-10,
+        "events": 0.0,
+        "naive_covariance": 7.34939886726238e-13,
+        "weighted_score_residuals": 1.8745289764865447e-09
+      }
+    },
+    {
+      "name": "integer_untied",
+      "max_absolute_differences": {
+        "coefficients": 6.800116025829084e-15,
+        "covariance": 8.673617379884035e-18,
+        "psi": 9.402201239794294e-16,
+        "variance": 5.204170427930421e-18,
+        "ci": 9.43689570931383e-16,
+        "p": 7.549516567451064e-15,
+        "baseline_time": 0.0,
+        "baseline_cumulative_hazard": 1.2878587085651816e-14,
+        "events": 0.0
+      }
+    }
+  ]
+}

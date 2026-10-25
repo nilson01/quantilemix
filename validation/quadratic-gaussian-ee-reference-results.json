@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T09:13:40.615690+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "dacf79833b4432584af5b7ca8335f47f6f0cfbd1a422e0f7694ac1d5ba53e8dd",
+  "r_exporter_sha256": "aae15072046467e38b86ca2bfa44fa8074a85bd4c161cc43cc070d9f6e08e7fb",
+  "cases": [
+    {
+      "name": "quadratic_square_ee",
+      "max_absolute_differences": {
+        "conditional_coefficients": 9.992007221626409e-14,
+        "msm_coefficients": 1.149080830487037e-13,
+        "psi": 1.149080830487037e-13,
+        "scores": 0.0,
+        "levels": 0.0,
+        "standardized": 4.440892098500626e-14,
+        "df": 0.0,
+        "bread": 1.8759965314529836e-07,
+        "fresh_meat": 2.7284841053187847e-11,
+        "fresh_full_covariance": 8.73532149392453e-12
+      },
+      "r_stale_term_meat_difference": 58493.15848970025
+    },
+    {
+      "name": "quadratic_pairwise_ee",
+      "max_absolute_differences": {
+        "conditional_coefficients": 6.405986852087153e-14,
+        "msm_coefficients": 7.105427357601002e-14,
+        "psi": 7.105427357601002e-14,
+        "scores": 0.0,
+        "levels": 0.0,
+        "standardized": 6.816769371198461e-14,
+        "df": 0.0,
+        "bread": 4.981993697583675e-07,
+        "fresh_meat": 5.777600620149315e-12,
+        "fresh_full_covariance": 3.938550874327262e-12
+      },
+      "r_stale_term_meat_difference": 123612.32599275025
+    },
+    {
+      "name": "quadratic_covariate_weighted_ee",
+      "max_absolute_differences": {
+        "conditional_coefficients": 2.113864638886298e-13,
+        "msm_coefficients": 2.390310172017962e-13,
+        "psi": 2.390310172017962e-13,
+        "scores": 0.0,
+        "levels": 0.0,
+        "standardized": 1.4277468096679513e-13,
+        "df": 0.0,
+        "bread": 8.202987373806536e-07,
+        "fresh_meat": 3.383320290595293e-10,
+        "fresh_full_covariance": 2.016322872555598e-12
+      },
+      "r_stale_term_meat_difference": 928682.5348934464
+    }
+  ],
+  "difference": "R's cluster meat reuses formula-derived I(...) columns from model.frame; Python recomputes them at each intervention."
+}

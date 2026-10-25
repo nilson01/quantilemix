@@ -1,0 +1,55 @@
+site_name: QuantileMix
+site_url: https://nilson01.github.io/quantilemix/
+hooks: [docs/hooks.py]
+site_description: Quantile g-computation for exposure mixtures in Python
+repo_url: https://github.com/nilson01/quantilemix
+edit_uri: ''
+docs_dir: docs/site
+site_dir: site
+extra_css: [assets/style.css]
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+theme:
+  name: readthedocs
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: numpy
+            show_source: false
+            show_root_heading: true
+            show_root_full_path: false
+            heading_level: 2
+            members: false
+markdown_extensions:
+  - tables
+  - attr_list
+  - fenced_code
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.snippets:
+      base_path: ['.']
+      check_paths: true
+nav:
+  - Start here: index.md
+  - Installation: install.md
+  - Tutorials:
+      - Continuous outcomes: tutorials/gaussian.md
+      - Binary outcomes: tutorials/binary.md
+      - Count outcomes: tutorials/count.md
+  - API reference:
+      - Choose a method: reference/index.md
+      - Continuous: reference/continuous.md
+      - Binary: reference/binary.md
+      - Counts: reference/count.md
+      - Survival: reference/survival.md
+      - Other outcomes: reference/other.md
+      - Data and results: reference/tools.md
+      - Result types: reference/results.md
+  - Common questions: faq.md
+  - Reference manual: manual/reference.md
+  - Evidence: evidence.md
+  - Citation: citation.md

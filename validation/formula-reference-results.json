@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "case_count": 2,
+  "comparisons": [
+    {
+      "name": "formula_categorical_prequantized_weighted",
+      "status": "passed"
+    },
+    {
+      "name": "formula_categorical_quantized",
+      "status": "passed"
+    }
+  ],
+  "reference": {
+    "package": "qgcomp",
+    "version": "2.19.6",
+    "R_version": "R version 4.5.1 (2025-06-13)"
+  },
+  "identities": {
+    "fixture_sha256": "6910f0bf2b30c9b3cf5fa6bee52ddc19aa78e5927fc8264f10bedf2c88b08619",
+    "exporter_sha256": "8167fb6f62a4f09d644bf521a214e5ccc617e604c5740f3fbbd7584b9b6963f3"
+  },
+  "scope": "fixed additive Gaussian formula/categorical fits; no missing-row removal",
+  "checked_at_utc": "2026-10-23T14:00:10.497886+00:00"
+}

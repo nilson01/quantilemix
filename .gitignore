@@ -1,0 +1,42 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+.DS_Store
+.ruff_cache/
+.env
+.env.*
+*.pem
+*.key
+.coverage
+htmlcov/
+validation/*.xml
+validation/*.log
+validation/wheel-environment.txt
+validation/wheel-check.json
+validation/*-local.json
+# Local manual build intermediates.
+docs/manual/*.aux
+docs/manual/*.fdb_latexmk
+docs/manual/*.fls
+docs/manual/*.log
+docs/manual/*.out
+docs/manual/*.toc
+docs/manual/*.synctex.gz
+docs/manual/main.pdf
+
+# Generated searchable documentation.
+/site/
+
+# Author-only manual files are maintained outside this repository.
+/docs/manual-source/
+/docs/manual/examples.py
+/docs/manual/plot_examples.py
+/docs/manual/quantilemix-future-versions.pdf
+
+# Local coding-agent instructions.
+/AGENTS.md
+
+/tex/

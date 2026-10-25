@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T10:31:11.425991+00:00",
+  "qgcomp_version": "2.19.6",
+  "source_sha256": "c2cca8cb735dab35b299cbd485f5e88c86d2b3097cd0049331faa9e2ac5fa161",
+  "stage_sha256": "ae5bbdbcbc9d6675f4a25baa816511187d347145364bdda06f8d7143a25a20d4",
+  "r_fixture_sha256": "f98f4e41b8f39e01a4a22d0bffe05cbeab9a6a4b0a8df3139f184f4e0097ec33",
+  "r_exporter_sha256": "92d4df6d59319d10cc452a43fbef291bbb91300f7550dada25861d3ddcdaf81a",
+  "cases": [
+    {
+      "degree": 1,
+      "maximum_absolute_differences": {
+        "psi": 7.771561172376096e-16,
+        "mdfpop.time": 0.0,
+        "mdfpop.surv": 8.881784197001252e-16,
+        "cdfpop.time": 0.0,
+        "cdfpop.surv": 5.551115123125783e-16,
+        "mdfq.time": 0.0,
+        "mdfq.surv": 1.1102230246251565e-15,
+        "mdfq.q": 0.0,
+        "cdfq.time": 0.0,
+        "cdfq.surv": 5.551115123125783e-16,
+        "cdfq.q": 0.0
+      }
+    },
+    {
+      "degree": 2,
+      "maximum_absolute_differences": {
+        "psi": 1.1774133057418368e-09,
+        "mdfpop.time": 0.0,
+        "mdfpop.surv": 6.491848725254101e-12,
+        "cdfpop.time": 0.0,
+        "cdfpop.surv": 5.551115123125783e-16,
+        "mdfq.time": 0.0,
+        "mdfq.surv": 1.6732942809127849e-10,
+        "mdfq.q": 0.0,
+        "cdfq.time": 0.0,
+        "cdfq.surv": 5.551115123125783e-16,
+        "cdfq.q": 0.0
+      }
+    }
+  ]
+}

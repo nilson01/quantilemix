@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-10-24T02:11:48.289757+00:00",
+  "qgcomp_version": "2.19.6",
+  "saved_fixture_sha256": "63c22e14b45ac709e8cf68654c79a51d23d74c117f3e2789197b2c0370988108",
+  "r_exporter_sha256": "89b856960b420de2cc6fee9dc2ea9583fd7c2281bf5b06b487994578e7078a84",
+  "cases": [
+    {
+      "name": "offset_bootstrap_exact_scores",
+      "max_absolute_differences": {
+        "saved_R_psi": 0.0,
+        "saved_R_se": 0.0,
+        "saved_R_ci": 0.0,
+        "saved_R_p": 0.0,
+        "saved_R_means": 0.0,
+        "saved_R_scores": 0.0,
+        "saved_R_breaks[0]": 0.0,
+        "saved_R_breaks[1]": 0.0,
+        "saved_R_effects": 0.0,
+        "Python_psi": 8.841505305667852e-11,
+        "Python_se": 5.803910130275369e-11,
+        "Python_ci": 2.0217028051661146e-10,
+        "Python_p": 3.2365432385064116e-29,
+        "Python_means": 3.708144902248023e-13,
+        "Python_effects": 5.832352378831729e-10,
+        "Python_scores": 0.0,
+        "independent_psi": 8.841571919049329e-11,
+        "independent_effects": 5.832250238313463e-10,
+        "independent_means": 3.6859404417555197e-13
+      }
+    },
+    {
+      "name": "offset_bootstrap_quantized_adjusted",
+      "max_absolute_differences": {
+        "saved_R_psi": 0.0,
+        "saved_R_se": 0.0,
+        "saved_R_ci": 0.0,
+        "saved_R_p": 0.0,
+        "saved_R_means": 0.0,
+        "saved_R_scores": 0.0,
+        "saved_R_breaks[0]": 0.0,
+        "saved_R_breaks[1]": 0.0,
+        "saved_R_effects": 0.0,
+        "Python_psi": 1.3058998327153404e-13,
+        "Python_se": 2.3936408410918375e-13,
+        "Python_ci": 5.998951335683955e-13,
+        "Python_p": 2.351341343853619e-12,
+        "Python_means": 9.485745522397337e-13,
+        "Python_effects": 4.367242678604555e-12,
+        "Python_scores": 0.0,
+        "Python_breaks[0]": 0.0,
+        "Python_breaks[1]": 0.0,
+        "independent_psi": 1.303158969623297e-13,
+        "independent_effects": 4.367256556392363e-12,
+        "independent_means": 9.414691248821327e-13
+      }
+    }
+  ],
+  "scope": "One prequantized and one quantized unequal-time case; not interval calibration.",
+  "prequantized_breaks_difference": "R saves synthetic boundaries; Python retains breaks=None."
+}

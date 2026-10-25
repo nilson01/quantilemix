@@ -1,0 +1,305 @@
+{
+  "protocol": {
+    "protocol": "poisson-bootstrap-offset-known-scores-v1",
+    "mode": "study",
+    "n": 500,
+    "B": 200,
+    "cells": [
+      {
+        "cell": 0,
+        "center_mean": 0.2,
+        "truth": 0.0
+      },
+      {
+        "cell": 1,
+        "center_mean": 0.2,
+        "truth": 0.4
+      },
+      {
+        "cell": 2,
+        "center_mean": 2.0,
+        "truth": 0.0
+      },
+      {
+        "cell": 3,
+        "center_mean": 2.0,
+        "truth": 0.4
+      }
+    ],
+    "repetitions_per_cell": 1000,
+    "total_datasets": 4000,
+    "total_bootstrap_fits": 800000,
+    "master_seed": 20261024
+  },
+  "source_identity": {
+    "git_commit": "70833fb85540bac293709f898ff3bce86abdc7b1",
+    "git_dirty": false,
+    "source_sha256": {
+      "runner": "76e787e840ea5e38a2e67e75ad340bf715b5644a15ebc7f5160907f32291e48d",
+      "checker": "5943b95ef1058c4688dd6b70ce95b21bda2661cb89ed96c43b9128a9fc6dfe40",
+      "poisson_estimator": "071ba6206252f190f8ef1c99f154f1c28630633f6e3bc98979667ff3ad39f5ec",
+      "bootstrap_estimator": "2d3f91f492e800984da3d160a381990c7cfa2270dd9fcda41526f4a081834431"
+    },
+    "python": "3.11.5",
+    "platform": "Linux-5.14.0-687.25.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "numpy": "2.0.0",
+    "scipy": "1.14.0"
+  },
+  "protocol_sha256": "524a5f892712223a0b1e895c23648beb1eaa0c662341a682b6bbe8b0ca5a7fbb",
+  "slurm_job_id": 2911570,
+  "slurm_state": "COMPLETED",
+  "slurm_exit_code": "0:0",
+  "slurm_elapsed": "00:19:14",
+  "runner_elapsed_seconds": 880.6675656270236,
+  "checker_elapsed_seconds": 265.92175018787384,
+  "summaries": {
+    "0": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "observed_mean": 0.233724,
+      "mean_observation_time": 0.9378345,
+      "zero_fraction": 0.803228,
+      "bootstrap": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 946,
+        "rejected": 54,
+        "coverage_all_planned_bounds": [
+          0.946,
+          0.946
+        ],
+        "bias": -0.006138069419077078,
+        "bias_mcse": 0.0053578085573997725,
+        "empirical_sd": 0.16942878308524273,
+        "root_mean_variance": 0.1697134394344015,
+        "coverage": 0.946,
+        "coverage_wilson_95": [
+          0.9302078451539475,
+          0.9583786862769372
+        ],
+        "rejection_rate": 0.054,
+        "rejection_wilson_95": [
+          0.04162131372306273,
+          0.06979215484605245
+        ]
+      },
+      "model_based": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 951,
+        "rejected": 49,
+        "coverage_all_planned_bounds": [
+          0.951,
+          0.951
+        ],
+        "bias": -0.00613806941907708,
+        "bias_mcse": 0.0053578085573997725,
+        "empirical_sd": 0.16942878308524273,
+        "root_mean_variance": 0.16830980934680415,
+        "coverage": 0.951,
+        "coverage_wilson_95": [
+          0.9358092984933898,
+          0.9627389653526394
+        ],
+        "rejection_rate": 0.049,
+        "rejection_wilson_95": [
+          0.037261034647360615,
+          0.06419070150661013
+        ]
+      }
+    },
+    "1": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "observed_mean": 0.24049,
+      "mean_observation_time": 0.9373505,
+      "zero_fraction": 0.799752,
+      "bootstrap": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 947,
+        "rejected": 683,
+        "coverage_all_planned_bounds": [
+          0.947,
+          0.947
+        ],
+        "bias": 0.0035160226633651416,
+        "bias_mcse": 0.005174664361500748,
+        "empirical_sd": 0.16363725509243288,
+        "root_mean_variance": 0.16713137598484157,
+        "coverage": 0.947,
+        "coverage_wilson_95": [
+          0.9313253831625082,
+          0.9592534947514054
+        ],
+        "rejection_rate": 0.683,
+        "rejection_wilson_95": [
+          0.6535068964204829,
+          0.7110925099738041
+        ]
+      },
+      "model_based": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 953,
+        "rejected": 681,
+        "coverage_all_planned_bounds": [
+          0.953,
+          0.953
+        ],
+        "bias": 0.003516022663365164,
+        "bias_mcse": 0.005174664361500749,
+        "empirical_sd": 0.1636372550924329,
+        "root_mean_variance": 0.1664598042204791,
+        "coverage": 0.953,
+        "coverage_wilson_95": [
+          0.9380600619184716,
+          0.9644728948936154
+        ],
+        "rejection_rate": 0.681,
+        "rejection_wilson_95": [
+          0.6514663972750635,
+          0.7091483161531656
+        ]
+      }
+    },
+    "2": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "observed_mean": 2.336058,
+      "mean_observation_time": 0.937423,
+      "zero_fraction": 0.235458,
+      "bootstrap": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 938,
+        "rejected": 62,
+        "coverage_all_planned_bounds": [
+          0.938,
+          0.938
+        ],
+        "bias": 0.00012883588994880746,
+        "bias_mcse": 0.0016779715858176857,
+        "empirical_sd": 0.05306212060228576,
+        "root_mean_variance": 0.05278090501929696,
+        "coverage": 0.938,
+        "coverage_wilson_95": [
+          0.9213119396866343,
+          0.9513358198800193
+        ],
+        "rejection_rate": 0.062,
+        "rejection_wilson_95": [
+          0.04866418011998064,
+          0.07868806031336564
+        ]
+      },
+      "model_based": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 942,
+        "rejected": 58,
+        "coverage_all_planned_bounds": [
+          0.942,
+          0.942
+        ],
+        "bias": 0.00012883588994881228,
+        "bias_mcse": 0.0016779715858176855,
+        "empirical_sd": 0.05306212060228575,
+        "root_mean_variance": 0.052806224729512734,
+        "coverage": 0.942,
+        "coverage_wilson_95": [
+          0.9257504237337675,
+          0.9548667217650018
+        ],
+        "rejection_rate": 0.058,
+        "rejection_wilson_95": [
+          0.04513327823499824,
+          0.0742495762662325
+        ]
+      }
+    },
+    "3": {
+      "planned": 1000,
+      "attempted": 1000,
+      "missing": 0,
+      "observed_mean": 2.397422,
+      "mean_observation_time": 0.9390565,
+      "zero_fraction": 0.237654,
+      "bootstrap": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 950,
+        "rejected": 1000,
+        "coverage_all_planned_bounds": [
+          0.95,
+          0.95
+        ],
+        "bias": 0.0004976938841673975,
+        "bias_mcse": 0.0016568287070643129,
+        "empirical_sd": 0.05239352407075136,
+        "root_mean_variance": 0.0523605490648186,
+        "coverage": 0.95,
+        "coverage_wilson_95": [
+          0.9346861797557492,
+          0.9618697376072513
+        ],
+        "rejection_rate": 1.0,
+        "rejection_wilson_95": [
+          0.996173241514445,
+          1.0
+        ]
+      },
+      "model_based": {
+        "successful": 1000,
+        "failed": 0,
+        "warnings": 0,
+        "covered": 954,
+        "rejected": 1000,
+        "coverage_all_planned_bounds": [
+          0.954,
+          0.954
+        ],
+        "bias": 0.0004976938841673899,
+        "bias_mcse": 0.0016568287070643129,
+        "empirical_sd": 0.05239352407075136,
+        "root_mean_variance": 0.05241036729152839,
+        "coverage": 0.954,
+        "coverage_wilson_95": [
+          0.9391877960583809,
+          0.9653375072367351
+        ],
+        "rejection_rate": 1.0,
+        "rejection_wilson_95": [
+          0.996173241514445,
+          1.0
+        ]
+      }
+    }
+  },
+  "audit": {
+    "status": "passed",
+    "datasets": 4000,
+    "method_pairs": 8000,
+    "independent_failures": 0,
+    "issue_count": 0,
+    "maximum_absolute_difference": 5.743905351351941e-11,
+    "checker_sha256": "5943b95ef1058c4688dd6b70ce95b21bda2661cb89ed96c43b9128a9fc6dfe40",
+    "checker_revision": "70833fb85540bac293709f898ff3bce86abdc7b1"
+  },
+  "private_evidence": {
+    "result_sha256": "9480c2d234148f51af35c1725f35af4684b765e873ee154a78bbff30a711ab77",
+    "check_sha256": "2ef5c52f9d88712bfa94c16dee4fade84ca964dcb8690167d5643421cb5321ea",
+    "local_replay_sha256": "0c7028af03a5f36973bd5f5a8c8d9f365b929fa603927956663d79c4a12bae49",
+    "independent_aggregation_sha256": "71ba70d7e5c0bc873077a2596725de094c1f78102b324a88f6a027d46345b964"
+  }
+}
