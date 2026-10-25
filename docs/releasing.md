@@ -1,8 +1,10 @@
 # Package releases
 
 The `Package release` workflow builds a wheel and source archive, checks metadata
-and excludes private author files. Its default `check` target does not publish.
-Publication requires all four CI configurations to pass for the selected commit.
+and rejects known private author paths. Its default `check` target does not publish.
+Publication requires the actual CI workflow on `main` to pass all four
+configurations for the selected commit. Review the archive contents before each
+release; automated path checks do not detect every kind of private information.
 
 ## Account setup
 

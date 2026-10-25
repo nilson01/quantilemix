@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: read
-      checks: read
+      actions: read
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
@@ -60,24 +60,36 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api "repos/$GITHUB_REPOSITORY/commits/$GITHUB_SHA/check-runs?filter=latest&per_page=100" > checks.json
           python - <<'PY'
           import json
+          import os
+          import subprocess
+          repository = os.environ['GITHUB_REPOSITORY']
+          sha = os.environ['GITHUB_SHA']
+          endpoint = f'repos/{repository}/actions/workflows/ci.yml/runs?head_sha={sha}&per_page=100'
+          runs = json.loads(subprocess.check_output(['gh', 'api', endpoint]))['workflow_runs']
+          eligible = [run for run in runs
+                      if run['head_sha'] == sha and run['head_branch'] == 'main'
+                      and run['head_repository']['full_name'] == repository
+                      and run['path'] == '.github/workflows/ci.yml'
+                      and run['event'] in {'push', 'workflow_dispatch'}]
+          if not eligible:
+              raise SystemExit('No completed CI workflow on main for this commit.')
+          latest = max(eligible, key=lambda run: (run['run_number'], run['run_attempt']))
+          if latest['status'] != 'completed' or latest['conclusion'] != 'success':
+              raise SystemExit('The latest CI workflow for this commit did not pass.')
+          endpoint = f"repos/{repository}/actions/runs/{int(latest['id'])}/jobs?filter=latest&per_page=100"
+          jobs = json.loads(subprocess.check_output(['gh', 'api', endpoint]))['jobs']
           required = {'Python 3.10', 'Python 3.14', 'Minimum dependencies (Python 3.10)', 'Windows (Python 3.14)'}
-          latest = {}
-          for check in json.load(open('checks.json'))['check_runs']:
-              if check['app']['slug'] == 'github-actions' and check['name'] in required:
-                  if check['id'] > latest.get(check['name'], {}).get('id', -1):
-                      latest[check['name']] = check
-          failed = sorted(name for name in required if latest.get(name, {}).get('conclusion') != 'success')
-          if failed:
-              raise SystemExit('Required CI checks are not passing: ' + ', '.join(failed))
+          passed = {job['name'] for job in jobs if job['status'] == 'completed' and job['conclusion'] == 'success'}
+          if not required.issubset(passed):
+              raise SystemExit('The CI workflow did not pass all required configurations.')
           PY
       - name: Build distributions and check metadata
         run: |
           python -m build
           python -m twine check --strict dist/*
-      - name: Check archive contents
+      - name: Reject known private author paths
         run: |
           python - <<'PY'
           from pathlib import Path, PurePosixPath
