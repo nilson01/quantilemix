@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1
+
+- Use consistent package descriptions across the manual, website and package metadata.
+- Add PyPI installation instructions alongside the source-install routes.
+
 ## 0.1.0
 
 ### Package name

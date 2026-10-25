@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-version: 0.1.0
+version: 0.1.1
 message: "If you use QuantileMix, cite this software and the statistical method used."
 type: software
 title: "QuantileMix: quantile g-computation in Python"

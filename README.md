@@ -1,13 +1,8 @@
 # QuantileMix
 
-Quantile g-computation estimates how an outcome changes when several exposure
-scores increase together. For example, four exposure groups receive scores
-0, 1, 2 and 3. Tied measurements can make the groups unequal.
+Quantile g-computation transforms exposures into ordinal quantile scores and estimates the joint effect of increasing all exposures simultaneously by one quantile. The package supports selected models for continuous, binary, count, and survival outcomes, with more limited support for censored, multicategory, and zero-inflated outcomes. Each API entry documents the effect scale, required inputs, and methodological limitations.
 
-QuantileMix provides selected models for continuous, binary, count and
-survival outcomes. It also has narrower methods for censored, multicategory
-and excess-zero outcomes. Each method has its own input limits and effect
-measure. The package does not need R for fitting or prediction.
+Quantile cutpoints estimated during model fitting are reused for prediction. Sign-specific weights summarize fitted exposure coefficients rather than causal importance. Successful model fitting does not establish the validity of model assumptions or identify a causal effect without additional causal identification assumptions.
 
 The method follows [Keil et al. (2020)](https://doi.org/10.1289/EHP5838).
 Selected calculations were checked against Alexander Keil's
@@ -18,7 +13,13 @@ package; the original authors have not endorsed it.
 
 ## Install
 
-With Git and access to the repository, install from GitHub:
+Install from PyPI:
+
+```sh
+pip install quantilemix
+```
+
+Or install the latest source from GitHub with Git installed:
 
 ```sh
 python -m pip install "git+https://github.com/nilson01/quantilemix.git@main"

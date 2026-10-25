@@ -1,9 +1,7 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
-"""Quantile g-computation models and tools for Python.
+"""Quantile g-computation transforms exposures into ordinal quantile scores and estimates the joint effect of increasing all exposures simultaneously by one quantile. The package supports selected models for continuous, binary, count, and survival outcomes, with more limited support for censored, multicategory, and zero-inflated outcomes. Each API entry documents the effect scale, required inputs, and methodological limitations.
 
-Selected methods cover continuous, binary, count and survival outcomes, with
-narrower options for censored and multicategory outcomes and counts with excess
-zeros. See the reference manual for each function's inputs and limits.
+Quantile cutpoints estimated during model fitting are reused for prediction. Sign-specific weights summarize fitted exposure coefficients rather than causal importance. Successful model fitting does not establish the validity of model assumptions or identify a causal effect without additional causal identification assumptions.
 
 Method: Keil et al. (2020), doi:10.1289/EHP5838. Selected numerical
 conventions were checked against Alexander Keil's R qgcomp 2.19.6.

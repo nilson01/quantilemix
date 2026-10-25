@@ -2,9 +2,17 @@
 
 QuantileMix requires Python 3.10 or newer. NumPy and SciPy install as dependencies.
 
+## From PyPI
+
+```sh
+pip install quantilemix
+```
+
+For plotting, use `pip install "quantilemix[plot]"`.
+
 ## From GitHub
 
-With Git installed and access to the repository:
+With Git installed:
 
 ```sh
 python -m pip install "git+https://github.com/nilson01/quantilemix.git@main"
