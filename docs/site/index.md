@@ -1,8 +1,8 @@
 # QuantileMix
 
-Estimate how an outcome changes when several exposure scores increase together.
-QuantileMix fits selected models for continuous, binary, count and survival
-outcomes. NumPy and SciPy handle fitting and prediction; R is not required.
+Quantile g-computation transforms exposures into ordinal quantile scores and estimates the joint effect of increasing all exposures simultaneously by one quantile. The package supports selected models for continuous, binary, count, and survival outcomes, with more limited support for censored, multicategory, and zero-inflated outcomes. Each API entry documents the effect scale, required inputs, and methodological limitations.
+
+Quantile cutpoints estimated during model fitting are reused for prediction. Sign-specific weights summarize fitted exposure coefficients rather than causal importance. Successful model fitting does not establish the validity of model assumptions or identify a causal effect without additional causal identification assumptions.
 
 | Task | Start here |
 | --- | --- |
