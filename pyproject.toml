@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "quantilemix"
-version = "0.1.0.dev0"
+version = "0.1.0"
 description = "Quantile-based models for joint effects of exposure mixtures"
 authors = [{name = "Nilson Chapagain", email = "nchapagain@tamu.edu"}]
 readme = "README.md"

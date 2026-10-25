@@ -32,7 +32,7 @@ install the exact version in a fresh environment. For example:
 
 ```sh
 python -m pip install numpy scipy
-python -m pip install --index-url https://test.pypi.org/simple/ --no-deps 'quantilemix==0.1.0.dev0'
+python -m pip install --index-url https://test.pypi.org/simple/ --no-deps 'quantilemix==0.1.0'
 python -c "from quantilemix import fit; print(fit.__name__)"
 ```
 
