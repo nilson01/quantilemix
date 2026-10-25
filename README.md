@@ -14,7 +14,7 @@ Selected calculations were checked against Alexander Keil's
 [R qgcomp](https://github.com/alexpkeil1/qgcomp). This is an unofficial Python
 package; the original authors have not endorsed it.
 
-[Documentation](https://nilson01.github.io/quantilemix/) · [API](docs/site/reference/index.md)
+[Documentation](https://nilson01.github.io/quantilemix/) · [API](https://nilson01.github.io/quantilemix/reference/)
 
 ## Install
 
@@ -61,12 +61,12 @@ Term  Estimate  SE         CI lower  CI upper  t        p-value
 psi   1.5       0.0877058  1.3281    1.6719    17.1026  2.70924e-10
 ```
 
-![Estimated joint mean difference with a pointwise 95% confidence band.](docs/site/assets/joint-effect.svg)
+![Estimated joint mean difference with a pointwise 95% confidence band.](https://nilson01.github.io/quantilemix/assets/joint-effect.png)
 
 The plot shows `a * result.psi` against the common exposure score `a`,
 relative to all scores set to zero. Shading is a pointwise 95% normal
 confidence interval for the mean contrast, not an individual prediction interval.
-[Plot code](docs/examples/plot_joint_effect.py).
+[Plot code](https://github.com/nilson01/quantilemix/blob/main/docs/examples/plot_joint_effect.py).
 
 Here `psi` is the fitted change in the mean outcome when **both** exposure
 scores rise by one category. The two exposure coefficients are 2 and −0.5,
@@ -86,8 +86,8 @@ study that the package cannot check.
 | Other outcomes | `fit_cox`, `fit_tobit`, `fit_multinomial`, zero-inflated and hurdle fitters | Restricted survival, censored, multicategory and two-part count models |
 | Results and figures | `result.summary()`, `plot_weights`, `plot_response` | Saved estimates, diagnostics and selected displays |
 
-The [reference manual](docs/manual/README.md) gives signatures, examples and
-limits for every supported function. The [coverage map](docs/r-api-parity.md)
+The [reference manual](https://nilson01.github.io/quantilemix/manual/reference/) gives signatures, examples and
+limits for every supported function. The [coverage map](https://github.com/nilson01/quantilemix/blob/main/docs/r-api-parity.md)
 distinguishes implemented methods from open features.
 
 For named data, `fit_formula` accepts additive terms such as
@@ -103,15 +103,15 @@ Neither kind of weight automatically accounts for a complex survey design.
 
 ## Evidence and limits
 
-The [validation record](validation/RESULTS.md) links fixed comparisons and
+The [validation record](https://github.com/nilson01/quantilemix/blob/main/validation/RESULTS.md) links fixed comparisons and
 repeated-dataset studies. The checks apply to their stated inputs and models:
 
 | Method | Evidence | Limit to keep in mind |
 | --- | --- | --- |
-| Additive Gaussian | [Nine installed-R cases](docs/reference.md) and a [24,000-dataset known-score study](validation/GAUSSIAN_RESULTS.md) | The study did not cover estimated cutpoints or every model assumption. |
-| Gaussian row bootstrap | [Fixed R comparisons](docs/reference.md) and a [24,000-dataset study](validation/BOOTSTRAP_RESULTS.md) | Three study cells had pointwise coverage intervals below 95%. |
-| Binary and count models | [Method-specific reports](validation/RESULTS.md) | Some settings still lack repeated-dataset checks; sparse-count Poisson results suggest possible undercoverage. |
-| Other families | [Coverage map](docs/r-api-parity.md) | Several marginal methods still need installed-R or repeated-dataset checks. |
+| Additive Gaussian | [Nine installed-R cases](https://github.com/nilson01/quantilemix/blob/main/docs/reference.md) and a [24,000-dataset known-score study](https://github.com/nilson01/quantilemix/blob/main/validation/GAUSSIAN_RESULTS.md) | The study did not cover estimated cutpoints or every model assumption. |
+| Gaussian row bootstrap | [Fixed R comparisons](https://github.com/nilson01/quantilemix/blob/main/docs/reference.md) and a [24,000-dataset study](https://github.com/nilson01/quantilemix/blob/main/validation/BOOTSTRAP_RESULTS.md) | Three study cells had pointwise coverage intervals below 95%. |
+| Binary and count models | [Method-specific reports](https://github.com/nilson01/quantilemix/blob/main/validation/RESULTS.md) | Some settings still lack repeated-dataset checks; sparse-count Poisson results suggest possible undercoverage. |
+| Other families | [Coverage map](https://github.com/nilson01/quantilemix/blob/main/docs/r-api-parity.md) | Several marginal methods still need installed-R or repeated-dataset checks. |
 
 The confidence intervals describe uncertainty under each fitted model and
 study design. Software agreement with R does not establish general interval
@@ -119,11 +119,11 @@ coverage or a causal effect.
 
 ## Further information
 
-- [Short tutorials](docs/site/index.md) and [common questions](docs/site/faq.md)
-- [Markdown manual](docs/manual/reference.md) and [reference PDF](docs/manual/quantilemix-manual.pdf)
-- [Method and numerical conventions](docs/method.md)
-- [Contributing and development checks](CONTRIBUTING.md)
-- [Attribution](NOTICE.md) and [GPL-2.0-or-later license](LICENSE)
+- [Short tutorials](https://nilson01.github.io/quantilemix/) and [common questions](https://nilson01.github.io/quantilemix/faq/)
+- [Markdown manual](https://nilson01.github.io/quantilemix/downloads/quantilemix-manual.md) and [reference PDF](https://nilson01.github.io/quantilemix/downloads/quantilemix-manual.pdf)
+- [Method and numerical conventions](https://github.com/nilson01/quantilemix/blob/main/docs/method.md)
+- [Contributing and development checks](https://github.com/nilson01/quantilemix/blob/main/CONTRIBUTING.md)
+- [Attribution](https://github.com/nilson01/quantilemix/blob/main/NOTICE.md) and [GPL-2.0-or-later license](https://github.com/nilson01/quantilemix/blob/main/LICENSE)
 
 ## Citation
 
@@ -139,4 +139,4 @@ https://github.com/nilson01/quantilemix
 ```
 
 Record the version or commit used and cite the statistical method used in the
-analysis. Machine-readable metadata is in [CITATION.cff](CITATION.cff).
+analysis. Machine-readable metadata is in [CITATION.cff](https://github.com/nilson01/quantilemix/blob/main/CITATION.cff).
