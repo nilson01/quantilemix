@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased — 0.1.0.dev0
+## 0.1.0
 
 ### Package name
 

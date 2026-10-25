@@ -2,7 +2,7 @@
 
 |          |                                                               |
 |:---------|:--------------------------------------------------------------|
-| Version  | `0.1.0.dev0`                                                  |
+| Version  | `0.1.0`                                                       |
 | Author   | Nilson Chapagain                                              |
 | Contact  | [`nchapagain@tamu.edu`](mailto:nchapagain@tamu.edu)           |
 | Import   | `quantilemix`                                                 |
