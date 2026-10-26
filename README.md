@@ -121,6 +121,7 @@ coverage or a causal effect.
 ## Further information
 
 - [Short tutorials](https://nilson01.github.io/quantilemix/) and [common questions](https://nilson01.github.io/quantilemix/faq/)
+- [Paper (PDF)](https://github.com/nilson01/quantilemix/blob/main/docs/site/paper/quantilemix-paper.pdf)
 - [Markdown manual](https://nilson01.github.io/quantilemix/downloads/quantilemix-manual.md) and [reference PDF](https://nilson01.github.io/quantilemix/downloads/quantilemix-manual.pdf)
 - [Method and numerical conventions](https://github.com/nilson01/quantilemix/blob/main/docs/method.md)
 - [Contributing and development checks](https://github.com/nilson01/quantilemix/blob/main/CONTRIBUTING.md)
