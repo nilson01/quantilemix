@@ -24,3 +24,8 @@ source identities are recorded in `docs/reference.md`. The editable manual is
 under GPL-2.0-or-later. The full license terms and warranty disclaimer are in
 `LICENSE`. R-only functions are listed as coverage targets,
 not Python APIs.
+
+The paper `docs/site/paper/quantilemix-paper.pdf` is authored by Nilson
+Chapagain and distributed under Creative Commons Attribution 4.0
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/ .
+The software and adapted reference manual retain the licenses stated above.
