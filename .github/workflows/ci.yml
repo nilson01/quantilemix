@@ -72,7 +72,7 @@ jobs:
         run: python -m build --no-isolation
       - name: Verify a fresh wheel installation
         if: matrix.profile == 'latest'
-        run: python validation/check_wheel_install.py
+        run: python validation/check_wheel_install.py ${{ runner.os == 'Linux' && matrix.python == '3.14' && matrix.profile == 'latest' && '--coverage' || '' }}
       - name: Verify a fresh wheel with minimum dependencies
         if: matrix.profile == 'minimum'
         run: python validation/check_wheel_install.py --minimum
@@ -84,3 +84,11 @@ jobs:
           path: validation/wheel-check.json
           if-no-files-found: ignore
           retention-days: 7
+      - name: Save test coverage report
+        if: always() && runner.os == 'Linux' && matrix.python == '3.14' && matrix.profile == 'latest'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: test-coverage
+          path: validation/coverage.xml
+          if-no-files-found: error
+          retention-days: 14
