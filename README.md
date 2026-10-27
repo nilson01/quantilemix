@@ -120,6 +120,8 @@ coverage or a causal effect.
 
 ## Further information
 
+- [Research paper](https://arxiv.org/abs/2610.34368) ([PDF](https://arxiv.org/pdf/2610.34368))
+
 - [Short tutorials](https://nilson01.github.io/quantilemix/) and [common questions](https://nilson01.github.io/quantilemix/faq/)
 - [Markdown manual](https://nilson01.github.io/quantilemix/downloads/quantilemix-manual.md) and [reference PDF](https://nilson01.github.io/quantilemix/downloads/quantilemix-manual.pdf)
 - [Method and numerical conventions](https://github.com/nilson01/quantilemix/blob/main/docs/method.md)
@@ -128,16 +130,20 @@ coverage or a causal effect.
 
 ## Citation
 
-Chapagain, N. *QuantileMix: quantile g-computation in Python* [Computer software].
-https://github.com/nilson01/quantilemix
+Chapagain, N. (2026). *QuantileMix: A Python package for quantile g-computation*.
+[arXiv:2610.34368](https://arxiv.org/abs/2610.34368).
 
 ```bibtex
-@software{chapagain_quantilemix,
+@misc{chapagain2026quantilemix,
   author = {Chapagain, Nilson},
-  title = {QuantileMix: quantile g-computation in Python},
-  url = {https://github.com/nilson01/quantilemix}
+  title = {QuantileMix: A Python package for quantile g-computation},
+  year = {2026},
+  eprint = {2610.34368},
+  archivePrefix = {arXiv},
+  primaryClass = {stat.CO},
+  url = {https://arxiv.org/abs/2610.34368}
 }
 ```
 
-Record the version or commit used and cite the statistical method used in the
-analysis. Machine-readable metadata is in [CITATION.cff](https://github.com/nilson01/quantilemix/blob/main/CITATION.cff).
+Record the package version or commit used and cite the statistical method used in
+the analysis. Machine-readable metadata is in [CITATION.cff](CITATION.cff).
