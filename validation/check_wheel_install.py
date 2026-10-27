@@ -13,6 +13,8 @@ import xml.etree.ElementTree as ET
 
 root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--coverage', action='store_true',
+                    help='Measure branch coverage during the existing installed-wheel tests')
 parser.add_argument('--minimum', action='store_true',
                     help='Use the declared minimum dependency constraints (Python 3.10 in CI)')
 args = parser.parse_args()
@@ -41,6 +43,8 @@ with tempfile.TemporaryDirectory(prefix='qgcomp-wheel-check-') as work:
     if args.minimum:
         install.extend(['--constraint', str(constraints)])
     install.extend([str(wheel[0]), 'pytest>=8'])
+    if args.coverage:
+        install.append('coverage>=7.10,<8')
     commands = [
         [sys.executable, '-m', 'venv', str(work / 'venv')],
         install,
@@ -157,10 +161,22 @@ with tempfile.TemporaryDirectory(prefix='qgcomp-wheel-check-') as work:
                 raise SystemExit(f'Minimum dependency mismatch: {name}')
     # The Windows source suite took 212 seconds at 1,304 cases in CI. The
     # isolated wheel suite needs room for test-environment overhead as well.
-    completed = subprocess.run([str(py), '-I', '-m', 'pytest', '-q', 'tests',
+    test_runner = ['coverage', 'run', '--branch', '--source=quantilemix', '-m', 'pytest'] if args.coverage else ['pytest']
+    completed = subprocess.run([str(py), '-I', '-m', *test_runner, '-q', 'tests',
                                f'--junitxml={root / "validation/pytest-wheel.xml"}'],
                               cwd=work, env=env, text=True, encoding='utf-8', stdout=subprocess.PIPE,
                               stderr=subprocess.STDOUT, timeout=360)
+    if args.coverage:
+        for command in (
+            [str(py), '-m', 'coverage', 'xml', '-o', str(root / 'validation/coverage.xml'), '--fail-under=1'],
+            [str(py), '-m', 'coverage', 'report', '-m'],
+        ):
+            result = subprocess.run(command, cwd=work, env=env, text=True,
+                                    stdout=subprocess.PIPE, stderr=subprocess.STDOUT, timeout=30)
+            if result.returncode:
+                raise SystemExit(result.stdout)
+            logs.append(result.stdout)
+            print(result.stdout)
     logs.append(completed.stdout)
     (root / 'validation/wheel-install.log').write_text('\n'.join(logs))
     junit = ET.parse(root / 'validation/pytest-wheel.xml').getroot()
