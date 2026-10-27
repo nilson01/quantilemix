@@ -1,5 +1,10 @@
 # QuantileMix
 
+[![Tests](https://github.com/nilson01/quantilemix/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/nilson01/quantilemix/actions/workflows/ci.yml)
+[![PyPI version](https://img.shields.io/pypi/v/quantilemix?style=flat-square)](https://pypi.org/project/quantilemix/)
+[![Weekly downloads](https://img.shields.io/pypi/dw/quantilemix?style=flat-square)](https://pypistats.org/packages/quantilemix)
+[![License: GPL-2.0-or-later](https://img.shields.io/badge/license-GPL--2.0--or--later-blue?style=flat-square)](https://github.com/nilson01/quantilemix/blob/main/LICENSE)
+
 Quantile g-computation transforms exposures into ordinal quantile scores and estimates the joint effect of increasing all exposures simultaneously by one quantile. The package supports selected models for continuous, binary, count, and survival outcomes, with more limited support for censored, multicategory, and zero-inflated outcomes. Each API entry documents the effect scale, required inputs, and methodological limitations.
 
 Quantile cutpoints estimated during model fitting are reused for prediction. Sign-specific weights summarize fitted exposure coefficients rather than causal importance. Successful model fitting does not establish the validity of model assumptions or identify a causal effect without additional causal identification assumptions.
