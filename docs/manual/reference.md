@@ -17,6 +17,15 @@ Quantile cutpoints estimated during model fitting are reused for prediction. Sig
 
 The methods follow Keil et al. (2020), <https://doi.org/10.1289/EHP5838>. Selected results were checked against R qgcomp 2.19.6. This unofficial Python package has not been endorsed by the original authors. Fitting and prediction do not require R.
 
+## Citation
+
+Chapagain, N. (2026). *QuantileMix: A Python package for quantile g-computation*.
+[arXiv:2610.34368](https://arxiv.org/abs/2610.34368).
+
+Record the package version or commit used and cite the statistical method used in
+the analysis. The [citation page](https://nilson01.github.io/quantilemix/citation/)
+provides BibTeX.
+
 ## Documentation source and adaptations
 
 The reference entries follow the R manual’s Description, Usage, Arguments, Details, Value, Examples and See Also structure. Applicable wording is retained from the GPL-licensed R qgcomp 2.19.6 documentation. Python signatures, containers, restrictions and examples describe this package’s behavior. The adapted source and license are identified in [NOTICE.md](https://github.com/nilson01/quantilemix/blob/main/NOTICE.md).

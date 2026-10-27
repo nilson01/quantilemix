@@ -10,7 +10,7 @@ Quantile cutpoints estimated during model fitting are reused for prediction. Sig
 | Fit and interpret a model | [Continuous](tutorials/gaussian.md), [binary](tutorials/binary.md), [count](tutorials/count.md) tutorials |
 | Find a function | [API by analysis](reference/index.md) |
 | Check assumptions and evidence | [Common questions](faq.md) and [validation](evidence.md) |
-| Cite the software | [Citation](citation.md) |
+| Cite the paper | [Citation](citation.md) |
 
 ![Estimated joint mean change with a pointwise 95% confidence band.](assets/joint-effect.svg)
 

@@ -14,6 +14,7 @@ license-files = ["LICENSE", "NOTICE.md"]
 dependencies = ["numpy>=2.0", "scipy>=1.14"]
 
 [project.urls]
+Paper = "https://arxiv.org/abs/2610.34368"
 Homepage = "https://github.com/nilson01/quantilemix"
 Documentation = "https://nilson01.github.io/quantilemix/"
 Issues = "https://github.com/nilson01/quantilemix/issues"
